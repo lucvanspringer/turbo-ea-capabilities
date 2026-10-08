@@ -9344,3 +9344,352 @@ value_streams:
         process_ids:
           - BP-370.90
         notes: Realise concession and tariff revenue within economic and safety regulation over the term
+  - id: VS-660
+    name: Proposal-to-Publishing-Programme
+    industries: [Academic Publishing]
+    description: A scholarly community or publishing partner gains a sustainable title or publishing programme with a defined scholarly remit and contributor base. Individual manuscript acceptance remains a separate value stream.
+    metadata:
+      status: Proposed
+      stakeholder: Scholarly community or publishing partner
+      process_coverage: Deferred; no business-process taxonomy is asserted
+    stages:
+      - id: VS-660.10
+        stage_order: 1
+        stage_name: Scholarly Opportunity
+        capability_ids: [BC-5200, BC-5310]
+        process_ids: []
+        notes: Community needs and publishing-specific evidence establish a candidate programme.
+      - id: VS-660.20
+        stage_order: 2
+        stage_name: Programme Definition
+        capability_ids: [BC-5200, BC-230]
+        process_ids: []
+        notes: Scholarly scope and portfolio positioning are distinct from generic financial investment appraisal.
+      - id: VS-660.30
+        stage_order: 3
+        stage_name: Partnership Commitment
+        capability_ids: [BC-5200, BC-5210, BC-5260, BC-5270]
+        process_ids: []
+        notes: Partner commitments, contributor participation, rights and any collective funding are established without predetermining editorial decisions.
+      - id: VS-660.40
+        stage_order: 4
+        stage_name: Programme Availability
+        capability_ids: [BC-5200, BC-5250, BC-5280, BC-5290]
+        process_ids: []
+        notes: The programme is identifiable and discoverable, with its applicable reading-access model declared.
+  - id: VS-670
+    name: Submission-to-Publication
+    industries: [Academic Publishing]
+    description: An author or contributor receives a defensible publication decision and, for accepted work, an accessible, citable scholarly publication. The stream covers articles, books, chapters and proceedings; rejection or withdrawal is a legitimate alternative outcome.
+    metadata:
+      status: Proposed
+      stakeholder: Author or scholarly contributor
+      process_coverage: Deferred; stages are not a prescribed workflow
+    stages:
+      - id: VS-670.10
+        stage_order: 1
+        stage_name: Submission Admissibility
+        capability_ids: [BC-5210, BC-5220, BC-5230]
+        process_ids: []
+        notes: Submission completeness, contributor participation and required declarations; not a claim that every content type uses identical review.
+      - id: VS-670.20
+        stage_order: 2
+        stage_name: Scholarly Assessment
+        capability_ids: [BC-5210, BC-5220, BC-5230]
+        process_ids: []
+        notes: Editorial and peer-review evidence with reviewer suitability, confidentiality and integrity assurance; resubmission loops are implementation-specific.
+      - id: VS-670.30
+        stage_order: 3
+        stage_name: Editorial Disposition
+        capability_ids: [BC-5220, BC-5230]
+        process_ids: []
+        notes: Independent acceptance, revision, rejection or transfer decisions; payment or funding eligibility must not determine scholarly acceptance.
+      - id: VS-670.40
+        stage_order: 4
+        stage_name: Publication Authorisation
+        capability_ids: [BC-5260, BC-5270]
+        process_ids: []
+        notes: Applicable publication rights and funding obligations are resolved separately from editorial merit. No-author-charge publications are in scope.
+      - id: VS-670.50
+        stage_order: 5
+        stage_name: Publication Readiness
+        capability_ids: [BC-5240, BC-5250, BC-5300]
+        process_ids: []
+        notes: Approved publication manifestations, accessibility evidence, metadata and authoritative assets are ready for release.
+      - id: VS-670.60
+        stage_order: 6
+        stage_name: Citable Publication
+        capability_ids: [BC-5250, BC-5280, BC-5290, BC-5300]
+        process_ids: []
+        notes: The scholarly object is released with persistent identity, applicable access, discoverability and record stewardship.
+  - id: VS-680
+    name: Discovery-to-Scholarly-Use
+    industries: [Academic Publishing]
+    description: A reader or institutional user finds relevant scholarly material, obtains permitted access and can use and cite it. Open and licensed access are alternative contexts, not separate capability hierarchies.
+    metadata:
+      status: Proposed
+      stakeholder: Reader or institutional user
+      process_coverage: Deferred; no business-process taxonomy is asserted
+    stages:
+      - id: VS-680.10
+        stage_order: 1
+        stage_name: Scholarly Discovery
+        capability_ids: [BC-5250, BC-5290]
+        process_ids: []
+        notes: Metadata, discovery-service participation, search and recommendations make relevant material findable.
+      - id: VS-680.20
+        stage_order: 2
+        stage_name: Access Eligibility
+        capability_ids: [BC-5280, BC-620]
+        process_ids: []
+        notes: Publication entitlements and institutional affiliation determine permitted reading access; generic authentication is reused, and open content need not require login.
+      - id: VS-680.30
+        stage_order: 3
+        stage_name: Accessible Scholarly Use
+        capability_ids: [BC-5240, BC-5260, BC-5290, BC-5300, BC-5320]
+        process_ids: []
+        notes: Accessible renditions and authorised content delivery support reading and permitted reuse against the authoritative record. Optional comprehension assistance remains distinct from discovery and from the published record itself.
+      - id: VS-680.40
+        stage_order: 4
+        stage_name: Usage Evidence
+        capability_ids: [BC-5310]
+        process_ids: []
+        notes: Normalised and appropriately aggregated scholarly usage informs institutional content-value decisions without equating usage with research quality.
+  - id: VS-690
+    name: Agreement-to-Publishing-Benefit
+    industries: [Academic Publishing]
+    description: An institution, consortium or sponsor receives the agreed reading or publishing benefits and an accountable record of utilisation. This models linked but distinct benefit scopes within subscription, publishing-only, read-and-publish and collective funding arrangements.
+    metadata:
+      status: Proposed
+      stakeholder: Institution, consortium or publishing sponsor
+      process_coverage: Deferred; no business-process taxonomy is asserted
+    stages:
+      - id: VS-690.10
+        stage_order: 1
+        stage_name: Agreement Definition
+        capability_ids: [BC-410, BC-440, BC-5270, BC-5280]
+        process_ids: []
+        notes: Existing sales and pricing capabilities support explicit reading coverage, publishing benefits, limits and commercial terms.
+      - id: VS-690.20
+        stage_order: 2
+        stage_name: Benefit Eligibility
+        capability_ids: [BC-5210, BC-5250, BC-5270, BC-5280]
+        process_ids: []
+        notes: Contributor and affiliation evidence supports separate publishing-funding eligibility and reading-entitlement decisions.
+      - id: VS-690.30
+        stage_order: 3
+        stage_name: Benefit Fulfilment
+        capability_ids: [BC-5260, BC-5270, BC-5280, BC-5290]
+        process_ids: []
+        notes: Approved publication support and licensed or open reading access are fulfilled without coupling payment to editorial acceptance.
+      - id: VS-690.40
+        stage_order: 4
+        stage_name: Obligation Reconciliation
+        capability_ids: [BC-200, BC-5270, BC-5280, BC-5310]
+        process_ids: []
+        notes: Publishing obligations, reading coverage and usage evidence reconcile with generic financial settlement; no duplicate accounts-receivable capability.
+      - id: VS-690.50
+        stage_order: 5
+        stage_name: Continuing Benefit
+        capability_ids: [BC-5270, BC-5280, BC-5300, BC-5310]
+        process_ids: []
+        notes: Renewal or closure honours unconsumed publishing commitments, agreed post-cancellation reading access and record continuity where applicable.
+  - id: VS-700
+    name: Concern-to-Record-Resolution
+    industries: [Academic Publishing]
+    description: A complainant and the scholarly community receive a reasoned response to a publication-integrity concern and, where warranted, a transparent amendment to the scholarly record. An unsubstantiated concern does not automatically require correction or retraction.
+    metadata:
+      status: Proposed
+      stakeholder: Complainant and scholarly community
+      process_coverage: Deferred; editorial merit appeals remain in manuscript assessment
+    stages:
+      - id: VS-700.10
+        stage_order: 1
+        stage_name: Concern Qualification
+        capability_ids: [BC-5230, BC-5300]
+        process_ids: []
+        notes: A documented concern is associated with the relevant scholarly object and existing record evidence.
+      - id: VS-700.20
+        stage_order: 2
+        stage_name: Integrity Determination
+        capability_ids: [BC-5210, BC-5230, BC-150]
+        process_ids: []
+        notes: Proportionate publisher assessment and contributor liaison may draw on independent institutional investigations and legal advice, without claiming to own those investigations.
+      - id: VS-700.30
+        stage_order: 3
+        stage_name: Record Decision
+        capability_ids: [BC-5230]
+        process_ids: []
+        notes: Reasoned closure, correction, expression of concern, retraction or restricted-content decision with appropriate authority.
+      - id: VS-700.40
+        stage_order: 4
+        stage_name: Transparent Resolution
+        capability_ids: [BC-5240, BC-5250, BC-5290, BC-5300]
+        process_ids: []
+        notes: Approved notices, metadata and version links implement the decision and communicate it through applicable distribution and preservation channels.
+  - id: VS-710
+    name: Publication-to-Enduring-Access
+    industries: [Academic Publishing]
+    description: Readers and research libraries retain a trustworthy scholarly record beyond changes in publisher, platform or commercial availability. Preservation and continuity are distinguished from live hosting, ordinary backup and current reading entitlements.
+    metadata:
+      status: Proposed
+      stakeholder: Scholarly community and research libraries
+      process_coverage: Deferred; no business-process taxonomy is asserted
+    stages:
+      - id: VS-710.10
+        stage_order: 1
+        stage_name: Preservation Commitment
+        capability_ids: [BC-5200, BC-5260, BC-5300]
+        process_ids: []
+        notes: Title stewardship, preservation coverage and the rights needed for enduring custody are agreed.
+      - id: VS-710.20
+        stage_order: 2
+        stage_name: Archival Readiness
+        capability_ids: [BC-5240, BC-5250, BC-5300]
+        process_ids: []
+        notes: Authoritative content, usable manifestations, identifiers and descriptive metadata support durable archival deposit.
+      - id: VS-710.30
+        stage_order: 3
+        stage_name: Preservation Assurance
+        capability_ids: [BC-5300]
+        process_ids: []
+        notes: Deposit completeness, integrity and ongoing preservation evidence are confirmed, rather than inferred from a working website.
+      - id: VS-710.40
+        stage_order: 4
+        stage_name: Continuity Availability
+        capability_ids: [BC-5250, BC-5260, BC-5280, BC-5290, BC-5300]
+        process_ids: []
+        notes: Transfers, cessation events and applicable archive-release conditions preserve a discoverable scholarly record and honour continuing access obligations.
+
+  - id: VS-720
+    name: Commission-to-Contribution
+    industries: [Academic Publishing]
+    description: A commissioning editor and prospective contributor reach a clear contribution commitment and an accountable handover of the resulting work for independent editorial consideration. An invitation, approved synopsis or commission does not guarantee manuscript acceptance.
+    metadata:
+      status: Proposed
+      stakeholder: Commissioning editor and prospective contributor
+      process_coverage: Deferred; correspondence and submission-system workflows are implementation choices
+    stages:
+      - id: VS-720.10
+        stage_order: 1
+        stage_name: Commissioning Opportunity
+        capability_ids: [BC-5200, BC-5210]
+        process_ids: []
+        notes: Programme needs and contributor expertise support a defined commission, including articles, reviews, books and collection contributions.
+      - id: VS-720.20
+        stage_order: 2
+        stage_name: Contribution Proposition
+        capability_ids: [BC-5200, BC-5210]
+        process_ids: []
+        notes: Invitation context, contributor response and any proposal or synopsis establish a shared understanding. Unsolicited proposals may join here.
+      - id: VS-720.30
+        stage_order: 3
+        stage_name: Commission Commitment
+        capability_ids: [BC-5200, BC-5260, BC-150]
+        process_ids: []
+        notes: Agreed scope, contribution obligations, rights and changes remain traceable. Generic legal contracting is reused; manuscript acceptance remains independent.
+      - id: VS-720.40
+        stage_order: 4
+        stage_name: Accountable Contribution
+        capability_ids: [BC-5200, BC-5210, BC-5220, BC-5310]
+        process_ids: []
+        notes: Delivered work and any withdrawal or renegotiation reconcile to the commission; manuscript assessment continues through Submission-to-Publication. Outcome measurement is not a separate capability for each workflow status.
+  - id: VS-730
+    name: Question-to-Scholarly-Evidence
+    industries: [Academic Publishing]
+    description: A researcher receives an intelligible, traceable body of scholarly evidence relevant to a question, with limitations and sources available for their own judgement. Assistance does not claim to conduct the underlying research or guarantee the truth of generated interpretations.
+    metadata:
+      status: Proposed
+      stakeholder: Researcher or evidence user
+      process_coverage: Deferred; human-supported and automated assistance are alternative realisations
+    stages:
+      - id: VS-730.10
+        stage_order: 1
+        stage_name: Evidence Need
+        capability_ids: [BC-5320, BC-5290]
+        process_ids: []
+        notes: The research question and scope guide discovery without treating query generation as a standalone technology capability.
+      - id: VS-730.20
+        stage_order: 2
+        stage_name: Permitted Evidence
+        capability_ids: [BC-5250, BC-5260, BC-5280, BC-5290]
+        process_ids: []
+        notes: Source identity, applicable use permissions and entitlement constrain evidence access, including externally supplied material. Reading rights alone do not establish permission for every downstream use.
+      - id: VS-730.30
+        stage_order: 3
+        stage_name: Evidence Understanding
+        capability_ids: [BC-5320]
+        process_ids: []
+        notes: Supported comprehension and synthesis distinguish source statements from interpretation and preserve citation context, limitations and conflicting evidence.
+      - id: VS-730.40
+        stage_order: 4
+        stage_name: Researcher Judgement
+        capability_ids: [BC-5320, BC-5310]
+        process_ids: []
+        notes: The researcher can inspect supporting evidence and retain or export permitted working material. Assistance outcomes and automated consumption must not be represented as conventional readership by default.
+  - id: VS-740
+    name: Draft-to-Submission-Readiness
+    industries: [Academic Publishing]
+    description: An author receives support to develop a clear, appropriately attributed scholarly manuscript while retaining responsibility for its claims and approval. Readiness for submission is not peer-review acceptance or publisher production approval.
+    metadata:
+      status: Proposed
+      stakeholder: Author or scholarly contributor
+      process_coverage: Deferred; assistance is optional and does not confer editorial preference
+    stages:
+      - id: VS-740.10
+        stage_order: 1
+        stage_name: Assistance Scope
+        capability_ids: [BC-5320, BC-5260]
+        process_ids: []
+        notes: The author establishes intended support, permitted use of supplied material and confidentiality boundaries; no new general identity or AI-platform capability is introduced.
+      - id: VS-740.20
+        stage_order: 2
+        stage_name: Supported Manuscript
+        capability_ids: [BC-5320, BC-5250]
+        process_ids: []
+        notes: Expression, structure and reference support use reliable source identity without manufacturing evidence or transferring authorship to an assistance service.
+      - id: VS-740.30
+        stage_order: 3
+        stage_name: Accountable Authorship
+        capability_ids: [BC-5320, BC-5230]
+        process_ids: []
+        notes: Author review, assistance provenance and relevant disclosure policies preserve accountability. This is not a claim of a completed publisher integrity investigation.
+      - id: VS-740.40
+        stage_order: 4
+        stage_name: Submission Readiness
+        capability_ids: [BC-5320, BC-5220]
+        process_ids: []
+        notes: The author approves a submission-ready contribution against applicable requirements; independent assessment begins in Submission-to-Publication. Paid assistance cannot guarantee acceptance.
+  - id: VS-750
+    name: Corpus-Request-to-Permitted-Use
+    industries: [Academic Publishing]
+    description: An institutional, commercial or research consumer obtains an identifiable scholarly corpus or content service for an explicitly permitted machine-use purpose, with accountable delivery and consumption evidence. Entitlement, purpose-specific rights and the delivery mechanism remain distinct.
+    metadata:
+      status: Proposed
+      stakeholder: Research consumer or authorised consuming organisation
+      process_coverage: Deferred; APIs, bulk transfer and agent protocols are implementation choices
+    stages:
+      - id: VS-750.10
+        stage_order: 1
+        stage_name: Content Use Definition
+        capability_ids: [BC-5250, BC-5290, BC-5260]
+        process_ids: []
+        notes: Requested corpus, versions and intended uses are made explicit. Metadata access, full-text retrieval, mining, retrieval-assisted generation, model training and redistribution must not be assumed equivalent permissions.
+      - id: VS-750.20
+        stage_order: 2
+        stage_name: Permitted Consumption
+        capability_ids: [BC-5260, BC-5280, BC-620]
+        process_ids: []
+        notes: Applicable rights and delegated beneficiary entitlement determine permitted access; existing identity and cybersecurity services realise technical authentication and enforcement.
+      - id: VS-750.30
+        stage_order: 3
+        stage_name: Accountable Content Delivery
+        capability_ids: [BC-5250, BC-5290, BC-5300]
+        process_ids: []
+        notes: Machine-usable content is accompanied by source identity, corpus coverage and version provenance. Corrections or withdrawal information follow the applicable content agreement and record policy.
+      - id: VS-750.40
+        stage_order: 4
+        stage_name: Consumption Accountability
+        capability_ids: [BC-5260, BC-5280, BC-5310, BC-200]
+        process_ids: []
+        notes: Consumption evidence reconciles applicable allowances, obligations and expiry; generic financial settlement is reused. Automated requests are not silently counted as human readership, and continuing retention or reuse depends on explicit rights.

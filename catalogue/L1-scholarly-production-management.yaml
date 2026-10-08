@@ -1,0 +1,565 @@
+id: BC-5240
+name: Scholarly Production Management
+level: 1
+industry: Academic Publishing
+description: The ability to prepare accepted scholarly content as accurate, usable and accessible publication outputs across articles, books, chapters and proceedings. Covers editorial production, renditions, proof control and release-ready quality, but not ownership of the durable scholarly record or distribution to channels.
+references:
+  - https://jats.nlm.nih.gov/
+  - https://www.w3.org/TR/epub-a11y-11/
+in_scope:
+  - Publication-ready text, figures and supplementary content
+  - Accessible article, book and digital renditions
+  - Controlled proofs and production acceptance
+out_of_scope:
+  - Editorial acceptance and peer review (BC-5220)
+  - Bibliographic metadata semantics (BC-5250)
+  - Long-term publication asset stewardship (BC-5300)
+  - Release delivery and print factory operations (BC-5290; Cross-Industry/Manufacturing)
+metadata:
+  parent_id: null
+  status: Proposed
+  capability_owner: Director of Publishing Operations
+  owner_assignment: Reference role only; adopter confirmation required
+  strategic_importance: null
+  maturity: null
+  health: null
+  assessment_note: Enterprise-specific assessment required on adoption
+  effective_date: null
+  last_reviewed_date: null
+  next_review_date: 2027-10-08
+  drafted_date: 2026-10-08
+  value_stream_ids: [VS-670, VS-680, VS-700, VS-710]
+  linked_applications: []
+  information_objects:
+    - Accepted Content Package
+    - Publication Rendition
+    - Proof Record
+children:
+  - id: BC-5240.10
+    name: Publication Content Preparation
+    level: 2
+    industry: Academic Publishing
+    description: The ability to make accepted scholarly material internally consistent and fit for publication without revisiting its editorial merit. Preserves the intended argument, scholarly apparatus and author-approved changes across content types.
+    references:
+      - https://jats.nlm.nih.gov/
+    in_scope:
+      - Publication copy and style readiness
+      - Tables, figures, references and ancillary content readiness
+    out_of_scope:
+      - Manuscript acceptance decisions (BC-5220)
+      - Bibliographic identifier assignment (BC-5250)
+    metadata:
+      parent_id: BC-5240
+      status: Proposed
+      capability_owner: Director of Publishing Operations
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: 2027-10-08
+      drafted_date: 2026-10-08
+      value_stream_ids: [VS-670, VS-680, VS-700, VS-710]
+      linked_applications: []
+      information_objects:
+        - Edited Content Package
+        - Content Preparation Specification
+    children:
+      - id: BC-5240.10.10
+        name: Scholarly Text Preparation
+        level: 3
+        industry: Academic Publishing
+        description: The ability to prepare the language, scholarly notation and internal references of accepted text for consistent publication. Authorial meaning and editorially approved claims remain intact.
+        references:
+          - https://jats.nlm.nih.gov/
+        in_scope:
+          - Copyedited article, chapter and book text
+          - Consistent citations and cross-references
+        out_of_scope:
+          - Scientific merit reassessment (BC-5220)
+          - Post-publication correction decisions (BC-5230)
+        metadata:
+          parent_id: BC-5240.10
+          status: Proposed
+          capability_owner: Director of Publishing Operations
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-670, VS-680, VS-700, VS-710]
+          linked_applications: []
+          information_objects:
+            - Edited Text
+            - Scholarly Reference List
+        children: []
+      - id: BC-5240.10.20
+        name: Visual Content Preparation
+        level: 3
+        industry: Academic Publishing
+        description: The ability to ready figures, tables and visual supplements for faithful, legible reproduction across intended publication outputs. Includes presentational consistency, captions and content-level alternative descriptions.
+        references:
+          - https://jats.nlm.nih.gov/
+          - https://www.w3.org/TR/epub-a11y-11/
+        in_scope:
+          - Publication-ready figures and tables
+          - Caption and visual description readiness
+        out_of_scope:
+          - Long-term image preservation (BC-5300)
+          - Third-party image permissions (BC-5260)
+        metadata:
+          parent_id: BC-5240.10
+          status: Proposed
+          capability_owner: Director of Publishing Operations
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-670, VS-680, VS-700, VS-710]
+          linked_applications: []
+          information_objects:
+            - Figure Package
+            - Table Content
+        children: []
+      - id: BC-5240.10.30
+        name: Supplementary Content Preparation
+        level: 3
+        industry: Academic Publishing
+        description: The ability to prepare accepted supplementary files and linked scholarly materials for coherent presentation with the main work. Defines production readiness and correspondence, not their custody or research-data curation.
+        references:
+          - https://jats.nlm.nih.gov/
+        in_scope:
+          - Supplementary material presentation
+          - Correspondence between main work and supplements
+        out_of_scope:
+          - Research dataset stewardship
+          - Published asset custody (BC-5300)
+        metadata:
+          parent_id: BC-5240.10
+          status: Proposed
+          capability_owner: Director of Publishing Operations
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-670, VS-680, VS-700, VS-710]
+          linked_applications: []
+          information_objects:
+            - Supplementary Content Package
+            - Supplement Link Specification
+        children: []
+  - id: BC-5240.20
+    name: Publication Rendition Management
+    level: 2
+    industry: Academic Publishing
+    description: The ability to represent prepared scholarly content in a reusable structure and specify and realise reader-facing renditions across articles, books, chapters and proceedings. Does not own release delivery or archival version lineage.
+    references:
+      - https://jats.nlm.nih.gov/
+      - https://www.w3.org/TR/epub-a11y-11/
+    in_scope:
+      - Cross-format structured content representation
+      - Rendition presentation specification
+      - Realised article, chapter, book and proceedings outputs
+    out_of_scope:
+      - Scholarly metadata interchange (BC-5250)
+      - Release delivery (BC-5290)
+      - Archival manifestation lineage (BC-5300)
+    metadata:
+      parent_id: BC-5240
+      status: Proposed
+      capability_owner: Director of Publishing Operations
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: 2027-10-08
+      drafted_date: 2026-10-08
+      value_stream_ids: [VS-670, VS-680, VS-700, VS-710]
+      linked_applications: []
+      information_objects:
+        - Structured Content
+        - Rendition Specification
+    children:
+      - id: BC-5240.20.10
+        name: Structured Content Representation
+        level: 3
+        industry: Academic Publishing
+        description: The ability to express prepared scholarly content with semantic structure that can support multiple renditions across articles, books, chapters and proceedings. Represents sections, scholarly apparatus, figures and supplements independently of output presentation.
+        references:
+          - https://jats.nlm.nih.gov/
+        in_scope:
+          - Semantically structured scholarly content
+          - Structured references to internal components
+        out_of_scope:
+          - Bibliographic record deposit (BC-5250)
+          - Permanent asset version control (BC-5300)
+        metadata:
+          parent_id: BC-5240.20
+          status: Proposed
+          capability_owner: Director of Publishing Operations
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-670, VS-680, VS-700, VS-710]
+          linked_applications: []
+          information_objects:
+            - Structured Content
+            - Component Map
+        children: []
+      - id: BC-5240.20.20
+        name: Rendition Presentation Specification
+        level: 3
+        industry: Academic Publishing
+        description: The ability to specify presentation and layout requirements for reader-facing outputs across publication types and digital or print-ready formats. Defines navigation and component placement without making the files or assessing their quality.
+        references:
+          - https://jats.nlm.nih.gov/
+          - https://www.w3.org/TR/epub-a11y-11/
+        in_scope:
+          - Article, chapter and book presentation requirements
+          - Digital and print-ready rendition specifications
+        out_of_scope:
+          - Print manufacturing and warehousing
+          - Book product descriptions (BC-5250)
+          - Rendition quality acceptance (BC-5240.40)
+        metadata:
+          parent_id: BC-5240.20
+          status: Proposed
+          capability_owner: Director of Publishing Operations
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-670, VS-680, VS-700, VS-710]
+          linked_applications: []
+          information_objects:
+            - Rendition Specification
+            - Presentation Requirements
+        children: []
+      - id: BC-5240.20.30
+        name: Publication Rendition Realisation
+        level: 3
+        industry: Academic Publishing
+        description: The ability to realise reader-facing article, chapter, book and proceedings outputs from prepared structure and presentation specifications. Produces digital and print-ready publication files without deciding whether they satisfy release quality criteria.
+        references:
+          - https://jats.nlm.nih.gov/
+          - https://www.w3.org/TR/epub-a11y-11/
+        in_scope:
+          - Digital publication renditions
+          - Print-ready and other specified output files
+        out_of_scope:
+          - Rendition conformance and cross-format consistency assurance (BC-5240.40)
+          - Authoritative version history after release (BC-5300)
+          - Channel delivery (BC-5290)
+        metadata:
+          parent_id: BC-5240.20
+          status: Proposed
+          capability_owner: Director of Publishing Operations
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-670, VS-680, VS-700, VS-710]
+          linked_applications: []
+          information_objects:
+            - Publication Rendition
+            - Output File
+        children: []
+  - id: BC-5240.30
+    name: Publication Proof Management
+    level: 2
+    industry: Academic Publishing
+    description: The ability to present and control publication proofs so corrections and author sign-off are traceable before release. Distinguishes production corrections from editorial merit appeals and later record amendments.
+    references:
+      - https://jats.nlm.nih.gov/
+    in_scope:
+      - Reviewable proofs
+      - Author correction dispositions and production approval
+    out_of_scope:
+      - Editorial appeals (BC-5220)
+      - Approved post-publication amendment implementation (BC-5300)
+    metadata:
+      parent_id: BC-5240
+      status: Proposed
+      capability_owner: Director of Publishing Operations
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: 2027-10-08
+      drafted_date: 2026-10-08
+      value_stream_ids: [VS-670, VS-680, VS-700, VS-710]
+      linked_applications: []
+      information_objects:
+        - Proof
+        - Proof Correction Record
+    children:
+      - id: BC-5240.30.10
+        name: Proof Presentation
+        level: 3
+        industry: Academic Publishing
+        description: The ability to supply coherent publication proofs for the relevant article, chapter or book manifestation. Reviewers can see the intended text, illustrations, structure and layout together.
+        references:
+          - https://jats.nlm.nih.gov/
+        in_scope:
+          - Reviewable composed proofs
+          - Complete proof components
+        out_of_scope:
+          - Public release distribution (BC-5290)
+          - Peer review evidence (BC-5220)
+        metadata:
+          parent_id: BC-5240.30
+          status: Proposed
+          capability_owner: Director of Publishing Operations
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-670, VS-680, VS-700, VS-710]
+          linked_applications: []
+          information_objects:
+            - Publication Proof
+            - Proof Component List
+        children: []
+      - id: BC-5240.30.20
+        name: Proof Correction Control
+        level: 3
+        industry: Academic Publishing
+        description: The ability to account for proposed author and production corrections, including their disposition and resulting proof state. Protects accepted content from untracked changes before publication.
+        references:
+          - https://jats.nlm.nih.gov/
+        in_scope:
+          - Traceable correction dispositions
+          - Reconciled proof revisions
+        out_of_scope:
+          - Scholarly integrity case decisions (BC-5230)
+          - Post-release version lineage (BC-5300)
+        metadata:
+          parent_id: BC-5240.30
+          status: Proposed
+          capability_owner: Director of Publishing Operations
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-670, VS-680, VS-700, VS-710]
+          linked_applications: []
+          information_objects:
+            - Proof Correction Record
+            - Revised Proof
+        children: []
+      - id: BC-5240.30.30
+        name: Proof Approval Assurance
+        level: 3
+        industry: Academic Publishing
+        description: The ability to establish that required proof review and sign-off have been obtained for publication readiness. Evidence is tied to the rendition approved rather than treated as a generic workflow milestone.
+        references:
+          - https://jats.nlm.nih.gov/
+        in_scope:
+          - Author or delegate proof approval evidence
+          - Approved rendition identity
+        out_of_scope:
+          - Manuscript acceptance (BC-5220)
+          - Publication channel scheduling (BC-5290)
+        metadata:
+          parent_id: BC-5240.30
+          status: Proposed
+          capability_owner: Director of Publishing Operations
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-670, VS-680, VS-700, VS-710]
+          linked_applications: []
+          information_objects:
+            - Proof Approval
+            - Approved Rendition
+        children: []
+  - id: BC-5240.40
+    name: Production Quality Assurance
+    level: 2
+    industry: Academic Publishing
+    description: The ability to assure completeness, accessibility, cross-format consistency and release-ready quality of publication outputs. Evaluates content fidelity and rendition characteristics, not long-term archival integrity or public-site operation.
+    references:
+      - https://www.w3.org/TR/epub-a11y-11/
+      - https://jats.nlm.nih.gov/
+    in_scope:
+      - Content and rendition conformance evidence
+      - Consistent scholarly meaning and navigation across formats
+      - Accessible publication outputs
+      - Release-ready production acceptance
+    out_of_scope:
+      - Web platform accessibility engineering
+      - Preservation fixity and archival audit (BC-5300)
+      - Bibliographic data quality (BC-5250)
+    metadata:
+      parent_id: BC-5240
+      status: Proposed
+      capability_owner: Director of Publishing Operations
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: 2027-10-08
+      drafted_date: 2026-10-08
+      value_stream_ids: [VS-670, VS-680, VS-700, VS-710]
+      linked_applications: []
+      information_objects:
+        - Production Quality Record
+        - Accessibility Assessment
+    children:
+      - id: BC-5240.40.10
+        name: Publication Content Validation
+        level: 3
+        industry: Academic Publishing
+        description: The ability to verify that production outputs contain the expected text, figures, links and scholarly apparatus and agree across formats. Detects structural defects and divergences in meaning or navigational references before release.
+        references:
+          - https://jats.nlm.nih.gov/
+        in_scope:
+          - Complete publication components and valid internal links
+          - Equivalent content and scholarly apparatus across renditions
+          - Cross-format navigation and reference consistency
+        out_of_scope:
+          - Scientific validity judgement (BC-5220)
+          - Identifier registry accuracy (BC-5250)
+        metadata:
+          parent_id: BC-5240.40
+          status: Proposed
+          capability_owner: Director of Publishing Operations
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-670, VS-680, VS-700, VS-710]
+          linked_applications: []
+          information_objects:
+            - Content Validation Record
+            - Rendition Comparison Record
+            - Production Defect
+        children: []
+      - id: BC-5240.40.20
+        name: Accessible Publication Assurance
+        level: 3
+        industry: Academic Publishing
+        description: The ability to assure that the publication content and digital renditions can be meaningfully used by readers with disabilities. Covers navigable structure, understandable alternatives and format-level accessibility evidence, not the accessibility of the hosting platform.
+        references:
+          - https://www.w3.org/TR/epub-a11y-11/
+          - https://www.w3.org/TR/WCAG22/
+        in_scope:
+          - Accessible ebook and article content
+          - Rendition-level accessibility evidence
+        out_of_scope:
+          - Web service accessibility engineering
+          - Reader entitlement decisions (BC-5280)
+        metadata:
+          parent_id: BC-5240.40
+          status: Proposed
+          capability_owner: Director of Publishing Operations
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-670, VS-680, VS-700, VS-710]
+          linked_applications: []
+          information_objects:
+            - Accessibility Assessment
+            - Accessible Rendition
+        children: []
+      - id: BC-5240.40.30
+        name: Rendition Acceptance Control
+        level: 3
+        industry: Academic Publishing
+        description: The ability to determine whether production outputs meet agreed technical and content acceptance criteria for the intended publication form. Holds unresolved production defects visible without deciding commercial release or archival retention.
+        references:
+          - https://jats.nlm.nih.gov/
+          - https://www.w3.org/TR/epub-a11y-11/
+        in_scope:
+          - Release-ready production acceptance
+          - Documented exceptions to rendition quality
+        out_of_scope:
+          - Public release orchestration (BC-5290)
+          - Long-term record custody (BC-5300)
+        metadata:
+          parent_id: BC-5240.40
+          status: Proposed
+          capability_owner: Director of Publishing Operations
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-670, VS-680, VS-700, VS-710]
+          linked_applications: []
+          information_objects:
+            - Rendition Acceptance Record
+            - Quality Exception
+        children: []

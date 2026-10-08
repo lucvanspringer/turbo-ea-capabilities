@@ -35,7 +35,8 @@
     "check:bc-coverage": "tsx scripts/cli/check_bc_coverage.ts",
     "check:i18n-coverage": "tsx scripts/cli/check_i18n_coverage.ts",
     "check:macro-coverage": "tsx scripts/cli/check_macro_coverage.ts",
-    "test": "tsx scripts/test_lint.ts"
+    "test": "tsx scripts/test_lint.ts",
+    "test:academic-publishing": "node scripts/test_academic_publishing.mjs"
   },
   "devDependencies": {
     "@types/node": "^22.10.0",

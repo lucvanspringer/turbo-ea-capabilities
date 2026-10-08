@@ -1,0 +1,575 @@
+id: BC-5260
+name: Scholarly Rights Management
+level: 1
+industry: Academic Publishing
+description: The ability to establish and govern the rights a scholarly publisher acquires and grants in publication content. Covers incoming rights, third-party permissions, publication licences, purpose-specific computational reuse grants and royalty obligations while distinguishing copyright permissions from reading entitlements and publication funding.
+references:
+  - https://doaj.org/apply/transparency/
+  - https://www.coalition-s.org/plan_s_principles/
+  - https://www.esac-initiative.org/about/transformative-agreements/
+  - https://dev.springernature.com/terms-conditions/
+in_scope:
+  - Publisher publication and exploitation rights
+  - Third-party content permissions and open licence terms
+  - Outbound reuse grants and royalty obligation records
+  - Purpose-specific computational reuse permissions and restrictions
+out_of_scope:
+  - Subscription and read agreement administration (BC-5280)
+  - Publication charge funding (BC-5270)
+  - Royalty payment accounting (BC-200)
+  - Corporate legal advice (BC-150)
+metadata:
+  parent_id: null
+  status: Proposed
+  capability_owner: Director of Publishing Rights
+  owner_assignment: Reference role only; adopter confirmation required
+  strategic_importance: null
+  maturity: null
+  health: null
+  assessment_note: Enterprise-specific assessment required on adoption
+  effective_date: null
+  last_reviewed_date: null
+  next_review_date: 2027-10-08
+  drafted_date: 2026-10-08
+  value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-710, VS-720, VS-730, VS-740, VS-750]
+  linked_applications: []
+  information_objects:
+    - Rights Agreement
+    - Permission Grant
+    - Publication Licence
+    - Royalty Obligation
+children:
+  - id: BC-5260.10
+    name: Incoming Publishing Rights
+    level: 2
+    industry: Academic Publishing
+    description: The ability to establish the rights received from authors, contributors or other holders for scholarly publication and subsequent permitted uses. Keeps rights grants distinguishable from editorial acceptance and the identity of the rights holder.
+    references:
+      - https://doaj.org/apply/transparency/
+      - https://www.coalition-s.org/plan_s_principles/
+    in_scope:
+      - Publication rights grant terms
+      - Ownership and grant evidence for books, chapters and articles
+    out_of_scope:
+      - Manuscript merit and acceptance (BC-5220)
+      - Authorship integrity adjudication (BC-5230)
+    metadata:
+      parent_id: BC-5260
+      status: Proposed
+      capability_owner: Director of Publishing Rights
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: 2027-10-08
+      drafted_date: 2026-10-08
+      value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-710, VS-720, VS-730, VS-740, VS-750]
+      linked_applications: []
+      information_objects:
+        - Publishing Rights Grant
+        - Rights Holder Record
+    children:
+      - id: BC-5260.10.10
+        name: Contributor Rights Grants
+        level: 3
+        industry: Academic Publishing
+        description: The ability to record what contributors authorise the publisher to publish and on what basis, including limited licences where copyright remains with them. Terms remain available for future use decisions.
+        references:
+          - https://www.coalition-s.org/plan_s_principles/
+          - https://www.esac-initiative.org/about/transformative-agreements/
+        in_scope:
+          - Contributor licence-to-publish scope
+          - Rights-holder and grant evidence
+        out_of_scope:
+          - Contributor relationship profiles (BC-5210)
+          - Final copyright dispute judgement (BC-150)
+        metadata:
+          parent_id: BC-5260.10
+          status: Proposed
+          capability_owner: Director of Publishing Rights
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-710, VS-720, VS-730, VS-740, VS-750]
+          linked_applications: []
+          information_objects:
+            - Contributor Rights Grant
+            - Rights Holder
+        children: []
+      - id: BC-5260.10.20
+        name: Work Rights Clearance
+        level: 3
+        industry: Academic Publishing
+        description: The ability to understand rights coverage for a work containing multiple creators or components. Identifies gaps in publisher authority for intended article, book or chapter uses.
+        references:
+          - https://doaj.org/apply/transparency/
+          - https://www.coalition-s.org/plan_s_principles/
+        in_scope:
+          - Composite-work rights coverage
+          - Unresolved rights gaps
+        out_of_scope:
+          - Editorial admissibility (BC-5220)
+          - Rights in third-party material (BC-5260.20)
+        metadata:
+          parent_id: BC-5260.10
+          status: Proposed
+          capability_owner: Director of Publishing Rights
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-710, VS-720, VS-730, VS-740, VS-750]
+          linked_applications: []
+          information_objects:
+            - Work Rights Inventory
+            - Rights Gap
+        children: []
+  - id: BC-5260.20
+    name: Third Party Permission Management
+    level: 2
+    industry: Academic Publishing
+    description: The ability to secure and retain permissions for material incorporated into scholarly publications when the publisher does not otherwise have sufficient rights. Captures permitted formats, territories, durations and required acknowledgements.
+    references:
+      - https://doaj.org/apply/transparency/
+    in_scope:
+      - Third-party figure, extract and media permissions
+      - Permission restrictions and credit terms
+    out_of_scope:
+      - Figure preparation (BC-5240)
+      - Supplier payment accounting (BC-200)
+    metadata:
+      parent_id: BC-5260
+      status: Proposed
+      capability_owner: Director of Publishing Rights
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: 2027-10-08
+      drafted_date: 2026-10-08
+      value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-710, VS-720, VS-730, VS-740, VS-750]
+      linked_applications: []
+      information_objects:
+        - Permission Record
+        - Third Party Material Inventory
+    children:
+      - id: BC-5260.20.10
+        name: Embedded Material Clearance
+        level: 3
+        industry: Academic Publishing
+        description: The ability to determine whether third-party images, extracts, tables or supplementary material may be included in a publication. Covers permission scope or documented alternative rights basis.
+        references:
+          - https://doaj.org/apply/transparency/
+        in_scope:
+          - Permitted use of embedded material
+          - Evidence for exceptions and restrictions
+        out_of_scope:
+          - Production rendition preparation (BC-5240)
+          - Research ethics finding ownership (BC-5230)
+        metadata:
+          parent_id: BC-5260.20
+          status: Proposed
+          capability_owner: Director of Publishing Rights
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-710, VS-720, VS-730, VS-740, VS-750]
+          linked_applications: []
+          information_objects:
+            - Material Clearance Record
+            - Rights Basis
+        children: []
+      - id: BC-5260.20.20
+        name: Permission Condition Control
+        level: 3
+        industry: Academic Publishing
+        description: The ability to preserve the conditions attached to third-party material, including attribution, medium or territory limits. Prevents a granted permission being interpreted as unrestricted rights.
+        references:
+          - https://doaj.org/apply/transparency/
+          - https://www.coalition-s.org/plan_s_principles/
+        in_scope:
+          - Permission condition inventory
+          - Required rights credit obligations
+        out_of_scope:
+          - Bibliographic contributor attribution (BC-5250)
+          - Outbound sublicensing of entire works (BC-5260.40)
+        metadata:
+          parent_id: BC-5260.20
+          status: Proposed
+          capability_owner: Director of Publishing Rights
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-710, VS-720, VS-730, VS-740, VS-750]
+          linked_applications: []
+          information_objects:
+            - Permission Condition
+            - Credit Requirement
+        children: []
+  - id: BC-5260.30
+    name: Publication Licence Management
+    level: 2
+    industry: Academic Publishing
+    description: The ability to define and retain the reuse terms under which a publication is made available, including open licences and repository posting rights. Governs rights terms and embargoes, not institutional reading entitlement or channel release scheduling.
+    references:
+      - https://doaj.org/apply/transparency/
+      - https://www.coalition-s.org/plan_s_principles/
+    in_scope:
+      - Work-level publication licences
+      - Author self-archiving and embargo permissions
+      - Licence statements associated with publications
+    out_of_scope:
+      - Institutional access eligibility (BC-5280)
+      - Distribution timing and delivery (BC-5290)
+      - Publication fee liability (BC-5270)
+    metadata:
+      parent_id: BC-5260
+      status: Proposed
+      capability_owner: Director of Publishing Rights
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: 2027-10-08
+      drafted_date: 2026-10-08
+      value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-710, VS-720, VS-730, VS-740, VS-750]
+      linked_applications: []
+      information_objects:
+        - Publication Licence
+        - Embargo Term
+    children:
+      - id: BC-5260.30.10
+        name: Open Licence Terms
+        level: 3
+        industry: Academic Publishing
+        description: The ability to establish the permitted reuse scope and required attribution for openly licensed scholarly outputs. Maintains licence selection and evidence without equating open access with fee payment.
+        references:
+          - https://www.coalition-s.org/plan_s_principles/
+          - https://doaj.org/apply/transparency/
+        in_scope:
+          - Work-level open licence selection
+          - Readable reuse and attribution terms
+        out_of_scope:
+          - Publication charge administration (BC-5270)
+          - Reader search placement (BC-5290)
+        metadata:
+          parent_id: BC-5260.30
+          status: Proposed
+          capability_owner: Director of Publishing Rights
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-710, VS-720, VS-730, VS-740, VS-750]
+          linked_applications: []
+          information_objects:
+            - Open Licence Selection
+            - Licence Statement
+        children: []
+      - id: BC-5260.30.20
+        name: Repository Posting Rights
+        level: 3
+        industry: Academic Publishing
+        description: The ability to define whether and when an author may post manuscript or published versions in repositories. Distinguishes permissions, allowed version and embargo terms from asset preservation.
+        references:
+          - https://doaj.org/apply/transparency/
+          - https://www.coalition-s.org/plan_s_principles/
+        in_scope:
+          - Self-archiving permission conditions
+          - Permitted manuscript versions and embargo terms
+        out_of_scope:
+          - Repository deposit execution
+          - Publisher archive custody (BC-5300)
+        metadata:
+          parent_id: BC-5260.30
+          status: Proposed
+          capability_owner: Director of Publishing Rights
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-710, VS-720, VS-730, VS-740, VS-750]
+          linked_applications: []
+          information_objects:
+            - Repository Posting Policy
+            - Posting Embargo
+        children: []
+      - id: BC-5260.30.30
+        name: Licence Disclosure Assurance
+        level: 3
+        industry: Academic Publishing
+        description: The ability to maintain consistent copyright and licence statements for intended publication forms. Supports transparent terms without owning bibliographic description or content production.
+        references:
+          - https://doaj.org/apply/transparency/
+          - https://www.coalition-s.org/plan_s_principles/
+        in_scope:
+          - Publication-level copyright and licence disclosures
+          - Consistency between terms and intended format notices
+        out_of_scope:
+          - Preparation of full-text renditions (BC-5240)
+          - Bibliographic record semantics (BC-5250)
+        metadata:
+          parent_id: BC-5260.30
+          status: Proposed
+          capability_owner: Director of Publishing Rights
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-710, VS-720, VS-730, VS-740, VS-750]
+          linked_applications: []
+          information_objects:
+            - Copyright Statement
+            - Licence Disclosure
+        children: []
+  - id: BC-5260.40
+    name: Outbound Reuse Rights
+    level: 2
+    industry: Academic Publishing
+    description: The ability to assess and grant requests to reuse, translate or computationally analyse content within the rights available to the publisher. Distinguishes downstream copyright grants from subscription access rights and technical delivery.
+    references:
+      - https://doaj.org/apply/transparency/
+      - https://www.coalition-s.org/plan_s_principles/
+      - https://dev.springernature.com/terms-conditions/
+    in_scope:
+      - Reuse and translation grants
+      - Purpose-specific content-mining and other computational reuse rights decisions
+    out_of_scope:
+      - Read-access licence administration (BC-5280)
+      - Search indexing partnerships (BC-5290)
+    metadata:
+      parent_id: BC-5260
+      status: Proposed
+      capability_owner: Director of Publishing Rights
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: 2027-10-08
+      drafted_date: 2026-10-08
+      value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-710, VS-720, VS-730, VS-740, VS-750]
+      linked_applications: []
+      information_objects:
+        - Reuse Request
+        - Outbound Rights Grant
+    children:
+      - id: BC-5260.40.10
+        name: Derivative Use Grants
+        level: 3
+        industry: Academic Publishing
+        description: The ability to grant or decline translation, adaptation and republication requests against the work rights inventory and existing open licence. Preserves limitations from contributor and third-party rights.
+        references:
+          - https://www.coalition-s.org/plan_s_principles/
+          - https://doaj.org/apply/transparency/
+        in_scope:
+          - Translation and adaptation permissions
+          - Derivative-use restrictions
+        out_of_scope:
+          - Publication programme commissioning (BC-5200)
+          - Third-party embedded material permission issuance
+        metadata:
+          parent_id: BC-5260.40
+          status: Proposed
+          capability_owner: Director of Publishing Rights
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-710, VS-720, VS-730, VS-740, VS-750]
+          linked_applications: []
+          information_objects:
+            - Derivative Use Grant
+            - Reuse Restriction
+        children: []
+      - id: BC-5260.40.20
+        name: Computational Reuse Grants
+        level: 3
+        industry: Academic Publishing
+        description: The ability to determine and record permissions for text and data mining and other computational uses by content, purpose and beneficiary. A grant to read or mine does not itself authorise model training, commercial exploitation, retained full-text corpora or redistribution; each applicable use and output condition requires its own rights basis.
+        references:
+          - https://dev.springernature.com/terms-conditions/
+          - https://dev.springernature.com/tdm-reservation-policy/
+          - https://www.coalition-s.org/plan_s_principles/
+        in_scope:
+          - Purpose-specific mining, training and derivative-use grant conditions
+          - Rights-holder restrictions on corpus retention, output sharing and redistribution
+        out_of_scope:
+          - Beneficiary and delegated-consumer entitlement decisions (BC-5280)
+          - Machine-consumable corpus delivery (BC-5290)
+        metadata:
+          parent_id: BC-5260.40
+          status: Proposed
+          capability_owner: Director of Publishing Rights
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-710, VS-720, VS-730, VS-740, VS-750]
+          linked_applications: []
+          information_objects:
+            - Computational Reuse Grant
+            - Permitted Purpose
+            - Output Restriction
+        children: []
+  - id: BC-5260.50
+    name: Royalty Obligation Management
+    level: 2
+    industry: Academic Publishing
+    description: The ability to retain royalty-bearing rights terms and determine whether a publication exploitation creates a payment obligation to a rights holder. Tracks the business obligation and its evidence; accounting and settlement remain with financial management.
+    references:
+      - https://doaj.org/apply/transparency/
+      - https://www.esac-initiative.org/about/transformative-agreements/
+    in_scope:
+      - Royalty-bearing rights inventory
+      - Obligation basis and payable-event evidence
+    out_of_scope:
+      - Payment posting and settlement (BC-200)
+      - Publication charge and sponsor-funding liability (BC-5270)
+    metadata:
+      parent_id: BC-5260
+      evidence_basis: Architectural synthesis of royalty-bearing rights obligations; cited publishing-transparency and agreement sources provide context, not direct royalty guidance
+      status: Proposed
+      capability_owner: Director of Publishing Rights
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: 2027-10-08
+      drafted_date: 2026-10-08
+      value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-710, VS-720, VS-730, VS-740, VS-750]
+      linked_applications: []
+      information_objects:
+        - Royalty Term
+        - Royalty Obligation
+    children:
+      - id: BC-5260.50.10
+        name: Royalty Term Stewardship
+        level: 3
+        industry: Academic Publishing
+        description: The ability to maintain remuneration terms attached to incoming publication or downstream exploitation rights. Ensures royalty obligations can be interpreted alongside the grant that created them.
+        references:
+          - https://doaj.org/apply/transparency/
+          - https://www.esac-initiative.org/about/transformative-agreements/
+        in_scope:
+          - Royalty basis, beneficiary and applicable uses
+          - Rights-linked remuneration terms
+        out_of_scope:
+          - Author publication charge billing (BC-5270)
+          - General payroll or accounts payable (BC-200)
+        metadata:
+          parent_id: BC-5260.50
+          evidence_basis: Architectural synthesis of rights-linked royalty terms; cited sources are contextual, not direct royalty guidance
+          status: Proposed
+          capability_owner: Director of Publishing Rights
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-710, VS-720, VS-730, VS-740, VS-750]
+          linked_applications: []
+          information_objects:
+            - Royalty Term
+            - Rights Holder
+        children: []
+      - id: BC-5260.50.20
+        name: Royalty Obligation Evidence
+        level: 3
+        industry: Academic Publishing
+        description: The ability to identify rights uses that give rise to royalties and produce supportable obligation records for finance. Does not determine payment execution or general ledger treatment.
+        references:
+          - https://www.esac-initiative.org/about/transformative-agreements/
+          - https://doaj.org/apply/transparency/
+        in_scope:
+          - Royalty-trigger evidence
+          - Publisher-to-rights-holder obligation record
+        out_of_scope:
+          - Accounts payable and remittance (BC-200)
+          - Publishing agreement funding reconciliation (BC-5270)
+        metadata:
+          parent_id: BC-5260.50
+          evidence_basis: Architectural synthesis of royalty obligation evidence; cited sources are contextual, not direct royalty guidance
+          status: Proposed
+          capability_owner: Director of Publishing Rights
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-710, VS-720, VS-730, VS-740, VS-750]
+          linked_applications: []
+          information_objects:
+            - Royalty Obligation
+            - Rights Use Evidence
+        children: []

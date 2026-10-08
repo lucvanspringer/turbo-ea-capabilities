@@ -1,0 +1,554 @@
+# Publication Integrity Management
+id: BC-5230
+name: Publication Integrity Management
+level: 1
+industry: Academic Publishing
+description: The ability to set publication-ethics expectations, assure research and authorship declarations, examine authenticity concerns and determine appropriate remedies for the scholarly record. It owns publisher-side integrity findings rather than institutional investigations or implementation of approved record changes.
+references:
+  - https://publicationethics.org/guidance/guideline/retraction-guidelines
+  - https://doaj.org/apply/transparency/
+  - https://publicationethics.org/guidance/guideline/ethical-guidelines-peer-reviewers
+in_scope:
+  - Publication ethics policy and declaration assurance
+  - Content authenticity and integrity cases
+  - Correction, retraction and concern determinations
+out_of_scope:
+  - Editorial merit appeals (BC-5220)
+  - Research institution misconduct investigations
+  - Implementation and preservation of amended records (BC-5300)
+metadata:
+  parent_id: null
+  status: Proposed
+  capability_owner: Research Integrity Director
+  owner_assignment: Reference role only; adopter confirmation required
+  strategic_importance: null
+  maturity: null
+  health: null
+  assessment_note: Enterprise-specific assessment required on adoption
+  effective_date: null
+  last_reviewed_date: null
+  next_review_date: 2027-10-08
+  drafted_date: 2026-10-08
+  value_stream_ids: [VS-670, VS-700, VS-740]
+  linked_applications: []
+  information_objects:
+    - Ethics policy
+    - Integrity case
+    - Record remedy decision
+children:
+  - id: BC-5230.10
+    name: Publication Ethics Governance
+    level: 2
+    industry: Academic Publishing
+    description: Defines transparent integrity expectations and escalation rules across publishing programmes and contribution types.
+    references:
+      - https://doaj.org/apply/transparency/
+      - https://publicationethics.org/guidance/guideline/retraction-guidelines
+    in_scope:
+      - Publication ethics and research reporting policies
+      - Concern handling and confidentiality principles
+    out_of_scope:
+      - Individual manuscript merit criteria (BC-5220)
+      - Corporate legal advice (BC-150)
+    metadata:
+      parent_id: BC-5230
+      status: Proposed
+      capability_owner: Research Integrity Director
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: 2027-10-08
+      drafted_date: 2026-10-08
+      value_stream_ids: [VS-670, VS-700, VS-740]
+      linked_applications: []
+      information_objects:
+        - Publication ethics policy
+    children:
+      - id: BC-5230.10.10
+        name: Authorship Policy Governance
+        level: 3
+        industry: Academic Publishing
+        description: Sets policy for attribution responsibilities, consent and authorship changes in submitted and published works.
+        references:
+          - https://doaj.org/apply/transparency/
+        in_scope:
+          - Authorship and contributorship policy
+        out_of_scope:
+          - Contributor bibliographic attribution records (BC-5250)
+        metadata:
+          parent_id: BC-5230.10
+          status: Proposed
+          capability_owner: Research Integrity Director
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-670, VS-700, VS-740]
+          linked_applications: []
+          information_objects:
+            - Authorship policy
+        children: []
+      - id: BC-5230.10.20
+        name: Research Ethics Policy Governance
+        level: 3
+        industry: Academic Publishing
+        description: Sets expectations for human and animal research approval, consent and research disclosure where applicable.
+        references:
+          - https://doaj.org/apply/transparency/
+        in_scope:
+          - Research ethics declaration policy
+        out_of_scope:
+          - Conducting institutional ethics review
+        metadata:
+          parent_id: BC-5230.10
+          status: Proposed
+          capability_owner: Research Integrity Director
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-670, VS-700, VS-740]
+          linked_applications: []
+          information_objects:
+            - Research ethics policy
+        children: []
+      - id: BC-5230.10.30
+        name: Integrity Escalation Governance
+        level: 3
+        industry: Academic Publishing
+        description: Defines fair, confidential and proportionate escalation and decision responsibilities for integrity concerns.
+        references:
+          - https://publicationethics.org/guidance/guideline/retraction-guidelines
+          - https://doaj.org/apply/transparency/
+        in_scope:
+          - Integrity escalation criteria and decision rights
+        out_of_scope:
+          - Institutional disciplinary procedures
+        metadata:
+          parent_id: BC-5230.10
+          status: Proposed
+          capability_owner: Research Integrity Director
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-670, VS-700, VS-740]
+          linked_applications: []
+          information_objects:
+            - Integrity escalation policy
+        children: []
+  - id: BC-5230.20
+    name: Declaration Assurance Management
+    level: 2
+    industry: Academic Publishing
+    description: Assesses the substance and consistency of publication-related research and contributor declarations beyond merely checking their presence.
+    references:
+      - https://doaj.org/apply/transparency/
+      - https://publicationethics.org/guidance/guideline/ethical-guidelines-peer-reviewers
+    in_scope:
+      - Authorship and contribution assurance
+      - Research ethics, interests and disclosure assurance
+    out_of_scope:
+      - Submission completeness check (BC-5220)
+      - Bibliographic contributor identity linkage (BC-5250)
+    metadata:
+      parent_id: BC-5230
+      status: Proposed
+      capability_owner: Research Integrity Director
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: 2027-10-08
+      drafted_date: 2026-10-08
+      value_stream_ids: [VS-670, VS-700, VS-740]
+      linked_applications: []
+      information_objects:
+        - Declaration assurance record
+    children:
+      - id: BC-5230.20.10
+        name: Authorship Declaration Assurance
+        level: 3
+        industry: Academic Publishing
+        description: Assesses disputed or inconsistent authorship and contribution claims against publishing policy.
+        references:
+          - https://doaj.org/apply/transparency/
+        in_scope:
+          - Authorship declaration assurance finding
+        out_of_scope:
+          - Published author metadata maintenance (BC-5250)
+        metadata:
+          parent_id: BC-5230.20
+          status: Proposed
+          capability_owner: Research Integrity Director
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-670, VS-700, VS-740]
+          linked_applications: []
+          information_objects:
+            - Authorship declaration
+        children: []
+      - id: BC-5230.20.20
+        name: Research Declaration Assurance
+        level: 3
+        industry: Academic Publishing
+        description: Assesses consistency of ethics approval, consent, data and funding disclosures relevant to publication integrity.
+        references:
+          - https://doaj.org/apply/transparency/
+        in_scope:
+          - Research disclosure assurance finding
+        out_of_scope:
+          - Research grant award administration
+        metadata:
+          parent_id: BC-5230.20
+          status: Proposed
+          capability_owner: Research Integrity Director
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-670, VS-700, VS-740]
+          linked_applications: []
+          information_objects:
+            - Research declaration
+        children: []
+      - id: BC-5230.20.30
+        name: Interest Disclosure Assurance
+        level: 3
+        industry: Academic Publishing
+        description: Assesses material competing-interest disclosures for publication transparency, beyond manuscript-specific reviewer assignment checks.
+        references:
+          - https://publicationethics.org/guidance/guideline/ethical-guidelines-peer-reviewers
+          - https://doaj.org/apply/transparency/
+        in_scope:
+          - Disclosure assurance finding
+        out_of_scope:
+          - Reviewer conflict clearance for one manuscript (BC-5220)
+        metadata:
+          parent_id: BC-5230.20
+          status: Proposed
+          capability_owner: Research Integrity Director
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-670, VS-700, VS-740]
+          linked_applications: []
+          information_objects:
+            - Interest disclosure
+        children: []
+  - id: BC-5230.30
+    name: Content Authenticity Assurance
+    level: 2
+    industry: Academic Publishing
+    description: Identifies and evaluates credible signals that scholarly content or its provenance has been fabricated, altered or systematically manipulated.
+    references:
+      - https://publicationethics.org/guidance/guideline/retraction-guidelines
+      - https://doaj.org/apply/transparency/
+    in_scope:
+      - Content authenticity findings
+      - Pattern-level manipulation evidence
+    out_of_scope:
+      - Ordinary scholarly merit assessment (BC-5220)
+      - Publisher production transformations (BC-5240)
+    metadata:
+      parent_id: BC-5230
+      status: Proposed
+      capability_owner: Research Integrity Director
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: 2027-10-08
+      drafted_date: 2026-10-08
+      value_stream_ids: [VS-670, VS-700, VS-740]
+      linked_applications: []
+      information_objects:
+        - Authenticity assessment
+        - Manipulation signal
+    children:
+      - id: BC-5230.30.10
+        name: Provenance Authenticity Assessment
+        level: 3
+        industry: Academic Publishing
+        description: Evaluates credible discrepancies in research materials, images, data or claimed provenance that affect reliability.
+        references:
+          - https://publicationethics.org/guidance/guideline/retraction-guidelines
+        in_scope:
+          - Provenance authenticity finding
+        out_of_scope:
+          - Experimental replication by research institutions
+        metadata:
+          parent_id: BC-5230.30
+          status: Proposed
+          capability_owner: Research Integrity Director
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-670, VS-700, VS-740]
+          linked_applications: []
+          information_objects:
+            - Provenance assessment
+        children: []
+      - id: BC-5230.30.20
+        name: Systematic Manipulation Detection
+        level: 3
+        industry: Academic Publishing
+        description: Identifies coordinated submission, review or content-manipulation patterns across works and participants.
+        references:
+          - https://publicationethics.org/guidance/guideline/retraction-guidelines
+          - https://publicationethics.org/guidance/guideline/ethical-guidelines-peer-reviewers
+        in_scope:
+          - Pattern-level integrity alert and evidence
+        out_of_scope:
+          - Reviewer pool development (BC-5210)
+        metadata:
+          parent_id: BC-5230.30
+          status: Proposed
+          capability_owner: Research Integrity Director
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-670, VS-700, VS-740]
+          linked_applications: []
+          information_objects:
+            - Manipulation pattern record
+        children: []
+      - id: BC-5230.30.30
+        name: Generated Content Authenticity
+        level: 3
+        industry: Academic Publishing
+        description: Assesses undisclosed or deceptive generated content and fabricated citations against publication policy.
+        references:
+          - https://doaj.org/apply/transparency/
+          - https://publicationethics.org/guidance/guideline/retraction-guidelines
+        in_scope:
+          - Generated-content authenticity finding
+        out_of_scope:
+          - Permitted production transformations (BC-5240)
+        metadata:
+          parent_id: BC-5230.30
+          status: Proposed
+          capability_owner: Research Integrity Director
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-670, VS-700, VS-740]
+          linked_applications: []
+          information_objects:
+            - Content authenticity finding
+        children: []
+  - id: BC-5230.40
+    name: Integrity Case Management
+    level: 2
+    industry: Academic Publishing
+    description: Provides accountable publisher-side examination, coordination and resolution of allegations while respecting institutional investigation authority.
+    references:
+      - https://publicationethics.org/guidance/guideline/retraction-guidelines
+      - https://doaj.org/apply/transparency/
+    in_scope:
+      - Case evidence and response record
+      - Institutional liaison and publisher finding
+    out_of_scope:
+      - Conducting institutional misconduct investigation
+      - Editorial merit appeal (BC-5220)
+    metadata:
+      parent_id: BC-5230
+      status: Proposed
+      capability_owner: Research Integrity Director
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: 2027-10-08
+      drafted_date: 2026-10-08
+      value_stream_ids: [VS-670, VS-700, VS-740]
+      linked_applications: []
+      information_objects:
+        - Integrity case file
+        - Institutional correspondence
+    children:
+      - id: BC-5230.40.10
+        name: Concern Triage Management
+        level: 3
+        industry: Academic Publishing
+        description: Classifies credible integrity allegations and determines proportionate publisher-side examination.
+        references:
+          - https://publicationethics.org/guidance/guideline/retraction-guidelines
+        in_scope:
+          - Concern classification and case priority
+        out_of_scope:
+          - Routine editorial revision request (BC-5220)
+        metadata:
+          parent_id: BC-5230.40
+          status: Proposed
+          capability_owner: Research Integrity Director
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-670, VS-700, VS-740]
+          linked_applications: []
+          information_objects:
+            - Concern intake record
+        children: []
+      - id: BC-5230.40.20
+        name: Integrity Evidence Management
+        level: 3
+        industry: Academic Publishing
+        description: Maintains an auditable case record and affected-work relationships while allowing fair responses by relevant parties.
+        references:
+          - https://publicationethics.org/guidance/guideline/retraction-guidelines
+        in_scope:
+          - Case evidence and response record
+        out_of_scope:
+          - Preservation of authoritative published asset (BC-5300)
+        metadata:
+          parent_id: BC-5230.40
+          status: Proposed
+          capability_owner: Research Integrity Director
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-670, VS-700, VS-740]
+          linked_applications: []
+          information_objects:
+            - Integrity evidence dossier
+        children: []
+      - id: BC-5230.40.30
+        name: Institutional Investigation Liaison
+        level: 3
+        industry: Academic Publishing
+        description: Coordinates with research institutions or other responsible bodies without assuming their investigatory powers.
+        references:
+          - https://publicationethics.org/guidance/guideline/retraction-guidelines
+        in_scope:
+          - Investigation referral and publisher liaison record
+        out_of_scope:
+          - Institutional research misconduct determination
+        metadata:
+          parent_id: BC-5230.40
+          status: Proposed
+          capability_owner: Research Integrity Director
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-670, VS-700, VS-740]
+          linked_applications: []
+          information_objects:
+            - Institutional referral record
+        children: []
+  - id: BC-5230.50
+    name: Scholarly Record Remedy Governance
+    level: 2
+    industry: Academic Publishing
+    description: Governs publisher-side remedy decisions for a published scholarly work or related works, including whether a correction, expression of concern or retraction is justified. Records the rationale, affected-work scope and notice decision without implementing the amendment.
+    references:
+      - https://publicationethics.org/guidance/guideline/retraction-guidelines
+    in_scope:
+      - Correction determination for a material error
+      - Expression of concern for unresolved credible questions
+      - Retraction determination and affected-work scope
+      - Remedy rationale and notice authority
+    out_of_scope:
+      - Execution of approved record changes (BC-5300)
+      - Release of revised content to channels (BC-5290)
+    metadata:
+      parent_id: BC-5230
+      status: Proposed
+      capability_owner: Research Integrity Director
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: 2027-10-08
+      drafted_date: 2026-10-08
+      value_stream_ids: [VS-670, VS-700, VS-740]
+      linked_applications: []
+      information_objects:
+        - Remedy decision
+        - Affected-work register
+    children: []

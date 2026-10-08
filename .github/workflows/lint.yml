@@ -23,6 +23,9 @@ jobs:
       - name: Lint catalogue
         run: npm run lint
 
+      - name: Validate Academic Publishing extension
+        run: npm run test:academic-publishing
+
       - name: Build JSON API artefacts
         run: npm run build:api
 
@@ -70,3 +73,6 @@ jobs:
 
       - name: Build Astro site
         run: npm run build:site
+
+      - name: Verify Academic Publishing built artefacts
+        run: npm run test:academic-publishing -- --built

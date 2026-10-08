@@ -1,0 +1,571 @@
+id: BC-5310
+name: Publishing Intelligence Management
+level: 1
+industry: Academic Publishing
+description: The ability to produce trustworthy scholarly usage, engagement and content-value evidence for publishers and institutional partners. It normalises readership and programmatic-consumption evidence, explains coverage and supports responsible interpretation of impact without treating journal-level indicators as a proxy for an individual work or researcher.
+references:
+  - https://www.countermetrics.org/code-of-practice/
+  - https://www.crossref.org/documentation/register-maintain-records/
+  - https://www.niso.org/publications/rp-9-2026-kbart
+  - https://sfdora.org/read/
+  - https://dev.springernature.com/
+in_scope:
+  - Normalised publication usage measures
+  - Distinct programmatic-consumption and purpose-bound use evidence
+  - Institutional usage and value reports
+  - Contextual scholarly reach and engagement evidence
+out_of_scope:
+  - Generic enterprise analytics platform (BC-610)
+  - Enterprise financial planning (BC-230)
+  - Live editorial workflow status (BC-5220)
+  - API platform telemetry and commercial billing
+metadata:
+  parent_id: null
+  status: Proposed
+  capability_owner: Director of Publishing Intelligence
+  owner_assignment: Reference role only; adopter confirmation required
+  strategic_importance: null
+  maturity: null
+  health: null
+  assessment_note: Enterprise-specific assessment required on adoption
+  effective_date: null
+  last_reviewed_date: null
+  next_review_date: 2027-10-08
+  drafted_date: 2026-10-08
+  value_stream_ids: [VS-660, VS-680, VS-690, VS-720, VS-730, VS-750]
+  linked_applications: []
+  information_objects:
+    - Usage Measure
+    - Institutional Usage Report
+    - Impact Evidence
+    - Programmatic Consumption Record
+children:
+  - id: BC-5310.10
+    name: Scholarly Usage Measurement
+    level: 2
+    industry: Academic Publishing
+    description: The ability to derive consistent, attributable readership measures and separate programmatic-consumption evidence from publication interactions. It preserves metric definitions, exclusions and coverage so that automated retrieval is not automatically misreported as human reading.
+    references:
+      - https://www.countermetrics.org/code-of-practice/
+      - https://dev.springernature.com/
+    in_scope:
+      - Normalised publication usage events
+      - Qualified and de-duplicated usage measures
+      - Measurement provenance
+      - Purpose-bound machine-consumption evidence and exclusions
+    out_of_scope:
+      - Serving publications (BC-5290)
+      - Generic telemetry platform operations (BC-610)
+    metadata:
+      parent_id: BC-5310
+      status: Proposed
+      capability_owner: Director of Publishing Intelligence
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: 2027-10-08
+      drafted_date: 2026-10-08
+      value_stream_ids: [VS-660, VS-680, VS-690, VS-720, VS-730, VS-750]
+      linked_applications: []
+      information_objects:
+        - Usage Event
+        - Normalised Usage Measure
+        - Programmatic Consumption Record
+    children:
+      - id: BC-5310.10.10
+        name: Usage Event Normalisation
+        level: 3
+        industry: Academic Publishing
+        description: The ability to classify content interactions consistently across publication types, formats and delivery channels.
+        references:
+          - https://www.countermetrics.org/code-of-practice/
+        in_scope:
+          - Comparable item and title usage records
+        out_of_scope:
+          - Reader entitlement permit decisions (BC-5280)
+        metadata:
+          parent_id: BC-5310.10
+          status: Proposed
+          capability_owner: Director of Publishing Intelligence
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-680, VS-690, VS-720, VS-730, VS-750]
+          linked_applications: []
+          information_objects:
+            - Normalised Usage Event
+        children: []
+      - id: BC-5310.10.20
+        name: Qualified Usage Measurement
+        level: 3
+        industry: Academic Publishing
+        description: The ability to distinguish eligible readership events from excluded, duplicate or automated activity under declared metric rules. Non-human retrieval does not automatically qualify as a standard readership request or a COUNTER measure.
+        references:
+          - https://www.countermetrics.org/code-of-practice/
+          - https://dev.springernature.com/
+        in_scope:
+          - Qualified usage totals and exclusions
+        out_of_scope:
+          - Individual reader profiling for advertising
+        metadata:
+          parent_id: BC-5310.10
+          status: Proposed
+          capability_owner: Director of Publishing Intelligence
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-680, VS-690, VS-720, VS-730, VS-750]
+          linked_applications: []
+          information_objects:
+            - Qualified Usage Measure
+        children: []
+      - id: BC-5310.10.30
+        name: Measurement Coverage Assurance
+        level: 3
+        industry: Academic Publishing
+        description: The ability to identify missing channels, periods and publication identifiers that would distort reported usage.
+        references:
+          - https://www.countermetrics.org/code-of-practice/
+          - https://www.crossref.org/documentation/register-maintain-records/
+        in_scope:
+          - Usage coverage and reconciliation exceptions
+        out_of_scope:
+          - Bibliographic identifier registration (BC-5250)
+        metadata:
+          parent_id: BC-5310.10
+          status: Proposed
+          capability_owner: Director of Publishing Intelligence
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-680, VS-690, VS-720, VS-730, VS-750]
+          linked_applications: []
+          information_objects:
+            - Measurement Coverage Exception
+        children: []
+      - id: BC-5310.10.40
+        name: Programmatic Consumption Evidence
+        level: 3
+        industry: Academic Publishing
+        description: The ability to retain evidence of automated scholarly content consumption by work, corpus, delegated beneficiary and permitted purpose, with delivery and exclusion provenance. It reports programmatic consumption distinctly from qualified human readership and does not infer permission to reuse content from a retrieval event.
+        references:
+          - https://dev.springernature.com/
+          - https://dev.springernature.com/terms-conditions/
+          - https://www.countermetrics.org/code-of-practice/
+        in_scope:
+          - Purpose- and beneficiary-scoped computational consumption evidence
+          - Corpus delivery and excluded-item reconciliation
+        out_of_scope:
+          - Generic API operations and request throttling
+          - Licence and reuse grants (BC-5260) and access authorisation (BC-5280)
+          - Automatic classification of machine retrieval as human reading
+        metadata:
+          parent_id: BC-5310.10
+          status: Proposed
+          capability_owner: Director of Publishing Intelligence
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-680, VS-690, VS-720, VS-730, VS-750]
+          linked_applications: []
+          information_objects:
+            - Programmatic Consumption Record
+            - Corpus Coverage Reconciliation
+        children: []
+  - id: BC-5310.20
+    name: Usage Reporting Management
+    level: 2
+    industry: Academic Publishing
+    description: The ability to provide consistent, explainable usage reports to libraries, consortia and internal publishing stakeholders. It governs reporting definitions and delivery, not the underlying generic data platform.
+    references:
+      - https://www.countermetrics.org/code-of-practice/
+      - https://www.niso.org/publications/rp-9-2026-kbart
+    in_scope:
+      - Institutional usage reports
+      - Publication-level and collection-level reporting
+      - Report quality and exception evidence
+    out_of_scope:
+      - Reading licence administration (BC-5280)
+      - Enterprise analytics infrastructure (BC-610)
+    metadata:
+      parent_id: BC-5310
+      status: Proposed
+      capability_owner: Director of Publishing Intelligence
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: 2027-10-08
+      drafted_date: 2026-10-08
+      value_stream_ids: [VS-660, VS-680, VS-690, VS-720, VS-730, VS-750]
+      linked_applications: []
+      information_objects:
+        - Usage Report
+        - Reporting Exception
+    children:
+      - id: BC-5310.20.10
+        name: Institutional Usage Reporting
+        level: 3
+        industry: Academic Publishing
+        description: The ability to provide subscribing or participating institutions with attributable publication-usage reports and clearly stated coverage.
+        references:
+          - https://www.countermetrics.org/code-of-practice/
+        in_scope:
+          - Institution- and consortium-scoped usage report
+        out_of_scope:
+          - Institutional entitlement decision (BC-5280)
+        metadata:
+          parent_id: BC-5310.20
+          status: Proposed
+          capability_owner: Director of Publishing Intelligence
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-680, VS-690, VS-720, VS-730, VS-750]
+          linked_applications: []
+          information_objects:
+            - Institutional Usage Report
+        children: []
+      - id: BC-5310.20.20
+        name: Title And Item Reporting
+        level: 3
+        industry: Academic Publishing
+        description: The ability to present usage by title, work and content type with consistent aggregation and period definitions.
+        references:
+          - https://www.countermetrics.org/code-of-practice/
+        in_scope:
+          - Comparable title and item usage views
+        out_of_scope:
+          - Title selection and portfolio decisions (BC-5200)
+        metadata:
+          parent_id: BC-5310.20
+          status: Proposed
+          capability_owner: Director of Publishing Intelligence
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-680, VS-690, VS-720, VS-730, VS-750]
+          linked_applications: []
+          information_objects:
+            - Title Usage Report
+        children: []
+      - id: BC-5310.20.30
+        name: Usage Report Assurance
+        level: 3
+        industry: Academic Publishing
+        description: The ability to validate report completeness and reconcile suspicious differences before publication to partners.
+        references:
+          - https://www.countermetrics.org/code-of-practice/
+        in_scope:
+          - Validated report and documented exceptions
+        out_of_scope:
+          - Usage event collection infrastructure (BC-610)
+        metadata:
+          parent_id: BC-5310.20
+          status: Proposed
+          capability_owner: Director of Publishing Intelligence
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-680, VS-690, VS-720, VS-730, VS-750]
+          linked_applications: []
+          information_objects:
+            - Usage Report Validation
+        children: []
+  - id: BC-5310.30
+    name: Scholarly Impact Evidence
+    level: 2
+    industry: Academic Publishing
+    description: The ability to interpret citation, attention and readership signals in scholarly context, acknowledging disciplinary, format and age differences. Journal aggregates are not evidence of the quality of an individual paper, book or researcher.
+    references:
+      - https://www.crossref.org/documentation/register-maintain-records/
+      - https://www.countermetrics.org/code-of-practice/
+      - https://sfdora.org/read/
+    in_scope:
+      - Contextual citation and engagement evidence
+      - Appropriate metric caveats and provenance
+    out_of_scope:
+      - Individual research quality judgements
+      - Editorial manuscript acceptance decisions (BC-5220)
+    metadata:
+      parent_id: BC-5310
+      status: Proposed
+      capability_owner: Director of Publishing Intelligence
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: 2027-10-08
+      drafted_date: 2026-10-08
+      value_stream_ids: [VS-660, VS-680, VS-690, VS-720, VS-730, VS-750]
+      linked_applications: []
+      information_objects:
+        - Impact Evidence
+        - Interpretation Caveat
+    children:
+      - id: BC-5310.30.10
+        name: Citation Evidence Interpretation
+        level: 3
+        industry: Academic Publishing
+        description: The ability to contextualise citation links and counts by publication, time and discipline without reducing scholarly merit to a single indicator.
+        references:
+          - https://www.crossref.org/documentation/register-maintain-records/
+        in_scope:
+          - Qualified citation evidence with limitations
+        out_of_scope:
+          - Citation identifier and relationship registration (BC-5250)
+        metadata:
+          parent_id: BC-5310.30
+          status: Proposed
+          capability_owner: Director of Publishing Intelligence
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-680, VS-690, VS-720, VS-730, VS-750]
+          linked_applications: []
+          information_objects:
+            - Citation Evidence
+        children: []
+      - id: BC-5310.30.20
+        name: Scholarly Engagement Evidence
+        level: 3
+        industry: Academic Publishing
+        description: The ability to relate usage and other observable attention to a work with explicit source coverage and known limitations.
+        references:
+          - https://www.countermetrics.org/code-of-practice/
+          - https://www.crossref.org/documentation/register-maintain-records/
+        in_scope:
+          - Work-level engagement context
+        out_of_scope:
+          - Reader-facing content recommendation (BC-5290)
+        metadata:
+          parent_id: BC-5310.30
+          status: Proposed
+          capability_owner: Director of Publishing Intelligence
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-680, VS-690, VS-720, VS-730, VS-750]
+          linked_applications: []
+          information_objects:
+            - Engagement Evidence
+        children: []
+      - id: BC-5310.30.30
+        name: Responsible Indicator Governance
+        level: 3
+        industry: Academic Publishing
+        description: The ability to document valid uses, limitations and comparability boundaries for publishing-specific indicators in decision support.
+        references:
+          - https://www.countermetrics.org/code-of-practice/
+          - https://sfdora.org/read/
+        in_scope:
+          - Indicator definitions and interpretation caveats
+        out_of_scope:
+          - Evaluation of individual researcher or paper quality from journal metrics
+        metadata:
+          parent_id: BC-5310.30
+          status: Proposed
+          capability_owner: Director of Publishing Intelligence
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-680, VS-690, VS-720, VS-730, VS-750]
+          linked_applications: []
+          information_objects:
+            - Indicator Interpretation Policy
+        children: []
+  - id: BC-5310.40
+    name: Institutional Content Value Insight
+    level: 2
+    industry: Academic Publishing
+    description: The ability to explain how a licensed or open scholarly collection is used by an institution in relation to its holdings and access scope. It supports collection discussions without converting usage counts into unverified causal or financial return claims.
+    references:
+      - https://www.countermetrics.org/code-of-practice/
+      - https://www.niso.org/publications/rp-9-2026-kbart
+      - https://www.esac-initiative.org/about/transformative-agreements/
+    in_scope:
+      - Institutional collection usage context
+      - Coverage-aware content-value evidence
+      - Access-gap insight
+    out_of_scope:
+      - Publication funding deal administration (BC-5270)
+      - Enterprise financial planning (BC-230)
+    metadata:
+      parent_id: BC-5310
+      status: Proposed
+      capability_owner: Director of Publishing Intelligence
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: 2027-10-08
+      drafted_date: 2026-10-08
+      value_stream_ids: [VS-660, VS-680, VS-690, VS-720, VS-730, VS-750]
+      linked_applications: []
+      information_objects:
+        - Institutional Value Evidence
+        - Collection Coverage Analysis
+    children:
+      - id: BC-5310.40.10
+        name: Collection Utilisation Insight
+        level: 3
+        industry: Academic Publishing
+        description: The ability to relate institutional usage to the title and date coverage available under the institution’s reading arrangement.
+        references:
+          - https://www.countermetrics.org/code-of-practice/
+          - https://www.niso.org/publications/rp-9-2026-kbart
+        in_scope:
+          - Coverage-adjusted collection usage evidence
+        out_of_scope:
+          - Contracted holding definition (BC-5280)
+        metadata:
+          parent_id: BC-5310.40
+          status: Proposed
+          capability_owner: Director of Publishing Intelligence
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-680, VS-690, VS-720, VS-730, VS-750]
+          linked_applications: []
+          information_objects:
+            - Collection Utilisation Analysis
+        children: []
+      - id: BC-5310.40.20
+        name: Access Gap Insight
+        level: 3
+        industry: Academic Publishing
+        description: The ability to identify demand or use patterns outside licensed holdings without itself changing eligibility or entitlements.
+        references:
+          - https://www.countermetrics.org/code-of-practice/
+          - https://www.niso.org/publications/rp-9-2026-kbart
+        in_scope:
+          - Evidence of unmet institutional content demand
+        out_of_scope:
+          - Read licence negotiation and entitlement changes (BC-5280)
+        metadata:
+          parent_id: BC-5310.40
+          status: Proposed
+          capability_owner: Director of Publishing Intelligence
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-680, VS-690, VS-720, VS-730, VS-750]
+          linked_applications: []
+          information_objects:
+            - Access Gap Analysis
+        children: []
+      - id: BC-5310.40.30
+        name: Institutional Value Narrative
+        level: 3
+        industry: Academic Publishing
+        description: The ability to present usage, coverage and publishing context together with transparent assumptions for institutional review.
+        references:
+          - https://www.countermetrics.org/code-of-practice/
+          - https://www.esac-initiative.org/about/transformative-agreements/
+        in_scope:
+          - Evidence-backed institutional content-value account
+        out_of_scope:
+          - Claimed financial return without agreed valuation method (BC-230)
+        metadata:
+          parent_id: BC-5310.40
+          status: Proposed
+          capability_owner: Director of Publishing Intelligence
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-680, VS-690, VS-720, VS-730, VS-750]
+          linked_applications: []
+          information_objects:
+            - Institutional Value Brief
+        children: []

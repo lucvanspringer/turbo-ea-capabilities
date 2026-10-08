@@ -1,0 +1,762 @@
+# Scholarly Portfolio Management
+id: BC-5200
+name: Scholarly Portfolio Management
+level: 1
+industry: Academic Publishing
+description: The ability to shape and sustain a coherent portfolio of scholarly journals, books, proceedings and collections for defined research communities. It governs commissioning opportunities and commitments and thematic collection stewardship without determining the fate of submitted manuscripts.
+references:
+  - https://doaj.org/apply/transparency/
+  - https://www.doabooks.org/en/publishers/
+  - https://asset.routledge.com/rt-files/AUTHOR/Guidelines/Proposal+guidelines.pdf
+  - https://researcher-resources.acs.org/publish/special_issue
+  - https://publicationethics.org/guidance/guideline/guest-edited-collections
+in_scope:
+  - Title and programme positioning
+  - Commission prospect, proposal and commitment stewardship
+  - Thematic collection remit, membership and lifecycle
+  - Publishing partnership scope and title lifecycle
+out_of_scope:
+  - Individual submitted manuscript assessment and acceptance (BC-5220)
+  - Contributor relationship profiles and expertise (BC-5210)
+  - Bibliographic attribution and subject metadata (BC-5250)
+  - Collection release, search and promotion (BC-5290)
+  - Publishing impact measurement (BC-5310)
+  - Publication funding agreements (BC-5270) and reading licences (BC-5280)
+metadata:
+  parent_id: null
+  status: Proposed
+  capability_owner: Publishing Portfolio Director
+  owner_assignment: Reference role only; adopter confirmation required
+  strategic_importance: null
+  maturity: null
+  health: null
+  assessment_note: Enterprise-specific assessment required on adoption
+  effective_date: null
+  last_reviewed_date: null
+  next_review_date: 2027-10-08
+  drafted_date: 2026-10-08
+  value_stream_ids: [VS-660, VS-710, VS-720]
+  linked_applications: []
+  information_objects:
+    - Title portfolio
+    - Publishing programme
+    - Portfolio strategy
+children:
+  - id: BC-5200.10
+    name: Title Portfolio Strategy
+    level: 2
+    industry: Academic Publishing
+    description: Defines the subject coverage, audience and differentiation of scholarly titles and programmes so the portfolio remains purposeful.
+    references:
+      - https://doaj.org/apply/transparency/
+      - https://www.doabooks.org/en/publishers/
+    in_scope:
+      - Subject coverage and audience propositions
+      - Title positioning and portfolio priorities
+    out_of_scope:
+      - Individual manuscript merit assessment (BC-5220)
+    metadata:
+      parent_id: BC-5200
+      status: Proposed
+      capability_owner: Publishing Portfolio Director
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: 2027-10-08
+      drafted_date: 2026-10-08
+      value_stream_ids: [VS-660, VS-710, VS-720]
+      linked_applications: []
+      information_objects:
+        - Title proposition
+        - Portfolio plan
+    children:
+      - id: BC-5200.10.10
+        name: Subject Coverage Strategy
+        level: 3
+        industry: Academic Publishing
+        description: Maintains the disciplinary and interdisciplinary boundaries that distinguish each title or programme.
+        references:
+          - https://doaj.org/apply/transparency/
+        in_scope:
+          - Subject remit and coverage boundaries
+        out_of_scope:
+          - Subject tagging of individual publications (BC-5250)
+        metadata:
+          parent_id: BC-5200.10
+          status: Proposed
+          capability_owner: Publishing Portfolio Director
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-710, VS-720]
+          linked_applications: []
+          information_objects:
+            - Title scope
+        children: []
+      - id: BC-5200.10.20
+        name: Audience Positioning
+        level: 3
+        industry: Academic Publishing
+        description: Defines the scholarly communities and contribution types a title is intended to serve.
+        references:
+          - https://doaj.org/apply/transparency/
+        in_scope:
+          - Intended readership and contributor proposition
+        out_of_scope:
+          - Reader targeting and recommendation (BC-5290)
+        metadata:
+          parent_id: BC-5200.10
+          status: Proposed
+          capability_owner: Publishing Portfolio Director
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-710, VS-720]
+          linked_applications: []
+          information_objects:
+            - Audience proposition
+        children: []
+      - id: BC-5200.10.30
+        name: Portfolio Prioritisation
+        level: 3
+        industry: Academic Publishing
+        description: Establishes relative development priorities and a balanced mix of journals, books, proceedings and thematic collections across the portfolio.
+        references:
+          - https://www.doabooks.org/en/publishers/
+          - https://doaj.org/apply/transparency/
+        in_scope:
+          - Portfolio development priorities and programme mix decisions
+        out_of_scope:
+          - Thematic collection membership (BC-5200.30)
+          - Enterprise financial planning (BC-230)
+        metadata:
+          parent_id: BC-5200.10
+          status: Proposed
+          capability_owner: Publishing Portfolio Director
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-710, VS-720]
+          linked_applications: []
+          information_objects:
+            - Portfolio priority register
+        children: []
+  - id: BC-5200.20
+    name: Content Commissioning Management
+    level: 2
+    industry: Academic Publishing
+    description: Secures prospective scholarly contributions against portfolio needs, from contributor fit and proposals to agreed commissioning obligations and their subsequent disposition. The commission record remains intelligible across submission channels and programme changes.
+    references:
+      - https://asset.routledge.com/rt-files/AUTHOR/Guidelines/Proposal+guidelines.pdf
+      - https://www.cambridge.org/core/services/aop-file-manager/file/5a1eb62839b03b2b0605becf/Refreshed-Guide-Peer-Review-Books.pdf
+      - https://researcher-resources.acs.org/publish/special_issue
+    in_scope:
+      - Contributor and topic fit for prospective work, including solicitation and invitation history
+      - Proposal and synopsis versions, appraisal and rationale before complete manuscript submission
+      - Commission commitments, amendments, withdrawal and follow-up evidence
+      - Linkage of commissioned work to later manuscripts or publications
+    out_of_scope:
+      - Submitted manuscript assessment, peer review and acceptance (BC-5220)
+      - Standing contributor profiles and relationship development (BC-5210)
+      - Published contributor attribution (BC-5250)
+      - Publication release and discovery (BC-5290)
+      - Generic customer relationship and notification services
+    metadata:
+      parent_id: BC-5200
+      status: Proposed
+      capability_owner: Publishing Portfolio Director
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: 2027-10-08
+      drafted_date: 2026-10-08
+      value_stream_ids: [VS-660, VS-710, VS-720]
+      linked_applications: []
+      information_objects:
+        - Commissioning opportunity
+        - Proposal appraisal
+        - Commission commitment
+        - Commission outcome record
+    children:
+      - id: BC-5200.20.10
+        name: Thematic Opportunity Development
+        level: 3
+        industry: Academic Publishing
+        description: Identifies research themes and contributions whose scholarly promise and portfolio fit warrant active commissioning.
+        references:
+          - https://www.springernature.com/gp/authors/publish-an-article/collections
+          - https://researcher-resources.acs.org/publish/special_issue
+        in_scope:
+          - Theme and programme opportunity case
+        out_of_scope:
+          - Published-work subject tagging (BC-5250)
+          - Generic market metrics (BC-5310)
+        metadata:
+          parent_id: BC-5200.20
+          status: Proposed
+          capability_owner: Publishing Portfolio Director
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-710, VS-720]
+          linked_applications: []
+          information_objects:
+            - Theme opportunity
+        children: []
+      - id: BC-5200.20.20
+        name: Commission Prospect Management
+        level: 3
+        industry: Academic Publishing
+        description: Maintains evidence of contributor suitability for a prospective work and the history of its solicitation, invitation and response. It applies to books, series, proceedings and commissioned collection contributions without taking over standing relationship profiles.
+        references:
+          - https://asset.routledge.com/rt-files/AUTHOR/Guidelines/Proposal+guidelines.pdf
+          - https://researcher-resources.acs.org/publish/special_issue
+        in_scope:
+          - Prospective contributor and topic-fit assessment
+          - Solicitation and invitation history, responses and follow-up context
+        out_of_scope:
+          - Standing contributor profiles and expertise (BC-5210)
+          - Review invitations for submitted manuscripts (BC-5220)
+          - Bulk messaging services
+        metadata:
+          parent_id: BC-5200.20
+          status: Proposed
+          capability_owner: Publishing Portfolio Director
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-710, VS-720]
+          linked_applications: []
+          information_objects:
+            - Commission prospect
+            - Invitation history
+        children: []
+      - id: BC-5200.20.30
+        name: Proposal Appraisal
+        level: 3
+        industry: Academic Publishing
+        description: Preserves versions of a proposal or synopsis, expert input, revisions and the rationale for commissioning a proposed work before a complete manuscript is submitted. Appraisal may end in a declined or revised proposal without becoming a submitted-work decision.
+        references:
+          - https://asset.routledge.com/rt-files/AUTHOR/Guidelines/Proposal+guidelines.pdf
+          - https://www.cambridge.org/core/services/aop-file-manager/file/5a1eb62839b03b2b0605becf/Refreshed-Guide-Peer-Review-Books.pdf
+        in_scope:
+          - Proposal and synopsis version history
+          - Scholarly, audience and list-fit appraisal with outcome rationale
+        out_of_scope:
+          - Assessment or acceptance of a submitted complete manuscript (BC-5220)
+          - Integrity investigations (BC-5230)
+        metadata:
+          parent_id: BC-5200.20
+          status: Proposed
+          capability_owner: Publishing Portfolio Director
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-710, VS-720]
+          linked_applications: []
+          information_objects:
+            - Proposal version
+            - Proposal appraisal decision
+        children: []
+      - id: BC-5200.20.40
+        name: Commission Commitment Management
+        level: 3
+        industry: Academic Publishing
+        description: Stewards the scholarly deliverable, expected contribution and timing agreed for a commission, including changes, lapses and withdrawal. It retains the commitment regardless of the channel used to submit eventual work.
+        references:
+          - https://asset.routledge.com/rt-files/AUTHOR/Guidelines/Proposal+guidelines.pdf
+          - https://www.cambridge.org/core/services/aop-file-manager/file/5a1eb62839b03b2b0605becf/Refreshed-Guide-Peer-Review-Books.pdf
+        in_scope:
+          - Agreed commissioning scope and delivery expectations
+          - Commitment changes, lapse and withdrawal history
+        out_of_scope:
+          - Incoming copyright or reuse terms (BC-5260)
+          - Payment and royalty accounting (BC-200)
+          - Submitted manuscript decisions (BC-5220)
+        metadata:
+          parent_id: BC-5200.20
+          status: Proposed
+          capability_owner: Publishing Portfolio Director
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-710, VS-720]
+          linked_applications: []
+          information_objects:
+            - Commission commitment
+            - Commission change record
+        children: []
+      - id: BC-5200.20.50
+        name: Commission Record Stewardship
+        level: 3
+        industry: Academic Publishing
+        description: Maintains continuity of the commissioning case from invitation and proposal through commitments, relevant correspondence and final disposition. It links the commissioned work to any later submission or publication without owning those records or treating follow-up as generic notifications.
+        references:
+          - https://asset.routledge.com/rt-files/AUTHOR/Guidelines/Proposal+guidelines.pdf
+          - https://researcher-resources.acs.org/publish/special_issue
+        in_scope:
+          - Commission correspondence and follow-up context
+          - Link from commission to later manuscript or publication, including unfulfilled outcomes
+          - Evidence of fulfilled, declined or withdrawn commissions
+        out_of_scope:
+          - Submitted manuscript case and editorial decision (BC-5220)
+          - Publication identifiers and bibliographic relationships (BC-5250)
+          - Publication delivery (BC-5290) and usage measurement (BC-5310)
+          - Generic customer relationship or notification platform
+        metadata:
+          parent_id: BC-5200.20
+          status: Proposed
+          capability_owner: Publishing Portfolio Director
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-710, VS-720]
+          linked_applications: []
+          information_objects:
+            - Commission case
+            - Commission outcome evidence
+            - Manuscript or publication cross-reference
+        children: []
+  - id: BC-5200.30
+    name: Scholarly Collection Management
+    level: 2
+    industry: Academic Publishing
+    description: Governs the scholarly remit, composition, guest participation and lifecycle of thematic collections across one or more titles. It covers both invited or open calls for new work and retrospective curation of previously published work without changing the editorial decision on any submission.
+    references:
+      - https://researcher-resources.acs.org/publish/special_issue
+      - https://www.springernature.com/gp/authors/publish-an-article/collections
+      - https://publicationethics.org/guidance/guideline/guest-edited-collections
+    in_scope:
+      - Collection remit, eligibility and duration
+      - Curated membership and change history for new and previously published work
+      - Guest editor role and collection-specific oversight
+      - Collection continuation, closure and withdrawal decisions
+    out_of_scope:
+      - Editorial assessment and acceptance of submitted work (BC-5220)
+      - Standing guest editor relationship profile (BC-5210)
+      - Publication subject metadata (BC-5250)
+      - Collection release and reader-facing discovery (BC-5290)
+      - Usage and impact reporting (BC-5310)
+      - Commercial access bundles (BC-5280)
+    metadata:
+      parent_id: BC-5200
+      status: Proposed
+      capability_owner: Publishing Portfolio Director
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: 2027-10-08
+      drafted_date: 2026-10-08
+      value_stream_ids: [VS-660, VS-710, VS-720]
+      linked_applications: []
+      information_objects:
+        - Collection charter
+        - Collection membership register
+        - Guest editor remit
+        - Collection lifecycle decision
+    children:
+      - id: BC-5200.30.10
+        name: Collection Remit Governance
+        level: 3
+        industry: Academic Publishing
+        description: Defines and maintains the theme, eligibility, intended contribution and boundaries of a scholarly collection, whether it solicits new work or curates existing publications.
+        references:
+          - https://researcher-resources.acs.org/publish/special_issue
+          - https://www.springernature.com/gp/authors/publish-an-article/collections
+        in_scope:
+          - Collection charter, thematic scope and inclusion criteria
+          - Approved collection remit
+        out_of_scope:
+          - Title-wide subject positioning (BC-5200.10)
+          - Subject classification of a publication (BC-5250)
+        metadata:
+          parent_id: BC-5200.30
+          status: Proposed
+          capability_owner: Publishing Portfolio Director
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-710, VS-720]
+          linked_applications: []
+          information_objects:
+            - Collection charter
+        children: []
+      - id: BC-5200.30.20
+        name: Collection Membership Stewardship
+        level: 3
+        industry: Academic Publishing
+        description: Maintains the accountable record of works included in a thematic collection, their thematic fit and changes in membership. Retrospective selection from already published work is included; selection never substitutes for editorial acceptance or changes the scholarly record.
+        references:
+          - https://researcher-resources.acs.org/publish/special_issue
+          - https://publicationethics.org/guidance/guideline/guest-edited-collections
+        in_scope:
+          - Curated membership register and rationale
+          - Membership changes for new or previously published work
+        out_of_scope:
+          - Manuscript merit review or acceptance (BC-5220)
+          - Bibliographic identifiers and attribution (BC-5250)
+          - Reader-facing collection placement (BC-5290)
+        metadata:
+          parent_id: BC-5200.30
+          status: Proposed
+          capability_owner: Publishing Portfolio Director
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-710, VS-720]
+          linked_applications: []
+          information_objects:
+            - Collection membership register
+        children: []
+      - id: BC-5200.30.30
+        name: Collection Participation Governance
+        level: 3
+        industry: Academic Publishing
+        description: Defines guest editor remit, suitability and collection-specific responsibilities while retaining publisher oversight of scholarly scope and ethics. Standing contributor relationships and individual manuscript review remain elsewhere.
+        references:
+          - https://researcher-resources.acs.org/publish/special_issue
+          - https://publicationethics.org/guidance/guideline/guest-edited-collections
+        in_scope:
+          - Guest editor suitability and collection-specific remit
+          - Oversight expectations and participation changes
+        out_of_scope:
+          - Standing editor recruitment and relationship history (BC-5210)
+          - Peer review and individual manuscript conflicts (BC-5220)
+          - Publication integrity case decisions (BC-5230)
+        metadata:
+          parent_id: BC-5200.30
+          status: Proposed
+          capability_owner: Publishing Portfolio Director
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-710, VS-720]
+          linked_applications: []
+          information_objects:
+            - Guest editor remit
+            - Collection oversight record
+        children: []
+      - id: BC-5200.30.40
+        name: Collection Lifecycle Governance
+        level: 3
+        industry: Academic Publishing
+        description: Stewards the decision to establish, extend, reframe or close a thematic collection and preserves continuity of its remit and membership.
+        references:
+          - https://researcher-resources.acs.org/publish/special_issue
+          - https://www.springernature.com/gp/authors/publish-an-article/collections
+          - https://publicationethics.org/guidance/guideline/guest-edited-collections
+        in_scope:
+          - Collection opening, continuation and closure decisions
+          - Collection remit and membership continuity on change
+        out_of_scope:
+          - Title inception and closure (BC-5200.50)
+          - Release scheduling and discovery (BC-5290)
+          - Collection performance measurement (BC-5310)
+        metadata:
+          parent_id: BC-5200.30
+          status: Proposed
+          capability_owner: Publishing Portfolio Director
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-710, VS-720]
+          linked_applications: []
+          information_objects:
+            - Collection lifecycle decision
+        children: []
+  - id: BC-5200.40
+    name: Publishing Partnership Management
+    level: 2
+    industry: Academic Publishing
+    description: Establishes the publishing remit, stewardship expectations and portfolio fit of society, academy and other scholarly partner arrangements.
+    references:
+      - https://doaj.org/apply/transparency/
+      - https://www.doabooks.org/en/publishers/
+    in_scope:
+      - Society publishing remit and governance expectations
+      - Partner programme review
+    out_of_scope:
+      - Read-licence agreements (BC-5280)
+      - Contractual funding eligibility and benefits (BC-5270)
+    metadata:
+      parent_id: BC-5200
+      status: Proposed
+      capability_owner: Publishing Portfolio Director
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: 2027-10-08
+      drafted_date: 2026-10-08
+      value_stream_ids: [VS-660, VS-710, VS-720]
+      linked_applications: []
+      information_objects:
+        - Partner publishing arrangement
+        - Governance charter
+    children:
+      - id: BC-5200.40.10
+        name: Society Publishing Relationships
+        level: 3
+        industry: Academic Publishing
+        description: Maintains the publishing scope and governance relationship with scholarly societies or associations.
+        references:
+          - https://doaj.org/apply/transparency/
+        in_scope:
+          - Society title remit and partner stewardship
+        out_of_scope:
+          - Editor and reviewer individual relationships (BC-5210)
+        metadata:
+          parent_id: BC-5200.40
+          status: Proposed
+          capability_owner: Publishing Portfolio Director
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-710, VS-720]
+          linked_applications: []
+          information_objects:
+            - Society title agreement
+        children: []
+      - id: BC-5200.40.20
+        name: Programme Partnership Governance
+        level: 3
+        industry: Academic Publishing
+        description: Defines shared editorial remit, accountability and continuation criteria for co-publishing programmes.
+        references:
+          - https://www.doabooks.org/en/publishers/
+          - https://doaj.org/apply/transparency/
+        in_scope:
+          - Joint programme charter and partner review
+        out_of_scope:
+          - Copyright and reuse grants (BC-5260)
+        metadata:
+          parent_id: BC-5200.40
+          status: Proposed
+          capability_owner: Publishing Portfolio Director
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-710, VS-720]
+          linked_applications: []
+          information_objects:
+            - Partnership charter
+        children: []
+  - id: BC-5200.50
+    name: Title Lifecycle Management
+    level: 2
+    industry: Academic Publishing
+    description: Governs the creation, repositioning, continuation, merger and closure of scholarly titles while protecting the published record.
+    references:
+      - https://doaj.org/apply/transparency/
+      - https://www.doabooks.org/en/publishers/
+    in_scope:
+      - Title launch and continuation decisions
+      - Title merger, transfer or closure intent
+    out_of_scope:
+      - Custody of historical publication assets (BC-5300)
+      - Individual submission transfer (BC-5220)
+    metadata:
+      parent_id: BC-5200
+      status: Proposed
+      capability_owner: Publishing Portfolio Director
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: 2027-10-08
+      drafted_date: 2026-10-08
+      value_stream_ids: [VS-660, VS-710, VS-720]
+      linked_applications: []
+      information_objects:
+        - Title lifecycle decision
+        - Continuity plan
+    children:
+      - id: BC-5200.50.10
+        name: Title Inception Governance
+        level: 3
+        industry: Academic Publishing
+        description: Defines the remit, viability criteria and scholarly governance needed to establish a new title.
+        references:
+          - https://doaj.org/apply/transparency/
+        in_scope:
+          - Approved title proposition
+        out_of_scope:
+          - Production of individual works (BC-5240)
+        metadata:
+          parent_id: BC-5200.50
+          status: Proposed
+          capability_owner: Publishing Portfolio Director
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-710, VS-720]
+          linked_applications: []
+          information_objects:
+            - Title launch case
+        children: []
+      - id: BC-5200.50.20
+        name: Title Continuity Governance
+        level: 3
+        industry: Academic Publishing
+        description: Assesses whether an existing title remains aligned with its scholarly mission and programme commitments.
+        references:
+          - https://doaj.org/apply/transparency/
+        in_scope:
+          - Continuation or repositioning decision
+        out_of_scope:
+          - Usage reporting as a standalone capability (BC-5310)
+        metadata:
+          parent_id: BC-5200.50
+          status: Proposed
+          capability_owner: Publishing Portfolio Director
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-710, VS-720]
+          linked_applications: []
+          information_objects:
+            - Title review decision
+        children: []
+      - id: BC-5200.50.30
+        name: Title Transition Governance
+        level: 3
+        industry: Academic Publishing
+        description: Determines the portfolio treatment of merged, transferred or discontinued titles and continuity obligations.
+        references:
+          - https://doaj.org/apply/transparency/
+        in_scope:
+          - Title transition decision and continuity remit
+        out_of_scope:
+          - Archive custody and version lineage (BC-5300)
+        metadata:
+          parent_id: BC-5200.50
+          status: Proposed
+          capability_owner: Publishing Portfolio Director
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-710, VS-720]
+          linked_applications: []
+          information_objects:
+            - Title transition plan
+        children: []

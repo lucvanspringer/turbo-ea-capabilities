@@ -1,0 +1,579 @@
+id: BC-5290
+name: Scholarly Dissemination Management
+level: 1
+industry: Academic Publishing
+description: The ability to make released scholarly works available through publication channels, discovery services and reader experiences. It covers publication-channel and print-edition commitments, governed machine-consumable corpus supply, indexing participation, search and reader engagement without owning entitlement decisions or long-term preservation.
+references:
+  - https://www.doabooks.org/en/publishers/
+  - https://www.niso.org/publications/rp-9-2026-kbart
+  - https://www.editeur.org/83/Overview/
+  - https://www.w3.org/TR/WCAG22/
+  - https://dev.springernature.com/
+in_scope:
+  - Publication-channel release and fulfilment commitments
+  - Machine-consumable content supply with coverage and provenance assurance
+  - Index and discovery availability
+  - Reader search, recommendation and engagement
+out_of_scope:
+  - Publication entitlement determination (BC-5280)
+  - Metadata semantics (BC-5250)
+  - Archival preservation (BC-5300)
+  - Usage measurement (BC-5310)
+  - Generic print production and warehouse fulfilment
+metadata:
+  parent_id: null
+  status: Proposed
+  capability_owner: Director of Scholarly Dissemination
+  owner_assignment: Reference role only; adopter confirmation required
+  strategic_importance: null
+  maturity: null
+  health: null
+  assessment_note: Enterprise-specific assessment required on adoption
+  effective_date: null
+  last_reviewed_date: null
+  next_review_date: 2027-10-08
+  drafted_date: 2026-10-08
+  value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-700, VS-710, VS-730, VS-750]
+  linked_applications: []
+  information_objects:
+    - Publication Release
+    - Channel Distribution Record
+    - Discovery Listing
+children:
+  - id: BC-5290.10
+    name: Publication Release Management
+    level: 2
+    industry: Academic Publishing
+    description: The ability to control when an approved edition or manifestation becomes available across scholarly publication channels, including print-edition market commitments. It maintains release plans and availability assurance while production finalisation and archival version control remain elsewhere.
+    references:
+      - https://www.crossref.org/documentation/register-maintain-records/
+      - https://www.editeur.org/83/Overview/
+    in_scope:
+      - Release schedule by title and manifestation
+      - Channel availability state and release exceptions
+    out_of_scope:
+      - Production approval (BC-5240)
+      - Authoritative version lineage (BC-5300)
+    metadata:
+      parent_id: BC-5290
+      status: Proposed
+      capability_owner: Director of Scholarly Dissemination
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: 2027-10-08
+      drafted_date: 2026-10-08
+      value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-700, VS-710, VS-730, VS-750]
+      linked_applications: []
+      information_objects:
+        - Release Schedule
+        - Channel Availability
+    children:
+      - id: BC-5290.10.10
+        name: Channel Release Planning
+        level: 3
+        industry: Academic Publishing
+        description: The ability to establish agreed availability dates for approved scholarly editions across publisher, partner and print-edition channels without owning the production of those editions.
+        references:
+          - https://www.crossref.org/documentation/register-maintain-records/
+          - https://jats.nlm.nih.gov/
+        in_scope:
+          - Publication-channel release schedule
+        out_of_scope:
+          - Production rendition generation (BC-5240)
+        metadata:
+          parent_id: BC-5290.10
+          status: Proposed
+          capability_owner: Director of Scholarly Dissemination
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-700, VS-710, VS-730, VS-750]
+          linked_applications: []
+          information_objects:
+            - Channel Release Plan
+        children: []
+      - id: BC-5290.10.20
+        name: Release Status Assurance
+        level: 3
+        industry: Academic Publishing
+        description: The ability to reconcile intended release dates against actual publication availability and resolve exceptions across channels and manifestations, including print-edition commitments.
+        references:
+          - https://www.editeur.org/83/Overview/
+        in_scope:
+          - Cross-channel release exception and remedy
+        out_of_scope:
+          - Print factory and warehouse execution
+        metadata:
+          parent_id: BC-5290.10
+          status: Proposed
+          capability_owner: Director of Scholarly Dissemination
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-700, VS-710, VS-730, VS-750]
+          linked_applications: []
+          information_objects:
+            - Release Status Exception
+        children: []
+  - id: BC-5290.20
+    name: Channel Fulfilment Management
+    level: 2
+    industry: Academic Publishing
+    description: The ability to meet scholarly publication-delivery commitments to approved readers, partners and computational consumers. It governs supply scope and corpus completeness without operating a printing plant, generic logistics, access policy or API infrastructure.
+    references:
+      - https://www.editeur.org/83/Overview/
+      - https://jats.nlm.nih.gov/
+      - https://www.w3.org/TR/epub-a11y-11/
+      - https://dev.springernature.com/
+    in_scope:
+      - Reader and partner publication supply obligations
+      - Print-edition channel commitments and exceptions
+      - Machine-consumable corpus coverage, provenance and excluded-item evidence
+    out_of_scope:
+      - Entitlement decisions (BC-5280)
+      - Manufacturing, inventory and warehouse execution
+      - API platform operation, pricing and metering
+    metadata:
+      parent_id: BC-5290
+      status: Proposed
+      capability_owner: Director of Scholarly Dissemination
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: 2027-10-08
+      drafted_date: 2026-10-08
+      value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-700, VS-710, VS-730, VS-750]
+      linked_applications: []
+      information_objects:
+        - Channel Delivery Instruction
+        - Fulfilment Obligation
+    children:
+      - id: BC-5290.20.10
+        name: Publication Supply Obligations
+        level: 3
+        industry: Academic Publishing
+        description: The ability to honour publication supply commitments to eligible readers and distribution partners, including digital presentation and print-edition channel obligations. This does not own generic print logistics or decide reading eligibility.
+        references:
+          - https://jats.nlm.nih.gov/
+          - https://www.w3.org/TR/epub-a11y-11/
+          - https://www.w3.org/TR/WCAG22/
+          - https://www.editeur.org/83/Overview/
+        in_scope:
+          - Fulfilled publication supply commitments and exceptions
+        out_of_scope:
+          - Eligibility and permit decisions (BC-5280)
+        metadata:
+          parent_id: BC-5290.20
+          status: Proposed
+          capability_owner: Director of Scholarly Dissemination
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-700, VS-710, VS-730, VS-750]
+          linked_applications: []
+          information_objects:
+            - Publication Supply Record
+        children: []
+      - id: BC-5290.20.20
+        name: Corpus Coverage Assurance
+        level: 3
+        industry: Academic Publishing
+        description: The ability to verify that a machine-consumable selection of licensed or open scholarly content has traceable work and version identifiers, rights and entitlement provenance, exclusions and completeness against the agreed corpus. APIs, bulk transfer or agent interfaces may implement supply but are not capabilities in themselves.
+        references:
+          - https://dev.springernature.com/
+          - https://dev.springernature.com/terms-conditions/
+        in_scope:
+          - Machine-consumable full-text and metadata corpus coverage
+          - Version, licence and source provenance with omissions and delivery exceptions
+        out_of_scope:
+          - Content structuring and metadata semantics (BC-5240, BC-5250)
+          - Rights grants (BC-5260) and consumer entitlement decisions (BC-5280)
+        metadata:
+          parent_id: BC-5290.20
+          status: Proposed
+          capability_owner: Director of Scholarly Dissemination
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-700, VS-710, VS-730, VS-750]
+          linked_applications: []
+          information_objects:
+            - Corpus Delivery Manifest
+            - Corpus Coverage Exception
+        children: []
+  - id: BC-5290.30
+    name: Discovery Participation Management
+    level: 2
+    industry: Academic Publishing
+    description: The ability to secure publication presence in relevant external indexes, library knowledge bases and open scholarly directories. It governs channel inclusion and availability, not the bibliographic data model or identifier registration.
+    references:
+      - https://www.doabooks.org/en/publishers/
+      - https://www.niso.org/publications/rp-9-2026-kbart
+      - https://doaj.org/apply/transparency/
+    in_scope:
+      - Index and directory participation
+      - Library discovery visibility
+      - Listing availability exceptions
+    out_of_scope:
+      - Metadata record semantics and exchange (BC-5250)
+      - Reader access rights (BC-5280)
+    metadata:
+      parent_id: BC-5290
+      status: Proposed
+      capability_owner: Director of Scholarly Dissemination
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: 2027-10-08
+      drafted_date: 2026-10-08
+      value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-700, VS-710, VS-730, VS-750]
+      linked_applications: []
+      information_objects:
+        - Discovery Channel Agreement
+        - Index Listing
+    children:
+      - id: BC-5290.30.10
+        name: Scholarly Index Participation
+        level: 3
+        industry: Academic Publishing
+        description: The ability to manage the intended inclusion and availability of publications in scholarly indexing and abstracting channels.
+        references:
+          - https://doaj.org/apply/transparency/
+          - https://www.crossref.org/documentation/register-maintain-records/
+        in_scope:
+          - Index inclusion status and exception
+        out_of_scope:
+          - Identifier registration and citation metadata deposit (BC-5250)
+        metadata:
+          parent_id: BC-5290.30
+          status: Proposed
+          capability_owner: Director of Scholarly Dissemination
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-700, VS-710, VS-730, VS-750]
+          linked_applications: []
+          information_objects:
+            - Index Participation Record
+        children: []
+      - id: BC-5290.30.20
+        name: Library Discovery Availability
+        level: 3
+        industry: Academic Publishing
+        description: The ability to monitor whether licensed and open collections are visible to library discovery services for the expected coverage.
+        references:
+          - https://www.niso.org/publications/rp-9-2026-kbart
+        in_scope:
+          - Knowledge-base listing visibility
+        out_of_scope:
+          - Title-list format and coverage exchange (BC-5250)
+        metadata:
+          parent_id: BC-5290.30
+          status: Proposed
+          capability_owner: Director of Scholarly Dissemination
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-700, VS-710, VS-730, VS-750]
+          linked_applications: []
+          information_objects:
+            - Library Discovery Listing
+        children: []
+      - id: BC-5290.30.30
+        name: Open Directory Participation
+        level: 3
+        industry: Academic Publishing
+        description: The ability to maintain appropriate presence and availability in open scholarly publication directories, including book and journal channels.
+        references:
+          - https://www.doabooks.org/en/publishers/
+          - https://doaj.org/apply/transparency/
+        in_scope:
+          - Open directory inclusion status
+        out_of_scope:
+          - Underlying open licence decisions (BC-5260)
+        metadata:
+          parent_id: BC-5290.30
+          status: Proposed
+          capability_owner: Director of Scholarly Dissemination
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-700, VS-710, VS-730, VS-750]
+          linked_applications: []
+          information_objects:
+            - Open Directory Listing
+        children: []
+  - id: BC-5290.40
+    name: Scholarly Discovery Experience
+    level: 2
+    industry: Academic Publishing
+    description: The ability to help readers find relevant publications across the available scholarly catalogue. It includes on-site search, exploration and contextual recommendation but not upstream metadata stewardship.
+    references:
+      - https://www.crossref.org/documentation/register-maintain-records/
+      - https://www.editeur.org/83/Overview/
+      - https://www.w3.org/TR/WCAG22/
+    in_scope:
+      - Publication search results
+      - Topic and collection browsing
+      - Relevant publication recommendations
+    out_of_scope:
+      - Subject classification ownership (BC-5250)
+      - Institutional usage reports (BC-5310)
+    metadata:
+      parent_id: BC-5290
+      status: Proposed
+      capability_owner: Director of Scholarly Dissemination
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: 2027-10-08
+      drafted_date: 2026-10-08
+      value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-700, VS-710, VS-730, VS-750]
+      linked_applications: []
+      information_objects:
+        - Search Result
+        - Recommendation Context
+    children:
+      - id: BC-5290.40.10
+        name: Publication Search
+        level: 3
+        industry: Academic Publishing
+        description: The ability to return relevant scholarly works from title, author, subject and full-text queries with clear availability signals.
+        references:
+          - https://www.crossref.org/documentation/register-maintain-records/
+          - https://www.w3.org/TR/WCAG22/
+        in_scope:
+          - Reader-facing scholarly search results
+        out_of_scope:
+          - Underlying bibliographic description (BC-5250)
+        metadata:
+          parent_id: BC-5290.40
+          status: Proposed
+          capability_owner: Director of Scholarly Dissemination
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-700, VS-710, VS-730, VS-750]
+          linked_applications: []
+          information_objects:
+            - Search Index Entry
+        children: []
+      - id: BC-5290.40.20
+        name: Collection Exploration
+        level: 3
+        industry: Academic Publishing
+        description: The ability to expose coherent title, topic and format pathways so readers can traverse related content.
+        references:
+          - https://www.editeur.org/83/Overview/
+          - https://www.doabooks.org/en/publishers/
+        in_scope:
+          - Browsable scholarly collection pathways
+        out_of_scope:
+          - Portfolio composition decisions (BC-5200)
+        metadata:
+          parent_id: BC-5290.40
+          status: Proposed
+          capability_owner: Director of Scholarly Dissemination
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-700, VS-710, VS-730, VS-750]
+          linked_applications: []
+          information_objects:
+            - Collection Navigation Path
+        children: []
+      - id: BC-5290.40.30
+        name: Content Recommendation
+        level: 3
+        industry: Academic Publishing
+        description: The ability to surface related works in context with transparent relevance signals and without implying editorial endorsement or quality judgement.
+        references:
+          - https://www.crossref.org/documentation/register-maintain-records/
+          - https://www.doabooks.org/en/publishers/
+        in_scope:
+          - Contextual related-publication suggestions
+        out_of_scope:
+          - Journal or article impact evaluation (BC-5310)
+        metadata:
+          parent_id: BC-5290.40
+          status: Proposed
+          capability_owner: Director of Scholarly Dissemination
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-700, VS-710, VS-730, VS-750]
+          linked_applications: []
+          information_objects:
+            - Recommendation Context
+        children: []
+  - id: BC-5290.50
+    name: Reader Engagement Management
+    level: 2
+    industry: Academic Publishing
+    description: The ability to support reader-facing interactions around released scholarly content, such as alerts and saved discovery journeys. It does not manage the author, editor or reviewer community.
+    references:
+      - https://www.w3.org/TR/WCAG22/
+      - https://www.doabooks.org/en/publishers/
+    in_scope:
+      - Publication alerts and updates
+      - Reader saved-content experience
+      - Accessible reader interaction
+    out_of_scope:
+      - Scholarly contributor relationship development (BC-5210)
+      - Aggregated engagement analysis (BC-5310)
+    metadata:
+      parent_id: BC-5290
+      status: Proposed
+      capability_owner: Director of Scholarly Dissemination
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: 2027-10-08
+      drafted_date: 2026-10-08
+      value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-700, VS-710, VS-730, VS-750]
+      linked_applications: []
+      information_objects:
+        - Reader Preference
+        - Publication Alert
+    children:
+      - id: BC-5290.50.10
+        name: Publication Alert Management
+        level: 3
+        industry: Academic Publishing
+        description: The ability to notify opted-in readers about relevant new issues, books or related publications according to their preferences.
+        references:
+          - https://www.doabooks.org/en/publishers/
+          - https://www.w3.org/TR/WCAG22/
+        in_scope:
+          - Preference-governed publication alerts
+        out_of_scope:
+          - Contributor recruitment communications (BC-5210)
+        metadata:
+          parent_id: BC-5290.50
+          status: Proposed
+          capability_owner: Director of Scholarly Dissemination
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-700, VS-710, VS-730, VS-750]
+          linked_applications: []
+          information_objects:
+            - Publication Alert Preference
+        children: []
+      - id: BC-5290.50.20
+        name: Reader Journey Support
+        level: 3
+        industry: Academic Publishing
+        description: The ability to let readers retain and return to discovered works through usable, accessible interactions.
+        references:
+          - https://www.w3.org/TR/WCAG22/
+          - https://www.w3.org/TR/epub-a11y-11/
+        in_scope:
+          - Saved reading and discovery context
+        out_of_scope:
+          - Permanent personal identity service (BC-620.20)
+        metadata:
+          parent_id: BC-5290.50
+          status: Proposed
+          capability_owner: Director of Scholarly Dissemination
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-700, VS-710, VS-730, VS-750]
+          linked_applications: []
+          information_objects:
+            - Saved Publication List
+        children: []

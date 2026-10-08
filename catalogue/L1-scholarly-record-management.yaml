@@ -1,0 +1,624 @@
+id: BC-5300
+name: Scholarly Record Management
+level: 1
+industry: Academic Publishing
+description: The ability to steward the authoritative assets, version relationships and long-term continuity of published scholarly works. It retains evidence of what was published and applies approved amendments while distinguishing live hosting, operational backup and durable preservation.
+references:
+  - https://www.crossref.org/documentation/register-maintain-records/
+  - https://clockss.org/
+  - https://publicationethics.org/guidance/guideline/retraction-guidelines
+  - https://www.niso.org/standards-committees/transfer
+in_scope:
+  - Authoritative publication asset custody
+  - Version and manifestation lineage
+  - Archival preservation
+  - Approved record-amendment implementation
+out_of_scope:
+  - Integrity findings and amendment decisions (BC-5230)
+  - Production transformations (BC-5240)
+  - Bibliographic metadata semantics (BC-5250)
+  - Reading licence entitlement (BC-5280)
+metadata:
+  parent_id: null
+  status: Proposed
+  capability_owner: Director of Scholarly Record
+  owner_assignment: Reference role only; adopter confirmation required
+  strategic_importance: null
+  maturity: null
+  health: null
+  assessment_note: Enterprise-specific assessment required on adoption
+  effective_date: null
+  last_reviewed_date: null
+  next_review_date: 2027-10-08
+  drafted_date: 2026-10-08
+  value_stream_ids: [VS-670, VS-680, VS-690, VS-700, VS-710, VS-750]
+  linked_applications: []
+  information_objects:
+    - Publication Master Asset
+    - Version Lineage
+    - Preservation Deposit
+children:
+  - id: BC-5300.10
+    name: Publication Asset Stewardship
+    level: 2
+    industry: Academic Publishing
+    description: The ability to maintain the authoritative publication files and related packages from which released and preserved manifestations can be identified. It governs custody and integrity of assets, not editing or format creation.
+    references:
+      - https://jats.nlm.nih.gov/
+      - https://www.w3.org/TR/epub-a11y-11/
+      - https://clockss.org/
+    in_scope:
+      - Master publication asset custody
+      - Package inventory and integrity evidence
+    out_of_scope:
+      - Copyediting and rendition production (BC-5240)
+      - Live reader delivery (BC-5290)
+    metadata:
+      parent_id: BC-5300
+      status: Proposed
+      capability_owner: Director of Scholarly Record
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: 2027-10-08
+      drafted_date: 2026-10-08
+      value_stream_ids: [VS-670, VS-680, VS-690, VS-700, VS-710, VS-750]
+      linked_applications: []
+      information_objects:
+        - Publication Master Asset
+        - Asset Manifest
+    children:
+      - id: BC-5300.10.10
+        name: Master Asset Custody
+        level: 3
+        industry: Academic Publishing
+        description: The ability to identify and protect the authoritative files for each released publication and its constituent parts.
+        references:
+          - https://jats.nlm.nih.gov/
+          - https://clockss.org/
+        in_scope:
+          - Controlled master asset set
+        out_of_scope:
+          - Creation of publication renditions (BC-5240)
+        metadata:
+          parent_id: BC-5300.10
+          status: Proposed
+          capability_owner: Director of Scholarly Record
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-670, VS-680, VS-690, VS-700, VS-710, VS-750]
+          linked_applications: []
+          information_objects:
+            - Master Asset Record
+        children: []
+      - id: BC-5300.10.20
+        name: Publication Package Integrity
+        level: 3
+        industry: Academic Publishing
+        description: The ability to maintain file manifests and integrity evidence for publication packages so that later replacement or corruption is detectable.
+        references:
+          - https://clockss.org/
+          - https://jats.nlm.nih.gov/
+        in_scope:
+          - Publication package integrity evidence
+        out_of_scope:
+          - Editorial correctness assessment (BC-5220)
+        metadata:
+          parent_id: BC-5300.10
+          status: Proposed
+          capability_owner: Director of Scholarly Record
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-670, VS-680, VS-690, VS-700, VS-710, VS-750]
+          linked_applications: []
+          information_objects:
+            - Package Manifest
+        children: []
+      - id: BC-5300.10.30
+        name: Asset Provenance Control
+        level: 3
+        industry: Academic Publishing
+        description: The ability to establish origin and custody history for accepted publication assets across releases and preservation hand-offs.
+        references:
+          - https://clockss.org/
+          - https://www.crossref.org/documentation/register-maintain-records/
+        in_scope:
+          - Traceable publication asset provenance
+        out_of_scope:
+          - Authorship misconduct findings (BC-5230)
+        metadata:
+          parent_id: BC-5300.10
+          status: Proposed
+          capability_owner: Director of Scholarly Record
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-670, VS-680, VS-690, VS-700, VS-710, VS-750]
+          linked_applications: []
+          information_objects:
+            - Asset Provenance Record
+        children: []
+  - id: BC-5300.20
+    name: Publication Version Lineage
+    level: 2
+    industry: Academic Publishing
+    description: The ability to preserve relationships among pre-release, released and amended versions, and among formats of a scholarly work. It makes the authoritative version and its successors identifiable without deciding whether a correction is warranted.
+    references:
+      - https://www.crossref.org/documentation/register-maintain-records/
+      - https://publicationethics.org/guidance/guideline/retraction-guidelines
+    in_scope:
+      - Version-of-record and successor relationships
+      - Format and edition manifestation relationships
+    out_of_scope:
+      - Retraction or correction judgement (BC-5230)
+      - Rendition transformation (BC-5240)
+    metadata:
+      parent_id: BC-5300
+      status: Proposed
+      capability_owner: Director of Scholarly Record
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: 2027-10-08
+      drafted_date: 2026-10-08
+      value_stream_ids: [VS-670, VS-680, VS-690, VS-700, VS-710, VS-750]
+      linked_applications: []
+      information_objects:
+        - Version Lineage
+        - Manifestation Relationship
+    children:
+      - id: BC-5300.20.10
+        name: Version Of Record Lineage
+        level: 3
+        industry: Academic Publishing
+        description: The ability to track the authoritative published version and its superseding versions with durable relationship evidence.
+        references:
+          - https://www.crossref.org/documentation/register-maintain-records/
+          - https://publicationethics.org/guidance/guideline/retraction-guidelines
+        in_scope:
+          - Published version and successor lineage
+        out_of_scope:
+          - Content revision authoring (BC-5240)
+        metadata:
+          parent_id: BC-5300.20
+          status: Proposed
+          capability_owner: Director of Scholarly Record
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-670, VS-680, VS-690, VS-700, VS-710, VS-750]
+          linked_applications: []
+          information_objects:
+            - Version Relationship
+        children: []
+      - id: BC-5300.20.20
+        name: Manifestation Relationship Control
+        level: 3
+        industry: Academic Publishing
+        description: The ability to relate print, electronic and accessible manifestations to the same work and to their respective editions.
+        references:
+          - https://www.editeur.org/83/Overview/
+          - https://www.w3.org/TR/epub-a11y-11/
+        in_scope:
+          - Edition and format lineage
+        out_of_scope:
+          - Book product description (BC-5250)
+        metadata:
+          parent_id: BC-5300.20
+          status: Proposed
+          capability_owner: Director of Scholarly Record
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-670, VS-680, VS-690, VS-700, VS-710, VS-750]
+          linked_applications: []
+          information_objects:
+            - Manifestation Relationship
+        children: []
+      - id: BC-5300.20.30
+        name: Supplementary Asset Lineage
+        level: 3
+        industry: Academic Publishing
+        description: The ability to preserve the association between a publication and its released supplements as these change over time.
+        references:
+          - https://www.crossref.org/documentation/register-maintain-records/
+          - https://jats.nlm.nih.gov/
+        in_scope:
+          - Supplement-to-work version relationships
+        out_of_scope:
+          - Research data repository stewardship outside publisher scope
+        metadata:
+          parent_id: BC-5300.20
+          status: Proposed
+          capability_owner: Director of Scholarly Record
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-670, VS-680, VS-690, VS-700, VS-710, VS-750]
+          linked_applications: []
+          information_objects:
+            - Supplement Lineage
+        children: []
+  - id: BC-5300.30
+    name: Archival Preservation Management
+    level: 2
+    industry: Academic Publishing
+    description: The ability to ensure that scholarly works and their essential representation information remain usable beyond a live delivery platform. It governs durable preservation copies, integrity checks and recovery evidence rather than routine operational backup.
+    references:
+      - https://clockss.org/
+    in_scope:
+      - Long-term preservation deposits
+      - Fixity and recoverability assurance
+      - Preservation continuity across platform changes
+    out_of_scope:
+      - Live hosting and reader delivery (BC-5290)
+      - Routine disaster-recovery backup alone
+    metadata:
+      parent_id: BC-5300
+      status: Proposed
+      capability_owner: Director of Scholarly Record
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: 2027-10-08
+      drafted_date: 2026-10-08
+      value_stream_ids: [VS-670, VS-680, VS-690, VS-700, VS-710, VS-750]
+      linked_applications: []
+      information_objects:
+        - Preservation Deposit
+        - Fixity Evidence
+    children:
+      - id: BC-5300.30.10
+        name: Preservation Deposit Management
+        level: 3
+        industry: Academic Publishing
+        description: The ability to maintain complete, traceable deposits of eligible works and formats with long-term archival partners or repositories.
+        references:
+          - https://clockss.org/
+        in_scope:
+          - Accepted archival deposit and coverage evidence
+        out_of_scope:
+          - Read-licence post-cancellation eligibility (BC-5280)
+        metadata:
+          parent_id: BC-5300.30
+          status: Proposed
+          capability_owner: Director of Scholarly Record
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-670, VS-680, VS-690, VS-700, VS-710, VS-750]
+          linked_applications: []
+          information_objects:
+            - Archival Deposit Receipt
+        children: []
+      - id: BC-5300.30.20
+        name: Preservation Integrity Assurance
+        level: 3
+        industry: Academic Publishing
+        description: The ability to detect damaged or missing preservation copies and sustain recoverability over time.
+        references:
+          - https://clockss.org/
+        in_scope:
+          - Fixity assessment and remediation evidence
+        out_of_scope:
+          - Short-term operational backup verification
+        metadata:
+          parent_id: BC-5300.30
+          status: Proposed
+          capability_owner: Director of Scholarly Record
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-670, VS-680, VS-690, VS-700, VS-710, VS-750]
+          linked_applications: []
+          information_objects:
+            - Preservation Fixity Record
+        children: []
+      - id: BC-5300.30.30
+        name: Archival Continuity Planning
+        level: 3
+        industry: Academic Publishing
+        description: The ability to maintain a continuity route for preserved works if a publisher channel becomes unavailable, subject to applicable release conditions.
+        references:
+          - https://clockss.org/
+        in_scope:
+          - Preserved-work continuity arrangements
+        out_of_scope:
+          - Grant of reuse or reading rights (BC-5260; BC-5280)
+        metadata:
+          parent_id: BC-5300.30
+          status: Proposed
+          capability_owner: Director of Scholarly Record
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-670, VS-680, VS-690, VS-700, VS-710, VS-750]
+          linked_applications: []
+          information_objects:
+            - Archival Continuity Plan
+        children: []
+  - id: BC-5300.40
+    name: Scholarly Record Amendment
+    level: 2
+    industry: Academic Publishing
+    description: The ability to implement approved corrections, retractions and other public notices while preserving the original record and links among versions. It does not investigate allegations or make the underlying editorial integrity judgement.
+    references:
+      - https://publicationethics.org/guidance/guideline/retraction-guidelines
+      - https://www.crossref.org/documentation/register-maintain-records/
+    in_scope:
+      - Approved amendment notice application
+      - Notice-to-work linkage
+      - Withdrawn-record continuity
+    out_of_scope:
+      - Integrity case judgement (BC-5230)
+      - Editorial merit appeal (BC-5220)
+    metadata:
+      parent_id: BC-5300
+      status: Proposed
+      capability_owner: Director of Scholarly Record
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: 2027-10-08
+      drafted_date: 2026-10-08
+      value_stream_ids: [VS-670, VS-680, VS-690, VS-700, VS-710, VS-750]
+      linked_applications: []
+      information_objects:
+        - Record Amendment
+        - Publication Notice
+    children:
+      - id: BC-5300.40.10
+        name: Amendment Notice Application
+        level: 3
+        industry: Academic Publishing
+        description: The ability to attach and expose an approved correction, retraction or expression-of-concern notice against affected works.
+        references:
+          - https://publicationethics.org/guidance/guideline/retraction-guidelines
+        in_scope:
+          - Public amendment notice and work linkage
+        out_of_scope:
+          - Decision whether to issue a notice (BC-5230)
+        metadata:
+          parent_id: BC-5300.40
+          status: Proposed
+          capability_owner: Director of Scholarly Record
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-670, VS-680, VS-690, VS-700, VS-710, VS-750]
+          linked_applications: []
+          information_objects:
+            - Amendment Notice Link
+        children: []
+      - id: BC-5300.40.20
+        name: Corrected Version Continuity
+        level: 3
+        industry: Academic Publishing
+        description: The ability to preserve both the original and corrected publication states with explicit relationships and access to the notice.
+        references:
+          - https://publicationethics.org/guidance/guideline/retraction-guidelines
+          - https://www.crossref.org/documentation/register-maintain-records/
+        in_scope:
+          - Traceable corrected-version history
+        out_of_scope:
+          - Correction content editing and proofing (BC-5240)
+        metadata:
+          parent_id: BC-5300.40
+          status: Proposed
+          capability_owner: Director of Scholarly Record
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-670, VS-680, VS-690, VS-700, VS-710, VS-750]
+          linked_applications: []
+          information_objects:
+            - Corrected Version Record
+        children: []
+      - id: BC-5300.40.30
+        name: Withdrawn Record Continuity
+        level: 3
+        industry: Academic Publishing
+        description: The ability to retain a discoverable record and explanatory notice when access to a publication is withdrawn, consistent with an approved decision.
+        references:
+          - https://publicationethics.org/guidance/guideline/retraction-guidelines
+          - https://www.crossref.org/documentation/register-maintain-records/
+        in_scope:
+          - Persistent withdrawn-work record
+        out_of_scope:
+          - Withdrawal merits decision (BC-5230)
+          - Copyright grant conditions (BC-5260)
+        metadata:
+          parent_id: BC-5300.40
+          status: Proposed
+          capability_owner: Director of Scholarly Record
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-670, VS-680, VS-690, VS-700, VS-710, VS-750]
+          linked_applications: []
+          information_objects:
+            - Withdrawn Record Notice
+        children: []
+  - id: BC-5300.50
+    name: Publication Transfer Continuity
+    level: 2
+    industry: Academic Publishing
+    description: The ability to preserve a coherent scholarly record when a journal or publication programme changes steward. It makes asset handover and continuity evidence traceable without determining reading licences or operating the successor's delivery channel.
+    references:
+      - https://www.niso.org/standards-committees/transfer
+      - https://clockss.org/
+    in_scope:
+      - Publication asset handover inventory
+      - Historical record continuity evidence
+    out_of_scope:
+      - Continuing reader entitlements (BC-5280)
+      - Successor-channel delivery (BC-5290)
+    metadata:
+      parent_id: BC-5300
+      status: Proposed
+      capability_owner: Director of Scholarly Record
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: '2027-10-08'
+      drafted_date: '2026-10-08'
+      value_stream_ids: [VS-670, VS-680, VS-690, VS-700, VS-710, VS-750]
+      linked_applications: []
+      information_objects:
+        - Transfer Asset Inventory
+        - Record Continuity Evidence
+    children:
+      - id: BC-5300.50.10
+        name: Transfer Asset Handover
+        level: 3
+        industry: Academic Publishing
+        description: The ability to document and reconcile authoritative publication assets handed to or received from a successor steward, including missing or disputed items.
+        references:
+          - https://www.niso.org/standards-committees/transfer
+        in_scope:
+          - Reconciled transfer asset inventory
+        out_of_scope:
+          - Transfer agreement legal terms (BC-150)
+        metadata:
+          parent_id: BC-5300.50
+          status: Proposed
+          capability_owner: Director of Scholarly Record
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: '2027-10-08'
+          drafted_date: '2026-10-08'
+          value_stream_ids: [VS-670, VS-680, VS-690, VS-700, VS-710, VS-750]
+          linked_applications: []
+          information_objects:
+            - Transfer Asset Inventory
+        children: []
+      - id: BC-5300.50.20
+        name: Transferred Record Assurance
+        level: 3
+        industry: Academic Publishing
+        description: The ability to verify that historical publication versions and their notices remain accounted for across a transfer, with gaps assigned for remediation.
+        references:
+          - https://www.niso.org/standards-committees/transfer
+          - https://www.crossref.org/documentation/register-maintain-records/
+        in_scope:
+          - Transferred historical record continuity evidence
+        out_of_scope:
+          - Library access eligibility (BC-5280)
+          - Metadata registration and identifier maintenance (BC-5250)
+        metadata:
+          parent_id: BC-5300.50
+          status: Proposed
+          capability_owner: Director of Scholarly Record
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: '2027-10-08'
+          drafted_date: '2026-10-08'
+          value_stream_ids: [VS-670, VS-680, VS-690, VS-700, VS-710, VS-750]
+          linked_applications: []
+          information_objects:
+            - Transfer Continuity Exception
+        children: []
