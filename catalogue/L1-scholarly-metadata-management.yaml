@@ -1,0 +1,638 @@
+id: BC-5250
+name: Scholarly Metadata Management
+level: 1
+industry: Academic Publishing
+description: The ability to describe scholarly publications and their relationships consistently for registration, exchange and interpretation by the research and book supply chains. Covers bibliographic and product description, persistent identifiers, attribution, classification and metadata assurance; it does not control publication files or reader discovery placement.
+references:
+  - https://www.crossref.org/documentation/register-maintain-records/
+  - https://www.editeur.org/83/Overview/
+  - https://info.orcid.org/documentation/integration-guide/orcid-record/
+in_scope:
+  - Bibliographic and book-product descriptions
+  - Persistent scholarly identifiers and attribution relationships
+  - Metadata quality and interoperable records
+out_of_scope:
+  - Contributor relationship profiles (BC-5210)
+  - Publication file and archival custody (BC-5300)
+  - Discovery placement or search (BC-5290)
+  - Generic enterprise master data management (BC-610)
+metadata:
+  parent_id: null
+  status: Proposed
+  capability_owner: Director of Scholarly Metadata
+  owner_assignment: Reference role only; adopter confirmation required
+  strategic_importance: null
+  maturity: null
+  health: null
+  assessment_note: Enterprise-specific assessment required on adoption
+  effective_date: null
+  last_reviewed_date: null
+  next_review_date: 2027-10-08
+  drafted_date: 2026-10-08
+  value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-700, VS-710, VS-730, VS-740, VS-750]
+  linked_applications: []
+  information_objects:
+    - Publication Metadata Record
+    - Scholarly Identifier
+    - Attribution Relationship
+children:
+  - id: BC-5250.10
+    name: Bibliographic Description Management
+    level: 2
+    industry: Academic Publishing
+    description: The ability to maintain reliable descriptions of scholarly works, their manifestations and product forms, and bibliographic relationships across publication types. Supports interpretation of what was published without owning content assets or publication decisions.
+    references:
+      - https://www.crossref.org/documentation/register-maintain-records/
+      - https://www.editeur.org/83/Overview/
+    in_scope:
+      - Work and venue bibliographic facts across publication types
+      - Edition, manifestation and book-product attributes
+      - Relationships among publications and their constituents
+    out_of_scope:
+      - Content rendition production (BC-5240)
+      - Title portfolio decisions (BC-5200)
+    metadata:
+      parent_id: BC-5250
+      status: Proposed
+      capability_owner: Director of Scholarly Metadata
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: 2027-10-08
+      drafted_date: 2026-10-08
+      value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-700, VS-710, VS-730, VS-740, VS-750]
+      linked_applications: []
+      information_objects:
+        - Bibliographic Record
+        - Book Product Record
+    children:
+      - id: BC-5250.10.10
+        name: Publication Work Description
+        level: 3
+        industry: Academic Publishing
+        description: The ability to describe the identity and bibliographic facts of an article, book, chapter or proceedings work, including title, publication date and venue. Describes the work independent of its saleable manifestation or edition.
+        references:
+          - https://www.crossref.org/documentation/register-maintain-records/
+          - https://www.editeur.org/83/Overview/
+        in_scope:
+          - Work-level titles, dates and publication venue facts
+          - Citable article, chapter, book and proceedings descriptions
+        out_of_scope:
+          - Article editorial acceptance (BC-5220)
+          - Edition or product-format attributes (BC-5250.10.20)
+          - Channel search ranking (BC-5290)
+        metadata:
+          parent_id: BC-5250.10
+          status: Proposed
+          capability_owner: Director of Scholarly Metadata
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-700, VS-710, VS-730, VS-740, VS-750]
+          linked_applications: []
+          information_objects:
+            - Work Metadata Record
+            - Publication Venue Record
+        children: []
+      - id: BC-5250.10.20
+        name: Manifestation Product Description
+        level: 3
+        industry: Academic Publishing
+        description: The ability to describe the edition, format and product attributes of publication manifestations, including saleable book and ebook forms. Keeps format and product identity distinct from the underlying scholarly work and physical inventory.
+        references:
+          - https://www.editeur.org/83/Overview/
+        in_scope:
+          - Edition and manifestation distinctions
+          - Book and ebook product-form attributes
+        out_of_scope:
+          - Book layout production (BC-5240)
+          - Work-level bibliographic facts (BC-5250.10.10)
+          - Print inventory management
+        metadata:
+          parent_id: BC-5250.10
+          status: Proposed
+          capability_owner: Director of Scholarly Metadata
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-700, VS-710, VS-730, VS-740, VS-750]
+          linked_applications: []
+          information_objects:
+            - Product Metadata Record
+            - Edition Description
+        children: []
+      - id: BC-5250.10.30
+        name: Publication Relationship Description
+        level: 3
+        industry: Academic Publishing
+        description: The ability to express bibliographic relationships among works and their constituents, including chapter-to-book, article-to-venue and related-work links. Distinguishes these relationships from manifestation attributes and asset version history.
+        references:
+          - https://www.crossref.org/documentation/register-maintain-records/
+          - https://www.editeur.org/83/Overview/
+        in_scope:
+          - Chapter-to-book and article-to-venue relationships
+          - Related-publication descriptions
+        out_of_scope:
+          - Manifestation asset lineage (BC-5300)
+          - Scholarly relevance ranking (BC-5290)
+        metadata:
+          parent_id: BC-5250.10
+          status: Proposed
+          capability_owner: Director of Scholarly Metadata
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-700, VS-710, VS-730, VS-740, VS-750]
+          linked_applications: []
+          information_objects:
+            - Publication Relationship
+            - Related Work Record
+        children: []
+  - id: BC-5250.20
+    name: Scholarly Identifier Management
+    level: 2
+    industry: Academic Publishing
+    description: The ability to assign, maintain and reconcile persistent identifiers for publications and their scholarly context. Preserves resolvable metadata relationships while keeping hosting and long-term content custody elsewhere.
+    references:
+      - https://www.crossref.org/documentation/register-maintain-records/
+      - https://info.orcid.org/documentation/integration-guide/orcid-record/
+    in_scope:
+      - Publication identifier registration
+      - Identifier maintenance and collision prevention
+    out_of_scope:
+      - Publication hosting and release delivery (BC-5290)
+      - Enterprise-wide entity identity (BC-610)
+    metadata:
+      parent_id: BC-5250
+      status: Proposed
+      capability_owner: Director of Scholarly Metadata
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: 2027-10-08
+      drafted_date: 2026-10-08
+      value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-700, VS-710, VS-730, VS-740, VS-750]
+      linked_applications: []
+      information_objects:
+        - Identifier Register
+        - Registration Record
+    children:
+      - id: BC-5250.20.10
+        name: Publication Identifier Registration
+        level: 3
+        industry: Academic Publishing
+        description: The ability to establish persistent identifiers and registered descriptive records for scholarly outputs. Supports reliable citation of works and their constituent publications.
+        references:
+          - https://www.crossref.org/documentation/register-maintain-records/
+        in_scope:
+          - Registered publication identifiers
+          - Associated descriptive record deposits
+        out_of_scope:
+          - Content asset creation (BC-5240)
+          - Institutional authentication identifiers (BC-620.20)
+        metadata:
+          parent_id: BC-5250.20
+          status: Proposed
+          capability_owner: Director of Scholarly Metadata
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-700, VS-710, VS-730, VS-740, VS-750]
+          linked_applications: []
+          information_objects:
+            - Publication Identifier
+            - Registration Record
+        children: []
+      - id: BC-5250.20.20
+        name: Identifier Relationship Integrity
+        level: 3
+        industry: Academic Publishing
+        description: The ability to maintain correct links among identifiers assigned to scholarly works, contributors and related outputs. Prevents identifier duplication or ambiguous association as descriptions change.
+        references:
+          - https://www.crossref.org/documentation/register-maintain-records/
+          - https://info.orcid.org/documentation/integration-guide/orcid-record/
+        in_scope:
+          - Validated identifier associations
+          - Identifier discrepancy resolution
+        out_of_scope:
+          - Contributor recruitment records (BC-5210)
+          - Archive asset versioning (BC-5300)
+        metadata:
+          parent_id: BC-5250.20
+          status: Proposed
+          capability_owner: Director of Scholarly Metadata
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-700, VS-710, VS-730, VS-740, VS-750]
+          linked_applications: []
+          information_objects:
+            - Identifier Link
+            - Identifier Discrepancy
+        children: []
+  - id: BC-5250.30
+    name: Scholarly Attribution Management
+    level: 2
+    industry: Academic Publishing
+    description: The ability to represent credit and research-context relationships as structured metadata on scholarly outputs. Distinguishes accurate attribution linkage from publisher relationship development and from integrity adjudication.
+    references:
+      - https://www.crossref.org/documentation/register-maintain-records/
+      - https://info.orcid.org/documentation/integration-guide/orcid-record/
+    in_scope:
+      - Contributor, affiliation and funder associations
+      - Research-object and reference relationships
+    out_of_scope:
+      - Contributor engagement profiles (BC-5210)
+      - Authorship dispute decisions (BC-5230)
+      - Research grant administration
+    metadata:
+      parent_id: BC-5250
+      status: Proposed
+      capability_owner: Director of Scholarly Metadata
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: 2027-10-08
+      drafted_date: 2026-10-08
+      value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-700, VS-710, VS-730, VS-740, VS-750]
+      linked_applications: []
+      information_objects:
+        - Attribution Relationship
+        - Funding Attribution
+    children:
+      - id: BC-5250.30.10
+        name: Contributor Attribution Linkage
+        level: 3
+        industry: Academic Publishing
+        description: The ability to associate named scholarly contributors and their roles with a publication record and, where available, durable person identifiers. Represents credit without determining disputed authorship.
+        references:
+          - https://www.crossref.org/documentation/register-maintain-records/
+          - https://info.orcid.org/documentation/integration-guide/orcid-record/
+        in_scope:
+          - Contributor roles and identifiers on publications
+          - Accurate credit associations
+        out_of_scope:
+          - Contributor relationship management (BC-5210)
+          - Authorship integrity adjudication (BC-5230)
+        metadata:
+          parent_id: BC-5250.30
+          status: Proposed
+          capability_owner: Director of Scholarly Metadata
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-700, VS-710, VS-730, VS-740, VS-750]
+          linked_applications: []
+          information_objects:
+            - Contributor Attribution
+            - Person Identifier Link
+        children: []
+      - id: BC-5250.30.20
+        name: Affiliation And Funder Attribution
+        level: 3
+        industry: Academic Publishing
+        description: The ability to capture institutional affiliations and acknowledged funding relationships for a published work. Makes provenance interpretable without deciding author eligibility for a publishing agreement.
+        references:
+          - https://www.crossref.org/documentation/register-maintain-records/
+          - https://info.orcid.org/documentation/integration-guide/orcid-record/
+        in_scope:
+          - Affiliation and funder attribution metadata
+          - Funding acknowledgement relationships
+        out_of_scope:
+          - Institutional publishing eligibility (BC-5270)
+          - Research grant award management
+        metadata:
+          parent_id: BC-5250.30
+          status: Proposed
+          capability_owner: Director of Scholarly Metadata
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-700, VS-710, VS-730, VS-740, VS-750]
+          linked_applications: []
+          information_objects:
+            - Affiliation Attribution
+            - Funder Attribution
+        children: []
+      - id: BC-5250.30.30
+        name: Research Object Linkage
+        level: 3
+        industry: Academic Publishing
+        description: The ability to describe links from publications to cited works, data, software and other research objects where such relationships are declared. Supports meaningful scholarly connections without stewarding those external objects.
+        references:
+          - https://www.crossref.org/documentation/register-maintain-records/
+          - https://info.orcid.org/documentation/integration-guide/orcid-record/
+        in_scope:
+          - Reference and related-object associations
+          - Typed scholarly relationship metadata
+        out_of_scope:
+          - Research repository custody
+          - Publication search and recommendation (BC-5290)
+        metadata:
+          parent_id: BC-5250.30
+          status: Proposed
+          capability_owner: Director of Scholarly Metadata
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-700, VS-710, VS-730, VS-740, VS-750]
+          linked_applications: []
+          information_objects:
+            - Research Object Link
+            - Citation Relationship
+        children: []
+  - id: BC-5250.40
+    name: Subject Description Management
+    level: 2
+    industry: Academic Publishing
+    description: The ability to classify and enrich scholarly works with controlled topical and descriptive metadata. Produces interoperable subject signals, not reader-facing search placement or editorial portfolio decisions.
+    references:
+      - https://www.editeur.org/83/Overview/
+      - https://www.crossref.org/documentation/register-maintain-records/
+    in_scope:
+      - Subject categorisation
+      - Descriptive terms for works and products
+    out_of_scope:
+      - Collection composition decisions (BC-5200)
+      - Discovery ranking and merchandising (BC-5290)
+    metadata:
+      parent_id: BC-5250
+      status: Proposed
+      capability_owner: Director of Scholarly Metadata
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: 2027-10-08
+      drafted_date: 2026-10-08
+      value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-700, VS-710, VS-730, VS-740, VS-750]
+      linked_applications: []
+      information_objects:
+        - Subject Assignment
+        - Descriptive Term
+    children:
+      - id: BC-5250.40.10
+        name: Scholarly Subject Classification
+        level: 3
+        industry: Academic Publishing
+        description: The ability to assign suitable subject categories to scholarly works and book products at an appropriate level of specificity. Keeps classifications consistent across related publications.
+        references:
+          - https://www.editeur.org/83/Overview/
+          - https://www.crossref.org/documentation/register-maintain-records/
+        in_scope:
+          - Subject category assignments
+          - Cross-format subject consistency
+        out_of_scope:
+          - Editorial scope or acceptance decisions (BC-5200; BC-5220)
+          - Search recommendation logic (BC-5290)
+        metadata:
+          parent_id: BC-5250.40
+          status: Proposed
+          capability_owner: Director of Scholarly Metadata
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-700, VS-710, VS-730, VS-740, VS-750]
+          linked_applications: []
+          information_objects:
+            - Subject Assignment
+            - Classification Scheme
+        children: []
+      - id: BC-5250.40.20
+        name: Descriptive Metadata Enrichment
+        level: 3
+        industry: Academic Publishing
+        description: The ability to provide accurate abstracts, keywords and other descriptive signals for downstream interpretation. Enrichment reflects the publication rather than promising a discovery outcome.
+        references:
+          - https://www.editeur.org/83/Overview/
+          - https://www.crossref.org/documentation/register-maintain-records/
+        in_scope:
+          - Publication abstracts and keywords
+          - Consistent descriptive book-product text
+        out_of_scope:
+          - Production copyediting of full text (BC-5240)
+          - Discovery placement (BC-5290)
+        metadata:
+          parent_id: BC-5250.40
+          status: Proposed
+          capability_owner: Director of Scholarly Metadata
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-700, VS-710, VS-730, VS-740, VS-750]
+          linked_applications: []
+          information_objects:
+            - Descriptive Metadata
+            - Keyword Set
+        children: []
+  - id: BC-5250.50
+    name: Metadata Interchange Assurance
+    level: 2
+    industry: Academic Publishing
+    description: The ability to map, deposit, maintain and assure scholarly metadata for exchange with registries and book supply-chain participants. Applies across publication types without owning consumer search services or licence entitlements.
+    references:
+      - https://www.crossref.org/documentation/register-maintain-records/
+      - https://www.editeur.org/83/Overview/
+    in_scope:
+      - Recipient-ready mappings for publication, relationship and product records
+      - Deposited and refreshed metadata records
+      - Completeness and error resolution across exchanges
+    out_of_scope:
+      - Index inclusion negotiation (BC-5290)
+      - Subscription holdings coverage (BC-5280)
+      - Generic enterprise data platform operations (BC-610)
+    metadata:
+      parent_id: BC-5250
+      status: Proposed
+      capability_owner: Director of Scholarly Metadata
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: 2027-10-08
+      drafted_date: 2026-10-08
+      value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-700, VS-710, VS-730, VS-740, VS-750]
+      linked_applications: []
+      information_objects:
+        - Metadata Exchange Record
+        - Metadata Quality Exception
+    children:
+      - id: BC-5250.50.10
+        name: Metadata Exchange Mapping
+        level: 3
+        industry: Academic Publishing
+        description: The ability to express work, relationship and product descriptions in recipient-appropriate exchange records across scholarly registries and book-trade partners. Preserves edition and manifestation distinctions without governing the underlying bibliographic facts.
+        references:
+          - https://www.crossref.org/documentation/register-maintain-records/
+          - https://www.editeur.org/83/Overview/
+        in_scope:
+          - Recipient-specific publication and product record mappings
+          - Relationship and edition semantics in exchanged records
+        out_of_scope:
+          - Source bibliographic fact stewardship (BC-5250.10)
+          - Channel content delivery (BC-5290)
+          - Indexing participation decisions (BC-5290)
+        metadata:
+          parent_id: BC-5250.50
+          status: Proposed
+          capability_owner: Director of Scholarly Metadata
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-700, VS-710, VS-730, VS-740, VS-750]
+          linked_applications: []
+          information_objects:
+            - Exchange Mapping
+            - Recipient Record Specification
+        children: []
+      - id: BC-5250.50.20
+        name: Metadata Deposit Stewardship
+        level: 3
+        industry: Academic Publishing
+        description: The ability to supply mapped metadata to scholarly registries and book-trade recipients and maintain accepted deposits as source descriptions evolve. Covers deposits and refreshes for publications and products rather than book-specific transmission alone.
+        references:
+          - https://www.crossref.org/documentation/register-maintain-records/
+          - https://www.editeur.org/83/Overview/
+        in_scope:
+          - Scholarly and product metadata deposits
+          - Updates to accepted recipient records
+        out_of_scope:
+          - Physical book fulfilment (BC-5290)
+          - Book renditions (BC-5240)
+          - Rejected or inaccurate deposit remediation (BC-5250.50.30)
+        metadata:
+          parent_id: BC-5250.50
+          status: Proposed
+          capability_owner: Director of Scholarly Metadata
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-700, VS-710, VS-730, VS-740, VS-750]
+          linked_applications: []
+          information_objects:
+            - Metadata Deposit
+            - Deposit Update Record
+        children: []
+      - id: BC-5250.50.30
+        name: Metadata Quality Control
+        level: 3
+        industry: Academic Publishing
+        description: The ability to detect and resolve missing, inconsistent or stale bibliographic and attribution data before and after exchange. Reconciles rejected or erroneous deposits to the authoritative description without controlling routine transmission or publication assets.
+        references:
+          - https://www.crossref.org/documentation/register-maintain-records/
+          - https://www.editeur.org/83/Overview/
+        in_scope:
+          - Metadata completeness and consistency evidence
+          - Correction of rejected or inaccurate deposits
+        out_of_scope:
+          - Production content quality (BC-5240)
+          - Post-publication record amendment approval (BC-5230)
+        metadata:
+          parent_id: BC-5250.50
+          status: Proposed
+          capability_owner: Director of Scholarly Metadata
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-700, VS-710, VS-730, VS-740, VS-750]
+          linked_applications: []
+          information_objects:
+            - Metadata Quality Record
+            - Deposit Exception
+        children: []

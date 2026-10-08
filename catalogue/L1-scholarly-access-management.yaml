@@ -1,0 +1,429 @@
+id: BC-5280
+name: Scholarly Access Management
+level: 1
+industry: Academic Publishing
+description: The ability to establish and honour who may read each scholarly publication under institutional and individual arrangements, including durable access after cancellation. It maintains licence coverage, publication entitlements, human and delegated machine-consumer eligibility, and purpose-bound access decisions without owning identity authentication or content delivery.
+references:
+  - https://www.niso.org/publications/rp-9-2026-kbart
+  - https://www.esac-initiative.org/about/transformative-agreements/
+  - https://doaj.org/apply/transparency/
+  - https://dev.springernature.com/terms-conditions/
+in_scope:
+  - Licensed title, collection and date-range coverage
+  - Publication and beneficiary entitlements, including delegated computational consumers
+  - Continuing access obligations
+out_of_scope:
+  - Publishing funding eligibility (BC-5270)
+  - Copyright and computational reuse grants (BC-5260)
+  - Identity authentication (BC-620.20)
+  - Content delivery (BC-5290) and archive custody (BC-5300)
+metadata:
+  parent_id: null
+  status: Proposed
+  capability_owner: Director of Scholarly Access
+  owner_assignment: Reference role only; adopter confirmation required
+  strategic_importance: null
+  maturity: null
+  health: null
+  assessment_note: Enterprise-specific assessment required on adoption
+  effective_date: null
+  last_reviewed_date: null
+  next_review_date: 2027-10-08
+  drafted_date: 2026-10-08
+  value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-710, VS-730, VS-750]
+  linked_applications: []
+  information_objects:
+    - Reading Licence
+    - Holdings Coverage
+    - Publication Entitlement
+    - Delegated Consumer Entitlement
+children:
+  - id: BC-5280.10
+    name: Reading Licence Coverage Management
+    level: 2
+    industry: Academic Publishing
+    description: The ability to interpret reading permissions and holdings coverage across institutional, consortial and individual agreements. It preserves the contracted publication and time boundaries, including any permitted programmatic consumption scope, that entitlement decisions must respect.
+    references:
+      - https://www.niso.org/publications/rp-9-2026-kbart
+      - https://www.esac-initiative.org/about/transformative-agreements/
+      - https://dev.springernature.com/terms-conditions/
+    in_scope:
+      - Institutional and consortial read coverage
+      - Individual subscription coverage
+      - Contracted scope of programmatic content access
+      - Collection holdings by title and coverage period
+    out_of_scope:
+      - Publishing benefits in combined agreements (BC-5270)
+      - Outbound reuse grants (BC-5260)
+    metadata:
+      parent_id: BC-5280
+      status: Proposed
+      capability_owner: Director of Scholarly Access
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: 2027-10-08
+      drafted_date: 2026-10-08
+      value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-710, VS-730, VS-750]
+      linked_applications: []
+      information_objects:
+        - Reading Licence
+        - Coverage Schedule
+    children: []
+  - id: BC-5280.20
+    name: Publication Entitlement Catalogue
+    level: 2
+    industry: Academic Publishing
+    description: The ability to represent the reader-facing access status of individual publications and collections, joining licence coverage with release and open-availability conditions. It supplies a governed basis for access decisions without adjudicating copyright.
+    references:
+      - https://www.niso.org/publications/rp-9-2026-kbart
+      - https://doaj.org/apply/transparency/
+      - https://www.coalition-s.org/plan_s_principles/
+    in_scope:
+      - Article, chapter, book and title access status
+      - Coverage-to-publication entitlement mapping
+    out_of_scope:
+      - Licence contract interpretation (BC-5280.10)
+      - Embargo or licence-term ownership (BC-5260)
+    metadata:
+      parent_id: BC-5280
+      status: Proposed
+      capability_owner: Director of Scholarly Access
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: 2027-10-08
+      drafted_date: 2026-10-08
+      value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-710, VS-730, VS-750]
+      linked_applications: []
+      information_objects:
+        - Publication Entitlement
+        - Access Status
+    children:
+      - id: BC-5280.20.10
+        name: Licensed Publication Entitlements
+        level: 3
+        industry: Academic Publishing
+        description: The ability to map title and collection coverage to the publications and versions a licensed reader may access.
+        references:
+          - https://www.niso.org/publications/rp-9-2026-kbart
+        in_scope:
+          - Item-level licensed access status
+        out_of_scope:
+          - Rights to reproduce or translate works (BC-5260)
+        metadata:
+          parent_id: BC-5280.20
+          status: Proposed
+          capability_owner: Director of Scholarly Access
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-710, VS-730, VS-750]
+          linked_applications: []
+          information_objects:
+            - Licensed Publication Entitlement
+        children: []
+      - id: BC-5280.20.20
+        name: Open Publication Availability
+        level: 3
+        industry: Academic Publishing
+        description: The ability to classify publications that may be read without a subscription, including any applicable start date supplied by rights policy.
+        references:
+          - https://doaj.org/apply/transparency/
+          - https://www.coalition-s.org/plan_s_principles/
+        in_scope:
+          - Open reading status by publication and effective date
+        out_of_scope:
+          - Selection of open reuse licence or embargo terms (BC-5260)
+        metadata:
+          parent_id: BC-5280.20
+          status: Proposed
+          capability_owner: Director of Scholarly Access
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-710, VS-730, VS-750]
+          linked_applications: []
+          information_objects:
+            - Open Availability Status
+        children: []
+      - id: BC-5280.20.30
+        name: Entitlement Coverage Reconciliation
+        level: 3
+        industry: Academic Publishing
+        description: The ability to identify mismatches between agreed holdings and item-level access status before readers encounter missing or unintended access.
+        references:
+          - https://www.niso.org/publications/rp-9-2026-kbart
+        in_scope:
+          - Coverage exceptions and entitlement corrections
+        out_of_scope:
+          - Production asset completeness (BC-5240)
+        metadata:
+          parent_id: BC-5280.20
+          status: Proposed
+          capability_owner: Director of Scholarly Access
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-710, VS-730, VS-750]
+          linked_applications: []
+          information_objects:
+            - Entitlement Coverage Exception
+        children: []
+  - id: BC-5280.30
+    name: Beneficiary Eligibility Management
+    level: 2
+    industry: Academic Publishing
+    description: The ability to determine whether a human reader or a delegated computational consumer falls within a licensed institutional, consortial or individual beneficiary population. It governs affiliation, delegation, permitted purposes and evidence, not the technical proof of identity.
+    references:
+      - https://www.esac-initiative.org/about/transformative-agreements/
+      - https://www.niso.org/publications/rp-9-2026-kbart
+      - https://dev.springernature.com/terms-conditions/
+    in_scope:
+      - Institutional affiliation rules
+      - Consortium membership coverage
+      - Individual subscriber standing
+      - Delegated machine-consumer authority, represented beneficiary and approved purpose
+    out_of_scope:
+      - Credential authentication and federation (BC-620.20)
+      - Author publishing eligibility (BC-5270)
+      - Rights to mine, train on or redistribute content (BC-5260)
+    metadata:
+      parent_id: BC-5280
+      status: Proposed
+      capability_owner: Director of Scholarly Access
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: 2027-10-08
+      drafted_date: 2026-10-08
+      value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-710, VS-730, VS-750]
+      linked_applications: []
+      information_objects:
+        - Beneficiary Rule
+        - Affiliation Eligibility
+        - Consumer Delegation Record
+    children: []
+  - id: BC-5280.40
+    name: Access Authorisation Management
+    level: 2
+    industry: Academic Publishing
+    description: The ability to make and explain publication access decisions from the entitlement catalogue and verified beneficiary, delegation and purpose attributes. It resolves access exceptions for human and programmatic consumers without becoming an identity service or publication delivery channel.
+    references:
+      - https://www.niso.org/publications/rp-9-2026-kbart
+      - https://www.esac-initiative.org/about/transformative-agreements/
+      - https://dev.springernature.com/terms-conditions/
+    in_scope:
+      - Item-level permit or deny decisions for human and delegated computational consumers
+      - Purpose-bound access scope and expiry for delegated consumers
+      - Reasoned access exceptions
+      - Decision evidence for disputed access
+    out_of_scope:
+      - Authentication of a reader (BC-620.20)
+      - Serving publication files (BC-5290)
+      - Reuse permission or model-training rights (BC-5260)
+    metadata:
+      parent_id: BC-5280
+      status: Proposed
+      capability_owner: Director of Scholarly Access
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: 2027-10-08
+      drafted_date: 2026-10-08
+      value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-710, VS-730, VS-750]
+      linked_applications: []
+      information_objects:
+        - Access Decision
+        - Access Exception
+        - Delegated Access Scope
+    children:
+      - id: BC-5280.40.10
+        name: Publication Access Decisions
+        level: 3
+        industry: Academic Publishing
+        description: The ability to match a requested publication, beneficiary and, for delegated consumers, principal and approved purpose against applicable access terms. A machine credential or an API subscription alone does not establish permission to access every work or reuse its content.
+        references:
+          - https://www.niso.org/publications/rp-9-2026-kbart
+          - https://dev.springernature.com/terms-conditions/
+        in_scope:
+          - Permit or deny determination for requested content and approved use
+        out_of_scope:
+          - File transmission and page rendering (BC-5290)
+          - Granting computational reuse or redistribution rights (BC-5260)
+        metadata:
+          parent_id: BC-5280.40
+          status: Proposed
+          capability_owner: Director of Scholarly Access
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-710, VS-730, VS-750]
+          linked_applications: []
+          information_objects:
+            - Publication Access Decision
+        children: []
+      - id: BC-5280.40.20
+        name: Access Exception Resolution
+        level: 3
+        industry: Academic Publishing
+        description: The ability to resolve denied or unintended access caused by conflicting holdings, affiliation or entitlement evidence, with traceable correction.
+        references:
+          - https://www.niso.org/publications/rp-9-2026-kbart
+          - https://www.esac-initiative.org/about/transformative-agreements/
+        in_scope:
+          - Reader access dispute outcome
+        out_of_scope:
+          - Editorial complaint or appeal (BC-5220)
+        metadata:
+          parent_id: BC-5280.40
+          status: Proposed
+          capability_owner: Director of Scholarly Access
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-710, VS-730, VS-750]
+          linked_applications: []
+          information_objects:
+            - Access Exception Case
+        children: []
+  - id: BC-5280.50
+    name: Continuing Access Management
+    level: 2
+    industry: Academic Publishing
+    description: The ability to retain and honour contracted reading access to eligible backfiles after cancellation or transfer. It distinguishes contractual post-cancellation access from long-term preservation custody.
+    references:
+      - https://www.niso.org/publications/rp-9-2026-kbart
+      - https://clockss.org/
+      - https://www.niso.org/standards-committees/transfer
+    in_scope:
+      - Post-cancellation publication coverage
+      - Continuing access eligibility and exception evidence
+    out_of_scope:
+      - Permanent preservation and archival custody (BC-5300)
+      - Current subscription renewal accounting (BC-200)
+    metadata:
+      parent_id: BC-5280
+      status: Proposed
+      capability_owner: Director of Scholarly Access
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: 2027-10-08
+      drafted_date: 2026-10-08
+      value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-710, VS-730, VS-750]
+      linked_applications: []
+      information_objects:
+        - Continuing Access Obligation
+        - Post-Cancellation Coverage
+    children:
+      - id: BC-5280.50.10
+        name: Post-Cancellation Coverage
+        level: 3
+        industry: Academic Publishing
+        description: The ability to define which publications, volumes and years remain readable under an ended reading agreement.
+        references:
+          - https://www.niso.org/publications/rp-9-2026-kbart
+        in_scope:
+          - Retained title and coverage schedule
+        out_of_scope:
+          - Preservation of the underlying archival files (BC-5300)
+        metadata:
+          parent_id: BC-5280.50
+          status: Proposed
+          capability_owner: Director of Scholarly Access
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-710, VS-730, VS-750]
+          linked_applications: []
+          information_objects:
+            - Post-Cancellation Coverage Schedule
+        children: []
+      - id: BC-5280.50.20
+        name: Continuing Access Assurance
+        level: 3
+        industry: Academic Publishing
+        description: The ability to compare historical licence obligations with actual beneficiary entitlements and record exceptions where promised access is unavailable.
+        references:
+          - https://www.niso.org/publications/rp-9-2026-kbart
+          - https://clockss.org/
+          - https://www.niso.org/standards-committees/transfer
+        in_scope:
+          - Continuing access exception and remedy record
+        out_of_scope:
+          - Restoration of lost archival assets (BC-5300)
+        metadata:
+          parent_id: BC-5280.50
+          status: Proposed
+          capability_owner: Director of Scholarly Access
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-680, VS-690, VS-710, VS-730, VS-750]
+          linked_applications: []
+          information_objects:
+            - Continuing Access Exception
+        children: []

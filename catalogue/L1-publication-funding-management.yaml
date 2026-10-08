@@ -1,0 +1,580 @@
+id: BC-5270
+name: Publication Funding Management
+level: 1
+industry: Academic Publishing
+description: The ability to establish and apply publisher-side funding conditions for scholarly publication, including institutional publishing arrangements, author eligibility, publication charges and collective support. Covers articles, books and chapters as well as author-free funding models; reading access and financial settlement remain outside this capability.
+references:
+  - https://www.esac-initiative.org/about/transformative-agreements/
+  - https://www.coalition-s.org/plan_s_principles/
+  - https://doaj.org/apply/transparency/
+in_scope:
+  - Publication funding conditions and author-facing advice
+  - Institutional publishing eligibility and charge liability
+  - Collective, sponsor and no-author-charge funding
+  - Publication funding obligation reconciliation
+out_of_scope:
+  - Research grant award management
+  - Read entitlements under combined agreements (BC-5280)
+  - Receivables, cash collection and payments (BC-200)
+  - Publisher copyright grants (BC-5260)
+metadata:
+  parent_id: null
+  status: Proposed
+  capability_owner: Director of Open Publishing Funding
+  owner_assignment: Reference role only; adopter confirmation required
+  strategic_importance: null
+  maturity: null
+  health: null
+  assessment_note: Enterprise-specific assessment required on adoption
+  effective_date: null
+  last_reviewed_date: null
+  next_review_date: 2027-10-08
+  drafted_date: 2026-10-08
+  value_stream_ids: [VS-660, VS-670, VS-690]
+  linked_applications: []
+  information_objects:
+    - Publication Funding Condition
+    - Publishing Benefit Record
+    - Charge Liability
+    - Funding Obligation
+children:
+  - id: BC-5270.10
+    name: Publication Funding Policy
+    level: 2
+    industry: Academic Publishing
+    description: The ability to articulate the funding conditions, available routes and author-facing guidance for publication. Gives accurate information across funded and no-author-charge models without determining research grant awards.
+    references:
+      - https://www.coalition-s.org/plan_s_principles/
+      - https://doaj.org/apply/transparency/
+    in_scope:
+      - Publication funding routes and conditions
+      - Advice on charges, eligibility and waiver options
+    out_of_scope:
+      - Research grant allocation
+      - Copyright licence selection (BC-5260)
+      - Editorial acceptance (BC-5220)
+    metadata:
+      parent_id: BC-5270
+      status: Proposed
+      capability_owner: Director of Open Publishing Funding
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: 2027-10-08
+      drafted_date: 2026-10-08
+      value_stream_ids: [VS-660, VS-670, VS-690]
+      linked_applications: []
+      information_objects:
+        - Funding Policy
+        - Author Funding Guidance
+    children:
+      - id: BC-5270.10.10
+        name: Funding Condition Interpretation
+        level: 3
+        industry: Academic Publishing
+        description: The ability to represent applicable publisher-side funder and institutional publishing conditions for a proposed output. Distinguishes policy fit from guaranteeing external funder compliance.
+        references:
+          - https://www.coalition-s.org/plan_s_principles/
+          - https://www.esac-initiative.org/about/transformative-agreements/
+        in_scope:
+          - Publication funding condition record
+          - Applicable article, book and chapter route
+        out_of_scope:
+          - Research grant compliance certification
+          - Rights grant decisions (BC-5260)
+        metadata:
+          parent_id: BC-5270.10
+          status: Proposed
+          capability_owner: Director of Open Publishing Funding
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-690]
+          linked_applications: []
+          information_objects:
+            - Funding Condition
+            - Publication Funding Route
+        children: []
+      - id: BC-5270.10.20
+        name: Author Funding Guidance
+        level: 3
+        industry: Academic Publishing
+        description: The ability to explain available publishing support, possible charges and conditions to authors before financial liability is fixed. Supports informed choices without linking funding to editorial merit.
+        references:
+          - https://doaj.org/apply/transparency/
+          - https://www.coalition-s.org/plan_s_principles/
+        in_scope:
+          - Clear charge and no-charge options
+          - Author-facing publication funding guidance
+        out_of_scope:
+          - Manuscript acceptance decisions (BC-5220)
+          - Accounts receivable (BC-200)
+        metadata:
+          parent_id: BC-5270.10
+          status: Proposed
+          capability_owner: Director of Open Publishing Funding
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-690]
+          linked_applications: []
+          information_objects:
+            - Author Funding Guidance
+            - Funding Option
+        children: []
+  - id: BC-5270.20
+    name: Institutional Publishing Benefits
+    level: 2
+    industry: Academic Publishing
+    description: The ability to manage the publication-support provisions of institutional or consortial agreements and test author eligibility against them. A combined read-and-publish contract may serve both this and BC-5280; only its publishing benefit and allocation are governed here.
+    references:
+      - https://www.esac-initiative.org/about/transformative-agreements/
+    in_scope:
+      - Publishing benefit scope and limits
+      - Eligible author and publication coverage
+    out_of_scope:
+      - Reading licence and entitlement coverage (BC-5280)
+      - Master contract duplication
+      - Affiliation metadata stewardship (BC-5250)
+    metadata:
+      parent_id: BC-5270
+      status: Proposed
+      capability_owner: Director of Open Publishing Funding
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: 2027-10-08
+      drafted_date: 2026-10-08
+      value_stream_ids: [VS-660, VS-670, VS-690]
+      linked_applications: []
+      information_objects:
+        - Publishing Agreement Scope
+        - Publishing Benefit
+        - Eligibility Decision
+    children:
+      - id: BC-5270.20.10
+        name: Publishing Benefit Terms
+        level: 3
+        industry: Academic Publishing
+        description: The ability to interpret publication funding allowances, eligible output types and consumption limits within institutional arrangements. Does not manage the agreement’s reading rights.
+        references:
+          - https://www.esac-initiative.org/about/transformative-agreements/
+        in_scope:
+          - Institutional publishing benefit conditions
+          - Publishing allocation and caps
+        out_of_scope:
+          - Subscription holdings (BC-5280)
+          - Financial contract accounting (BC-200)
+        metadata:
+          parent_id: BC-5270.20
+          status: Proposed
+          capability_owner: Director of Open Publishing Funding
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-690]
+          linked_applications: []
+          information_objects:
+            - Publishing Benefit Term
+            - Publishing Allocation
+        children: []
+      - id: BC-5270.20.20
+        name: Author Eligibility Determination
+        level: 3
+        industry: Academic Publishing
+        description: The ability to determine whether an author and accepted output qualify for a publisher-side institutional publishing benefit. Uses affiliation evidence but does not own affiliation metadata itself.
+        references:
+          - https://www.esac-initiative.org/about/transformative-agreements/
+        in_scope:
+          - Agreement-specific eligibility decisions
+          - Documented exceptions and coverage reason
+        out_of_scope:
+          - Contributor profile maintenance (BC-5210)
+          - Affiliation attribution record (BC-5250)
+          - Institutional reading access (BC-5280)
+        metadata:
+          parent_id: BC-5270.20
+          status: Proposed
+          capability_owner: Director of Open Publishing Funding
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-690]
+          linked_applications: []
+          information_objects:
+            - Author Eligibility Decision
+            - Institutional Affiliation Evidence
+        children: []
+  - id: BC-5270.30
+    name: Publication Charge Management
+    level: 2
+    industry: Academic Publishing
+    description: The ability to determine publication-specific charge applicability, liability and waiver eligibility for accepted articles, books or chapters using prices and discount rules governed by BC-440. Does not set price schedules or execute billing and collection.
+    references:
+      - https://doaj.org/apply/transparency/
+      - https://www.coalition-s.org/plan_s_principles/
+    in_scope:
+      - Output-specific charge applicability under agreed funding conditions
+      - Charge liability and payer determination
+      - Publication waiver eligibility and decision evidence
+    out_of_scope:
+      - Price schedules and discount policy (BC-440.20; BC-440.30)
+      - Editorial acceptance and merit (BC-5220)
+      - Invoice posting and collection (BC-200)
+      - Royalty liabilities (BC-5260)
+    metadata:
+      parent_id: BC-5270
+      status: Proposed
+      capability_owner: Director of Open Publishing Funding
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: 2027-10-08
+      drafted_date: 2026-10-08
+      value_stream_ids: [VS-660, VS-670, VS-690]
+      linked_applications: []
+      information_objects:
+        - Charge Applicability Rule
+        - Charge Liability
+        - Waiver Decision
+    children:
+      - id: BC-5270.30.10
+        name: Publication Charge Applicability
+        level: 3
+        industry: Academic Publishing
+        description: The ability to determine whether a charge governed by the enterprise price list applies to a particular accepted publication and funding route. Distinguishes no-charge routes from charges covered by an institution or sponsor without setting the price schedule.
+        references:
+          - https://doaj.org/apply/transparency/
+          - https://www.coalition-s.org/plan_s_principles/
+        in_scope:
+          - Output-type and funding-route charge applicability
+          - No-charge versus third-party-covered classification
+        out_of_scope:
+          - Price schedule and price master governance (BC-440.20)
+          - Discount policy and rates (BC-440.30)
+          - Invoice issuance (BC-200)
+        metadata:
+          parent_id: BC-5270.30
+          status: Proposed
+          capability_owner: Director of Open Publishing Funding
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-690]
+          linked_applications: []
+          information_objects:
+            - Charge Applicability Rule
+            - Applicable Price Reference
+        children: []
+      - id: BC-5270.30.20
+        name: Charge Liability Determination
+        level: 3
+        industry: Academic Publishing
+        description: The ability to determine the liable party and applicable amount, if any, for an accepted publication using prices from BC-440 and applicable publishing benefits, sponsor coverage and waivers. Produces an obligation for finance without processing payment.
+        references:
+          - https://doaj.org/apply/transparency/
+          - https://www.esac-initiative.org/about/transformative-agreements/
+        in_scope:
+          - Publication charge liability and payer record
+          - Institutional or sponsor coverage offsets
+        out_of_scope:
+          - Price list setting (BC-440.20)
+          - Editorial quality decisions (BC-5220)
+          - Cash collection (BC-200)
+        metadata:
+          parent_id: BC-5270.30
+          status: Proposed
+          capability_owner: Director of Open Publishing Funding
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-690]
+          linked_applications: []
+          information_objects:
+            - Charge Liability
+            - Coverage Determination
+        children: []
+      - id: BC-5270.30.30
+        name: Publication Waiver Eligibility
+        level: 3
+        industry: Academic Publishing
+        description: The ability to decide whether an accepted publication qualifies for a waiver or reduction under documented publication-funding conditions. Records eligibility and approval evidence while sourcing discount rules and rates from BC-440.
+        references:
+          - https://doaj.org/apply/transparency/
+          - https://www.coalition-s.org/plan_s_principles/
+        in_scope:
+          - Publication-specific waiver or reduction eligibility
+          - Exception rationale and approval evidence
+        out_of_scope:
+          - Discount policies, tiers and rates (BC-440.30)
+          - Peer review decisions (BC-5220)
+          - Credit notes and refunds (BC-200)
+        metadata:
+          parent_id: BC-5270.30
+          status: Proposed
+          capability_owner: Director of Open Publishing Funding
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-690]
+          linked_applications: []
+          information_objects:
+            - Waiver Eligibility Decision
+            - Charge Adjustment Evidence
+        children: []
+  - id: BC-5270.40
+    name: Collective Publishing Support
+    level: 2
+    industry: Academic Publishing
+    description: The ability to establish publication support that is not predicated on an individual author charge, including collective, society and sponsor-backed arrangements. Tracks support coverage and commitments separately from read-licence access.
+    references:
+      - https://www.esac-initiative.org/about/transformative-agreements/
+      - https://www.coalition-s.org/plan_s_principles/
+    in_scope:
+      - Collective support for open publications
+      - Sponsor or institution-backed book and journal support
+    out_of_scope:
+      - Society publishing portfolio partnership strategy (BC-5200)
+      - Library reading entitlements (BC-5280)
+      - Donor cash accounting (BC-200)
+    metadata:
+      parent_id: BC-5270
+      status: Proposed
+      capability_owner: Director of Open Publishing Funding
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: 2027-10-08
+      drafted_date: 2026-10-08
+      value_stream_ids: [VS-660, VS-670, VS-690]
+      linked_applications: []
+      information_objects:
+        - Collective Funding Arrangement
+        - Sponsor Commitment
+    children:
+      - id: BC-5270.40.10
+        name: Collective Funding Model Governance
+        level: 3
+        industry: Academic Publishing
+        description: The ability to govern programme-level funding conditions for publication without a per-output charge to an author or institution. Defines the collective support model and its coverage independently of any particular sponsor's commitment.
+        references:
+          - https://www.coalition-s.org/plan_s_principles/
+          - https://www.esac-initiative.org/about/transformative-agreements/
+        in_scope:
+          - Diamond and collective no-author-charge funding conditions
+          - Programme-level publication support model
+        out_of_scope:
+          - Individual sponsor commitment evidence (BC-5270.40.20)
+          - Individual publication fee billing (BC-200)
+          - Reader entitlement (BC-5280)
+        metadata:
+          parent_id: BC-5270.40
+          status: Proposed
+          capability_owner: Director of Open Publishing Funding
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-690]
+          linked_applications: []
+          information_objects:
+            - Collective Funding Model
+            - Programme Funding Conditions
+        children: []
+      - id: BC-5270.40.20
+        name: Sponsor Publishing Commitments
+        level: 3
+        industry: Academic Publishing
+        description: The ability to maintain specific financial support commitments from sponsors and partners for publication programmes, books or outputs. Records the supporter, obligated scope and commitment independently of programme-level funding-model design.
+        references:
+          - https://www.coalition-s.org/plan_s_principles/
+          - https://www.esac-initiative.org/about/transformative-agreements/
+        in_scope:
+          - Sponsor funding commitments
+          - Supported publication scope
+        out_of_scope:
+          - Research grant administration
+          - Read licence agreement terms (BC-5280)
+          - Financial settlement (BC-200)
+        metadata:
+          parent_id: BC-5270.40
+          status: Proposed
+          capability_owner: Director of Open Publishing Funding
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-690]
+          linked_applications: []
+          information_objects:
+            - Sponsor Commitment
+            - Supported Publication Scope
+        children: []
+  - id: BC-5270.50
+    name: Funding Obligation Reconciliation
+    level: 2
+    industry: Academic Publishing
+    description: The ability to reconcile published output, eligibility and funding commitments to the publisher-side publication obligations they create. Provides interpretable exceptions and evidence for institutional reporting and finance without duplicating accounting records.
+    references:
+      - https://www.esac-initiative.org/about/transformative-agreements/
+      - https://doaj.org/apply/transparency/
+    in_scope:
+      - Agreement publishing allowance usage
+      - Unfunded or misallocated output exceptions
+      - Support obligation reporting
+    out_of_scope:
+      - Normalised usage metrics (BC-5310)
+      - General ledger and receivables (BC-200)
+      - Reading access reconciliation (BC-5280)
+    metadata:
+      parent_id: BC-5270
+      status: Proposed
+      capability_owner: Director of Open Publishing Funding
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: 2027-10-08
+      drafted_date: 2026-10-08
+      value_stream_ids: [VS-660, VS-670, VS-690]
+      linked_applications: []
+      information_objects:
+        - Publishing Allocation Ledger
+        - Funding Exception
+    children:
+      - id: BC-5270.50.10
+        name: Publishing Allocation Reconciliation
+        level: 3
+        industry: Academic Publishing
+        description: The ability to compare eligible accepted outputs against agreement publishing benefits and limits. Identifies consumed benefits, unused allowance and exceptions for publication funding stewardship.
+        references:
+          - https://www.esac-initiative.org/about/transformative-agreements/
+        in_scope:
+          - Publishing benefit consumption evidence
+          - Allocation discrepancies
+        out_of_scope:
+          - Journal readership usage reporting (BC-5310)
+          - Read holdings usage (BC-5280)
+        metadata:
+          parent_id: BC-5270.50
+          status: Proposed
+          capability_owner: Director of Open Publishing Funding
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-690]
+          linked_applications: []
+          information_objects:
+            - Publishing Allocation Ledger
+            - Allocation Exception
+        children: []
+      - id: BC-5270.50.20
+        name: Funding Exception Resolution
+        level: 3
+        industry: Academic Publishing
+        description: The ability to explain and resolve unmatched, ineligible or unfunded publication cases against agreed support conditions. Changes funding disposition without reopening editorial acceptance.
+        references:
+          - https://www.esac-initiative.org/about/transformative-agreements/
+          - https://doaj.org/apply/transparency/
+        in_scope:
+          - Publication funding exception decisions
+          - Corrected funding allocation evidence
+        out_of_scope:
+          - Editorial appeal (BC-5220)
+          - Cash adjustment posting (BC-200)
+        metadata:
+          parent_id: BC-5270.50
+          status: Proposed
+          capability_owner: Director of Open Publishing Funding
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-660, VS-670, VS-690]
+          linked_applications: []
+          information_objects:
+            - Funding Exception
+            - Resolution Record
+        children: []

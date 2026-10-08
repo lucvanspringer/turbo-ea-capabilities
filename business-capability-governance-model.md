@@ -418,6 +418,22 @@ Where an industry reference framework exists, anchor the upper levels (L1 / L2) 
 - **IEC 61511** — safety instrumented systems.
 - **HAZOP / HAZID** — process hazard reviews.
 
+**Academic Publishing**
+
+These sources inform the proposed publisher-side capability scopes; they are not a single complete capability framework. The decomposition is original reference-model synthesis, not certification, regulatory advice or endorsement by the source organisations. Detailed adoption boundaries and source limitations are in [`catalogue/_academic-publishing.md`](catalogue/_academic-publishing.md).
+
+- **COPE ethical peer-review, guest-edited collection and retraction guidance; DOAJ transparency principles**: scholarly assessment, publication ethics, editorial independence and transparent publishing policies.
+- **ACS special-issue guidance; Routledge proposal guidance; Cambridge book-proposal review guidance; public publisher collection guidance**: commissioning, proposal appraisal, guest participation and collection curation. These are contextual examples, not a universal workflow.
+- **Public API terms and TDM rights-reservation policies**: purpose-specific computational use, delegated entitlement and content-delivery obligations. Specific licence conditions are not asserted as universal law.
+- **Elicit, Scite, Scholarcy and Writefull public offering descriptions; ICMJE authorship and manuscript-preparation recommendations**: customer research comprehension, evidence synthesis, pre-submission authoring and human accountability. Vendor claims do not establish validated performance; ICMJE has a medical-journal scope.
+- **Crossref registration documentation; ORCID record schema**: persistent scholarly identity, bibliographic records, contributor attribution and research-object relationships.
+- **NISO JATS; EDItEUR ONIX for Books**: journal-article structure and book-product metadata respectively; neither is a universal production workflow.
+- **W3C EPUB Accessibility 1.1 and WCAG 2.2**: accessible publications, accessibility metadata and accessible digital presentation.
+- **ESAC transformative-agreement guidance; cOAlition S Plan S principles**: institutional publishing arrangements and applicable funder conditions. Plan S requirements are not assumed to apply to every publication or funder.
+- **NISO KBART; Directory of Open Access Books**: library knowledge-base coverage interchange and open scholarly book discovery.
+- **CLOCKSS; NISO Transfer Code of Practice**: long-term scholarly preservation and continuity of journal access when publishers change. An archive service example is not a mandated vendor.
+- **COUNTER Code of Practice; San Francisco Declaration on Research Assessment (DORA)**: normalised content-usage reporting and responsible interpretation of research metrics.
+
 **Agriculture & Food Production**
 
 - **GLOBALG.A.P. (IFA, Aquaculture, Livestock, Chain of Custody)** — farm-level good agricultural practice and chain-of-custody certification.

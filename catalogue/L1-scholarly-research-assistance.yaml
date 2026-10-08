@@ -1,0 +1,746 @@
+id: BC-5320
+name: Scholarly Research Assistance
+level: 1
+industry: Academic Publishing
+description: The ability to assist researchers in understanding and synthesising scholarly evidence and developing their own
+  pre-submission manuscripts. It preserves human responsibility, source inspectability and control of entrusted material;
+  assistance is neither authorship nor a guarantee of accuracy or publication.
+references:
+  - https://elicit.com/
+  - https://scite.ai/
+  - https://www.scholarcy.com/
+  - https://writefull.com/
+  - https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html
+in_scope:
+  - Researcher-directed evidence comprehension and synthesis
+  - Researcher-directed pre-submission writing support
+  - Reviewable and attributable assistance
+out_of_scope:
+  - Scientific research execution
+  - Scholarly discovery and recommendation (BC-5290)
+  - Publication ethics adjudication (BC-5230)
+  - Postacceptance production (BC-5240)
+  - Published record preservation (BC-5300)
+metadata:
+  parent_id: null
+  status: Proposed
+  capability_owner: Head of Scholarly Research Services
+  owner_assignment: Reference role only; adopter confirmation required
+  strategic_importance: null
+  maturity: null
+  health: null
+  assessment_note: Enterprise-specific assessment required on adoption
+  effective_date: null
+  last_reviewed_date: null
+  next_review_date: '2027-10-08'
+  drafted_date: '2026-10-08'
+  value_stream_ids: [VS-680, VS-730, VS-740]
+  linked_applications: []
+  information_objects:
+    - Research Assistance Record
+children:
+  - id: BC-5320.10
+    name: Research Context Support
+    level: 2
+    industry: Academic Publishing
+    description: The ability to help researchers articulate a question and understand its scholarly context using available
+      literature. It provides orientation for inquiry without undertaking the research or selecting a publication venue.
+    references:
+      - https://elicit.com/
+      - https://www.scholarcy.com/
+    in_scope:
+      - Question framing
+      - Conceptual orientation
+    out_of_scope:
+      - Scholarly search and recommendation (BC-5290)
+      - Scientific investigation
+    metadata:
+      parent_id: BC-5320
+      status: Proposed
+      capability_owner: Head of Scholarly Research Services
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: '2027-10-08'
+      drafted_date: '2026-10-08'
+      value_stream_ids: [VS-680, VS-730, VS-740]
+      linked_applications: []
+      information_objects:
+        - Research Question
+    children:
+      - id: BC-5320.10.10
+        name: Research Question Framing
+        level: 3
+        industry: Academic Publishing
+        description: The ability to clarify the boundaries, concepts and assumptions of a researcher-led question for engagement
+          with existing evidence.
+        references:
+          - https://elicit.com/
+        in_scope:
+          - Question scope and terminology
+        out_of_scope:
+          - Scientific hypothesis validation or experiment planning
+        metadata:
+          parent_id: BC-5320.10
+          status: Proposed
+          capability_owner: Head of Scholarly Research Services
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: '2027-10-08'
+          drafted_date: '2026-10-08'
+          value_stream_ids: [VS-680, VS-730, VS-740]
+          linked_applications: []
+          information_objects:
+            - Research Question
+        children: []
+      - id: BC-5320.10.20
+        name: Scholarly Context Orientation
+        level: 3
+        industry: Academic Publishing
+        description: The ability to explain established concepts and relationships in the literature so a researcher can situate
+          a question.
+        references:
+          - https://elicit.com/
+          - https://www.scholarcy.com/
+        in_scope:
+          - Contextual concept explanation
+        out_of_scope:
+          - Finding or ranking candidate publications (BC-5290)
+        metadata:
+          parent_id: BC-5320.10
+          status: Proposed
+          capability_owner: Head of Scholarly Research Services
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: '2027-10-08'
+          drafted_date: '2026-10-08'
+          value_stream_ids: [VS-680, VS-730, VS-740]
+          linked_applications: []
+          information_objects:
+            - Context Note
+        children: []
+  - id: BC-5320.20
+    name: Scholarly Evidence Comprehension
+    level: 2
+    industry: Academic Publishing
+    description: The ability to make selected scholarly works intelligible to a researcher, including their arguments, methods,
+      results and visual evidence. Interpretation remains provisional and traceable to the work rather than an authoritative
+      scientific judgement.
+    references:
+      - https://www.scholarcy.com/
+      - https://elicit.com/
+    in_scope:
+      - Selected-work explanation
+      - Method and figure interpretation
+    out_of_scope:
+      - Cross-publication synthesis (BC-5320.30)
+      - Published-asset production (BC-5240)
+    metadata:
+      parent_id: BC-5320
+      status: Proposed
+      capability_owner: Head of Scholarly Research Services
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: '2027-10-08'
+      drafted_date: '2026-10-08'
+      value_stream_ids: [VS-680, VS-730, VS-740]
+      linked_applications: []
+      information_objects:
+        - Interpretation Note
+    children:
+      - id: BC-5320.20.10
+        name: Publication Argument Comprehension
+        level: 3
+        industry: Academic Publishing
+        description: The ability to explain the purpose, reasoning, findings and limitations of a selected scholarly work
+          in terms a researcher can examine against the source.
+        references:
+          - https://www.scholarcy.com/
+          - https://elicit.com/
+        in_scope:
+          - Source-grounded explanation of a work
+        out_of_scope:
+          - Cross-work conclusion formation (BC-5320.30)
+        metadata:
+          parent_id: BC-5320.20
+          status: Proposed
+          capability_owner: Head of Scholarly Research Services
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: '2027-10-08'
+          drafted_date: '2026-10-08'
+          value_stream_ids: [VS-680, VS-730, VS-740]
+          linked_applications: []
+          information_objects:
+            - Publication Explanation
+        children: []
+      - id: BC-5320.20.20
+        name: Research Method Comprehension
+        level: 3
+        industry: Academic Publishing
+        description: The ability to explain the reported approach and methodological qualifications of a selected work without
+          conducting or endorsing its study.
+        references:
+          - https://www.scholarcy.com/
+          - https://elicit.com/
+        in_scope:
+          - Reported-method explanation
+        out_of_scope:
+          - Independent study conduct or methodological certification
+        metadata:
+          parent_id: BC-5320.20
+          status: Proposed
+          capability_owner: Head of Scholarly Research Services
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: '2027-10-08'
+          drafted_date: '2026-10-08'
+          value_stream_ids: [VS-680, VS-730, VS-740]
+          linked_applications: []
+          information_objects:
+            - Method Interpretation
+        children: []
+      - id: BC-5320.20.30
+        name: Visual Evidence Comprehension
+        level: 3
+        industry: Academic Publishing
+        description: The ability to relate reported figures and tables to their legends, measures and surrounding argument,
+          with limits of interpretation visible to the researcher.
+        references:
+          - https://www.scholarcy.com/
+          - https://www.icmje.org/recommendations/browse/manuscript-preparation/preparing-for-submission.html
+        in_scope:
+          - Figure and table explanation
+        out_of_scope:
+          - Creation or correction of publication figures (BC-5240)
+        metadata:
+          parent_id: BC-5320.20
+          status: Proposed
+          capability_owner: Head of Scholarly Research Services
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: '2027-10-08'
+          drafted_date: '2026-10-08'
+          value_stream_ids: [VS-680, VS-730, VS-740]
+          linked_applications: []
+          information_objects:
+            - Figure Interpretation
+        children: []
+  - id: BC-5320.30
+    name: Scholarly Evidence Synthesis
+    level: 2
+    industry: Academic Publishing
+    description: The ability to develop a qualified view across researcher-selected scholarly sources, preserving the distinction
+      between reported findings, interpretation and unresolved disagreement. Claims remain inspectable against their sources
+      and are not guarantees of scientific truth.
+    references:
+      - https://elicit.com/
+      - https://scite.ai/
+      - https://www.scholarcy.com/
+    in_scope:
+      - Cross-work evidence comparison
+      - Claim-to-source traceability
+      - Uncertainty and disagreement
+    out_of_scope:
+      - Source discovery and ranking (BC-5290)
+      - Publication integrity adjudication (BC-5230)
+    metadata:
+      parent_id: BC-5320
+      status: Proposed
+      capability_owner: Head of Scholarly Research Services
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: '2027-10-08'
+      drafted_date: '2026-10-08'
+      value_stream_ids: [VS-680, VS-730, VS-740]
+      linked_applications: []
+      information_objects:
+        - Evidence Comparison
+    children:
+      - id: BC-5320.30.10
+        name: Cross-Publication Comparison
+        level: 3
+        industry: Academic Publishing
+        description: The ability to align and contrast findings, methods and contexts across selected works while retaining
+          material differences.
+        references:
+          - https://elicit.com/
+          - https://scite.ai/
+          - https://www.scholarcy.com/
+        in_scope:
+          - Comparable evidence and divergent findings
+        out_of_scope:
+          - Individual-work explanation (BC-5320.20)
+        metadata:
+          parent_id: BC-5320.30
+          status: Proposed
+          capability_owner: Head of Scholarly Research Services
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: '2027-10-08'
+          drafted_date: '2026-10-08'
+          value_stream_ids: [VS-680, VS-730, VS-740]
+          linked_applications: []
+          information_objects:
+            - Evidence Comparison
+        children: []
+      - id: BC-5320.30.20
+        name: Claim Source Traceability
+        level: 3
+        industry: Academic Publishing
+        description: The ability to retain inspectable links between assisted claims and the passages or works that support,
+          qualify or contradict them.
+        references:
+          - https://elicit.com/
+          - https://scite.ai/
+        in_scope:
+          - Source-linked claims and supporting passages
+        out_of_scope:
+          - Bibliographic metadata registration (BC-5250)
+        metadata:
+          parent_id: BC-5320.30
+          status: Proposed
+          capability_owner: Head of Scholarly Research Services
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: '2027-10-08'
+          drafted_date: '2026-10-08'
+          value_stream_ids: [VS-680, VS-730, VS-740]
+          linked_applications: []
+          information_objects:
+            - Claim Source Link
+        children: []
+      - id: BC-5320.30.30
+        name: Evidence Uncertainty Qualification
+        level: 3
+        industry: Academic Publishing
+        description: The ability to present gaps, competing interpretations and limits of support when forming a cross-work
+          account.
+        references:
+          - https://scite.ai/
+          - https://elicit.com/
+        in_scope:
+          - Qualified conclusions and unresolved questions
+        out_of_scope:
+          - Misconduct investigation or integrity decision (BC-5230)
+        metadata:
+          parent_id: BC-5320.30
+          status: Proposed
+          capability_owner: Head of Scholarly Research Services
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: '2027-10-08'
+          drafted_date: '2026-10-08'
+          value_stream_ids: [VS-680, VS-730, VS-740]
+          linked_applications: []
+          information_objects:
+            - Evidence Qualification
+        children: []
+  - id: BC-5320.40
+    name: Research Evidence Continuity
+    level: 2
+    industry: Academic Publishing
+    description: The ability to maintain a researcher-controlled working body of selected sources and interpretations across
+      reading and writing. It supports continuity of inquiry rather than custody of the authoritative published record.
+    references:
+      - https://www.scholarcy.com/
+      - https://elicit.com/
+    in_scope:
+      - Researcher-selected working corpus
+      - Reusable notes and evidence selections
+    out_of_scope:
+      - Published record preservation (BC-5300)
+      - Enterprise document management
+    metadata:
+      parent_id: BC-5320
+      status: Proposed
+      capability_owner: Head of Scholarly Research Services
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: '2027-10-08'
+      drafted_date: '2026-10-08'
+      value_stream_ids: [VS-680, VS-730, VS-740]
+      linked_applications: []
+      information_objects:
+        - Working Source Collection
+    children:
+      - id: BC-5320.40.10
+        name: Selected Source Continuity
+        level: 3
+        industry: Academic Publishing
+        description: The ability to preserve selected works and their working relationships for later consideration without
+          claiming archival custody.
+        references:
+          - https://www.scholarcy.com/
+          - https://elicit.com/
+        in_scope:
+          - Selected source set and research themes
+        out_of_scope:
+          - Publication archive and version-of-record control (BC-5300)
+        metadata:
+          parent_id: BC-5320.40
+          status: Proposed
+          capability_owner: Head of Scholarly Research Services
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: '2027-10-08'
+          drafted_date: '2026-10-08'
+          value_stream_ids: [VS-680, VS-730, VS-740]
+          linked_applications: []
+          information_objects:
+            - Working Source Collection
+        children: []
+      - id: BC-5320.40.20
+        name: Working Interpretation Continuity
+        level: 3
+        industry: Academic Publishing
+        description: The ability to retain researcher notes, evidence selections and unresolved questions for reuse as understanding
+          develops.
+        references:
+          - https://www.scholarcy.com/
+          - https://elicit.com/
+        in_scope:
+          - Reusable annotations and evidence notes
+        out_of_scope:
+          - Published bibliographic enrichment (BC-5250)
+        metadata:
+          parent_id: BC-5320.40
+          status: Proposed
+          capability_owner: Head of Scholarly Research Services
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: '2027-10-08'
+          drafted_date: '2026-10-08'
+          value_stream_ids: [VS-680, VS-730, VS-740]
+          linked_applications: []
+          information_objects:
+            - Research Note
+        children: []
+  - id: BC-5320.50
+    name: Manuscript Development Assistance
+    level: 2
+    industry: Academic Publishing
+    description: The ability to support researcher-directed development of pre-submission scholarly manuscripts, including
+      argument organisation, expression and the use of verified sources. Assistance does not become authorship, establish
+      factual accuracy, or guarantee editorial acceptance.
+    references:
+      - https://writefull.com/
+      - https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html
+      - https://www.icmje.org/recommendations/browse/manuscript-preparation/preparing-for-submission.html
+    in_scope:
+      - Pre-submission manuscript structure and expression
+      - Reference integration support
+    out_of_scope:
+      - Editorial acceptance decisions (BC-5220)
+      - Postacceptance copyediting and proof control (BC-5240)
+      - Publication rights clearance (BC-5260)
+    metadata:
+      parent_id: BC-5320
+      status: Proposed
+      capability_owner: Head of Scholarly Research Services
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: '2027-10-08'
+      drafted_date: '2026-10-08'
+      value_stream_ids: [VS-680, VS-730, VS-740]
+      linked_applications: []
+      information_objects:
+        - Manuscript Draft
+    children:
+      - id: BC-5320.50.10
+        name: Manuscript Argument Structuring
+        level: 3
+        industry: Academic Publishing
+        description: The ability to help a researcher organise claims, sections and narrative progression in a draft, subject
+          to their intellectual direction and review.
+        references:
+          - https://writefull.com/
+          - https://www.icmje.org/recommendations/browse/manuscript-preparation/preparing-for-submission.html
+        in_scope:
+          - Draft outline and argument organisation
+        out_of_scope:
+          - Independent creation of scientific findings or conclusions
+        metadata:
+          parent_id: BC-5320.50
+          status: Proposed
+          capability_owner: Head of Scholarly Research Services
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: '2027-10-08'
+          drafted_date: '2026-10-08'
+          value_stream_ids: [VS-680, VS-730, VS-740]
+          linked_applications: []
+          information_objects:
+            - Manuscript Outline
+        children: []
+      - id: BC-5320.50.20
+        name: Scholarly Expression Assistance
+        level: 3
+        industry: Academic Publishing
+        description: The ability to propose clearer discipline-appropriate wording and summaries for researcher-authored content
+          before submission.
+        references:
+          - https://writefull.com/
+          - https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html
+        in_scope:
+          - Pre-submission language and clarity suggestions
+        out_of_scope:
+          - Postacceptance publisher copyediting (BC-5240)
+        metadata:
+          parent_id: BC-5320.50
+          status: Proposed
+          capability_owner: Head of Scholarly Research Services
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: '2027-10-08'
+          drafted_date: '2026-10-08'
+          value_stream_ids: [VS-680, VS-730, VS-740]
+          linked_applications: []
+          information_objects:
+            - Expression Suggestion
+        children: []
+      - id: BC-5320.50.30
+        name: Manuscript Citation Support
+        level: 3
+        industry: Academic Publishing
+        description: The ability to suggest placement and accurate representation of researcher-verified source citations
+          in a draft while preserving source inspection and attribution.
+        references:
+          - https://writefull.com/
+          - https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html
+          - https://www.icmje.org/recommendations/browse/manuscript-preparation/preparing-for-submission.html
+        in_scope:
+          - Draft citation candidates and attribution checks
+        out_of_scope:
+          - Invented or unverified references
+          - Persistent identifier registration (BC-5250)
+        metadata:
+          parent_id: BC-5320.50
+          status: Proposed
+          capability_owner: Head of Scholarly Research Services
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: '2027-10-08'
+          drafted_date: '2026-10-08'
+          value_stream_ids: [VS-680, VS-730, VS-740]
+          linked_applications: []
+          information_objects:
+            - Citation Candidate
+        children: []
+  - id: BC-5320.60
+    name: Researcher Control Assurance
+    level: 2
+    industry: Academic Publishing
+    description: The ability to keep the researcher responsible for the selection, review and use of assisted outputs, with
+      appropriate disclosure and protection of entrusted working material. It governs assistance without determining misconduct
+      or assigning authorship.
+    references:
+      - https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html
+      - https://writefull.com/
+    in_scope:
+      - Researcher acceptance of assisted material
+      - Assistance-use provenance and disclosure support
+      - Confidential working-material handling
+    out_of_scope:
+      - Authorship or misconduct adjudication (BC-5230)
+      - General identity and security operations (BC-620.20)
+    metadata:
+      parent_id: BC-5320
+      status: Proposed
+      capability_owner: Head of Scholarly Research Services
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: '2027-10-08'
+      drafted_date: '2026-10-08'
+      value_stream_ids: [VS-680, VS-730, VS-740]
+      linked_applications: []
+      information_objects:
+        - Assistance Record
+    children:
+      - id: BC-5320.60.10
+        name: Assisted Output Review
+        level: 3
+        industry: Academic Publishing
+        description: The ability to present suggested interpretations and draft changes for researcher inspection, correction,
+          rejection and approval before use.
+        references:
+          - https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html
+          - https://elicit.com/
+        in_scope:
+          - Researcher review and approval record
+        out_of_scope:
+          - Guarantee of accuracy or acceptance
+        metadata:
+          parent_id: BC-5320.60
+          status: Proposed
+          capability_owner: Head of Scholarly Research Services
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: '2027-10-08'
+          drafted_date: '2026-10-08'
+          value_stream_ids: [VS-680, VS-730, VS-740]
+          linked_applications: []
+          information_objects:
+            - Assistance Review
+        children: []
+      - id: BC-5320.60.20
+        name: Assistance Provenance Disclosure
+        level: 3
+        industry: Academic Publishing
+        description: The ability to retain a meaningful record of assistance used in research writing so researchers can satisfy
+          applicable disclosure expectations.
+        references:
+          - https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html
+        in_scope:
+          - Assistance contribution record and disclosure statement
+        out_of_scope:
+          - Formal authorship decisions or publication ethics case management (BC-5230)
+        metadata:
+          parent_id: BC-5320.60
+          status: Proposed
+          capability_owner: Head of Scholarly Research Services
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: '2027-10-08'
+          drafted_date: '2026-10-08'
+          value_stream_ids: [VS-680, VS-730, VS-740]
+          linked_applications: []
+          information_objects:
+            - Assistance Disclosure
+        children: []
+      - id: BC-5320.60.30
+        name: Confidential Material Stewardship
+        level: 3
+        industry: Academic Publishing
+        description: The ability to constrain use and retention of researcher-supplied papers, notes and unpublished drafts
+          to the agreed assistance purpose.
+        references:
+          - https://writefull.com/
+          - https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html
+        in_scope:
+          - Working-material confidentiality and use controls
+        out_of_scope:
+          - Publisher incoming rights administration (BC-5260)
+          - Enterprise security platform operation
+        metadata:
+          parent_id: BC-5320.60
+          status: Proposed
+          capability_owner: Head of Scholarly Research Services
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: '2027-10-08'
+          drafted_date: '2026-10-08'
+          value_stream_ids: [VS-680, VS-730, VS-740]
+          linked_applications: []
+          information_objects:
+            - Entrusted Material Policy
+        children: []

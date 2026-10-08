@@ -91,3 +91,39 @@ only, with attribution to the respective owners of each:
 
 The full machine-readable list of recognised frameworks is the `framework`
 enum in `schema/business-process.schema.json`.
+
+================================================================================
+Academic Publishing extension: publicly available references
+================================================================================
+
+The proposed Academic Publishing capability definitions and value streams are
+original architectural synthesis. They reference, but do not redistribute or
+claim certification against, guidance and specifications from:
+
+  - Committee on Publication Ethics (COPE): peer-review, guest-edited collection
+    and retraction guidance
+  - ACS, Routledge and Cambridge: special-issue, proposal and review guidance
+  - Public publisher collection guidance, API terms and TDM policies
+  - Elicit, Scite, Scholarcy and Writefull: public service-category examples
+  - ICMJE: authorship, human accountability and manuscript-preparation guidance
+  - Directory of Open Access Journals (DOAJ): transparency principles
+  - Crossref: scholarly identifier and metadata registration documentation
+  - ORCID: contributor and research-output record schema
+  - NISO and the US National Library of Medicine: JATS
+  - EDItEUR: ONIX for Books
+  - W3C: EPUB Accessibility and Web Content Accessibility Guidelines
+  - COUNTER Metrics: Code of Practice
+  - CLOCKSS: scholarly preservation service information
+  - ESAC / OA Forward: transformative agreement information
+  - cOAlition S: Plan S principles
+  - NISO: KBART and Transfer recommended practices
+  - Directory of Open Access Books (DOAB): scholarly book discovery
+  - DORA: San Francisco Declaration on Research Assessment
+
+Source links and interpretive limitations are recorded in
+catalogue/_academic-publishing.md. These references neither mandate a vendor
+nor imply endorsement of this catalogue by the cited organisations.
+
+Adaptation notice: Academic Publishing extension proposed for this fork by
+Luc van Helfteren, 2026-10-08. Existing upstream content and attribution are
+retained. No upstream acceptance or enterprise approval is asserted.

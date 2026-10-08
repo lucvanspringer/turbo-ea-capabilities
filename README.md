@@ -1,5 +1,7 @@
 # Business Architecture Reference Catalogue
 
+> **Fork addition: Academic Publishing.** This fork proposes an industry extension covering scholarly publishing capabilities and linked value streams. See the [scope, governance status and adoption guide](catalogue/_academic-publishing.md). These additions are not yet part of the upstream catalogue, public website or released Python package.
+
 [![Catalogue: CC BY 4.0](https://img.shields.io/badge/catalogue-CC%20BY%204.0-blue.svg)](LICENSE)
 [![Code: MIT](https://img.shields.io/badge/code-MIT-green.svg)](LICENSE-CODE)
 

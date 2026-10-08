@@ -1,0 +1,613 @@
+# Manuscript Assessment Management
+id: BC-5220
+name: Manuscript Assessment Management
+level: 1
+industry: Academic Publishing
+description: The ability to assess submitted scholarly works for admissibility and merit, obtain independent expert evidence and reach accountable editorial decisions. It covers articles, books, chapters and proceedings, including editorial transfer and appeal, without owning publication-integrity findings.
+references:
+  - https://publicationethics.org/guidance/guideline/ethical-guidelines-peer-reviewers
+  - https://doaj.org/apply/transparency/
+in_scope:
+  - Submission admissibility and editorial assessment
+  - Peer review assignment and evidence
+  - Editorial decisions, transfer and merit appeals
+out_of_scope:
+  - Contributor relationship roster (BC-5210)
+  - Publication-integrity findings (BC-5230)
+  - Copyediting and proof control (BC-5240)
+metadata:
+  parent_id: null
+  status: Proposed
+  capability_owner: Editorial Assessment Director
+  owner_assignment: Reference role only; adopter confirmation required
+  strategic_importance: null
+  maturity: null
+  health: null
+  assessment_note: Enterprise-specific assessment required on adoption
+  effective_date: null
+  last_reviewed_date: null
+  next_review_date: 2027-10-08
+  drafted_date: 2026-10-08
+  value_stream_ids: [VS-670, VS-720, VS-740]
+  linked_applications: []
+  information_objects:
+    - Submission dossier
+    - Editorial assessment
+    - Decision record
+children:
+  - id: BC-5220.10
+    name: Submission Admissibility Management
+    level: 2
+    industry: Academic Publishing
+    description: Determines whether a submitted work has the required components, policy declarations and suitable remit to enter editorial consideration.
+    references:
+      - https://doaj.org/apply/transparency/
+      - https://publicationethics.org/guidance/guideline/ethical-guidelines-peer-reviewers
+    in_scope:
+      - Submission completeness and format eligibility
+      - Title remit and submission-type admissibility
+    out_of_scope:
+      - Scientific merit judgement
+      - Truth of integrity declarations (BC-5230)
+    metadata:
+      parent_id: BC-5220
+      status: Proposed
+      capability_owner: Editorial Assessment Director
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: 2027-10-08
+      drafted_date: 2026-10-08
+      value_stream_ids: [VS-670, VS-720, VS-740]
+      linked_applications: []
+      information_objects:
+        - Submission dossier
+        - Admissibility determination
+    children:
+      - id: BC-5220.10.10
+        name: Submission Completeness Assurance
+        level: 3
+        industry: Academic Publishing
+        description: Establishes whether required text, supporting material and submission information are present for assessment.
+        references:
+          - https://doaj.org/apply/transparency/
+        in_scope:
+          - Completeness determination and missing-item record
+        out_of_scope:
+          - Production-ready copy assessment (BC-5240)
+        metadata:
+          parent_id: BC-5220.10
+          status: Proposed
+          capability_owner: Editorial Assessment Director
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-670, VS-720, VS-740]
+          linked_applications: []
+          information_objects:
+            - Submission checklist
+        children: []
+      - id: BC-5220.10.20
+        name: Remit Admissibility Assessment
+        level: 3
+        industry: Academic Publishing
+        description: Determines whether the work and contribution type fit the receiving title or programme.
+        references:
+          - https://doaj.org/apply/transparency/
+        in_scope:
+          - Title remit eligibility determination
+        out_of_scope:
+          - Title portfolio positioning (BC-5200)
+        metadata:
+          parent_id: BC-5220.10
+          status: Proposed
+          capability_owner: Editorial Assessment Director
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-670, VS-720, VS-740]
+          linked_applications: []
+          information_objects:
+            - Remit assessment
+        children: []
+      - id: BC-5220.10.30
+        name: Declaration Presence Assessment
+        level: 3
+        industry: Academic Publishing
+        description: Establishes whether required ethics, authorship and research declarations have been provided, with concerns referred for assurance.
+        references:
+          - https://doaj.org/apply/transparency/
+        in_scope:
+          - Declaration presence determination
+        out_of_scope:
+          - Investigation of declaration accuracy (BC-5230)
+        metadata:
+          parent_id: BC-5220.10
+          status: Proposed
+          capability_owner: Editorial Assessment Director
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-670, VS-720, VS-740]
+          linked_applications: []
+          information_objects:
+            - Declaration checklist
+        children: []
+  - id: BC-5220.20
+    name: Editorial Merit Assessment
+    level: 2
+    industry: Academic Publishing
+    description: Evaluates scholarly relevance, quality and suitability of an individual submission independently of any review workflow sequence.
+    references:
+      - https://doaj.org/apply/transparency/
+      - https://publicationethics.org/guidance/guideline/ethical-guidelines-peer-reviewers
+    in_scope:
+      - Editorial merit rationale
+      - Expertise and evaluation need
+    out_of_scope:
+      - Integrity misconduct determination (BC-5230)
+      - Programme-level commissioning (BC-5200)
+    metadata:
+      parent_id: BC-5220
+      status: Proposed
+      capability_owner: Editorial Assessment Director
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: 2027-10-08
+      drafted_date: 2026-10-08
+      value_stream_ids: [VS-670, VS-720, VS-740]
+      linked_applications: []
+      information_objects:
+        - Editorial assessment
+    children:
+      - id: BC-5220.20.10
+        name: Scholarly Contribution Assessment
+        level: 3
+        industry: Academic Publishing
+        description: Evaluates significance, originality of contribution and relevance to the intended scholarly audience.
+        references:
+          - https://doaj.org/apply/transparency/
+        in_scope:
+          - Contribution assessment
+        out_of_scope:
+          - Content authenticity investigation (BC-5230)
+        metadata:
+          parent_id: BC-5220.20
+          status: Proposed
+          capability_owner: Editorial Assessment Director
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-670, VS-720, VS-740]
+          linked_applications: []
+          information_objects:
+            - Contribution assessment
+        children: []
+      - id: BC-5220.20.20
+        name: Methodological Suitability Assessment
+        level: 3
+        industry: Academic Publishing
+        description: Evaluates the apparent adequacy of argument, method and evidence for editorial merit.
+        references:
+          - https://publicationethics.org/guidance/guideline/ethical-guidelines-peer-reviewers
+        in_scope:
+          - Methodological merit assessment
+        out_of_scope:
+          - Research institution investigation (BC-5230 boundary)
+        metadata:
+          parent_id: BC-5220.20
+          status: Proposed
+          capability_owner: Editorial Assessment Director
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-670, VS-720, VS-740]
+          linked_applications: []
+          information_objects:
+            - Method assessment
+        children: []
+      - id: BC-5220.20.30
+        name: Evidence Adequacy Assessment
+        level: 3
+        industry: Academic Publishing
+        description: Assesses whether the evidence and argument substantiate the claims made in a submitted article, book, chapter or proceeding.
+        references:
+          - https://publicationethics.org/guidance/guideline/ethical-guidelines-peer-reviewers
+        in_scope:
+          - Evidential support assessment
+        out_of_scope:
+          - Research-data authenticity investigation (BC-5230)
+        metadata:
+          parent_id: BC-5220.20
+          status: Proposed
+          capability_owner: Editorial Assessment Director
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-670, VS-720, VS-740]
+          linked_applications: []
+          information_objects:
+            - Evidence adequacy assessment
+        children: []
+  - id: BC-5220.30
+    name: Peer Review Management
+    level: 2
+    industry: Academic Publishing
+    description: Secures relevant, impartial expert evaluation and preserves the resulting evidence for editorial judgement.
+    references:
+      - https://publicationethics.org/guidance/guideline/ethical-guidelines-peer-reviewers
+    in_scope:
+      - Manuscript-specific reviewer suitability and conflict checks
+      - Confidential review evidence and recommendations
+    out_of_scope:
+      - Ongoing reviewer pool development (BC-5210)
+      - Integrity case determination (BC-5230)
+    metadata:
+      parent_id: BC-5220
+      status: Proposed
+      capability_owner: Editorial Assessment Director
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: 2027-10-08
+      drafted_date: 2026-10-08
+      value_stream_ids: [VS-670, VS-720, VS-740]
+      linked_applications: []
+      information_objects:
+        - Reviewer assignment
+        - Review report
+        - Conflict declaration
+    children:
+      - id: BC-5220.30.10
+        name: Reviewer Assignment Assurance
+        level: 3
+        industry: Academic Publishing
+        description: Determines expertise, availability and independence for reviewers of a particular work.
+        references:
+          - https://publicationethics.org/guidance/guideline/ethical-guidelines-peer-reviewers
+        in_scope:
+          - Manuscript-specific reviewer assignment and conflict clearance
+        out_of_scope:
+          - Standing reviewer relationship profile (BC-5210)
+        metadata:
+          parent_id: BC-5220.30
+          status: Proposed
+          capability_owner: Editorial Assessment Director
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-670, VS-720, VS-740]
+          linked_applications: []
+          information_objects:
+            - Reviewer assignment
+            - Assignment conflict declaration
+        children: []
+      - id: BC-5220.30.20
+        name: Review Evidence Stewardship
+        level: 3
+        industry: Academic Publishing
+        description: Maintains confidential expert reports, recommendations and review history as evidence for editorial decisions.
+        references:
+          - https://publicationethics.org/guidance/guideline/ethical-guidelines-peer-reviewers
+        in_scope:
+          - Review reports and evaluation evidence
+        out_of_scope:
+          - Long-term published asset preservation (BC-5300)
+        metadata:
+          parent_id: BC-5220.30
+          status: Proposed
+          capability_owner: Editorial Assessment Director
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-670, VS-720, VS-740]
+          linked_applications: []
+          information_objects:
+            - Review report
+        children: []
+      - id: BC-5220.30.30
+        name: Review Quality Assurance
+        level: 3
+        industry: Academic Publishing
+        description: Assesses whether reviews are constructive, relevant and sufficiently substantiated for an editorial decision.
+        references:
+          - https://publicationethics.org/guidance/guideline/ethical-guidelines-peer-reviewers
+        in_scope:
+          - Review adequacy assessment
+        out_of_scope:
+          - Reviewer community engagement (BC-5210)
+        metadata:
+          parent_id: BC-5220.30
+          status: Proposed
+          capability_owner: Editorial Assessment Director
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-670, VS-720, VS-740]
+          linked_applications: []
+          information_objects:
+            - Review adequacy assessment
+        children: []
+  - id: BC-5220.40
+    name: Editorial Decision Management
+    level: 2
+    industry: Academic Publishing
+    description: Governs non-ethics editorial decision policy, decision authority and accountable dispositions for individual submitted works. Applies evidence and merit criteria to acceptance, revision and decline without assigning publication-integrity findings.
+    references:
+      - https://doaj.org/apply/transparency/
+      - https://publicationethics.org/guidance/guideline/ethical-guidelines-peer-reviewers
+    in_scope:
+      - Editorial decision criteria, delegated authority and independence
+      - Accept, revise or decline disposition and rationale
+      - Revision requirements and evaluation of their satisfaction
+    out_of_scope:
+      - Publication ethics and integrity policy or findings (BC-5230)
+      - Proposal synopsis appraisal before manuscript submission (BC-5200)
+      - Production proof approval (BC-5240)
+    metadata:
+      parent_id: BC-5220
+      status: Proposed
+      capability_owner: Editorial Assessment Director
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: 2027-10-08
+      drafted_date: 2026-10-08
+      value_stream_ids: [VS-670, VS-720, VS-740]
+      linked_applications: []
+      information_objects:
+        - Editorial decision policy
+        - Decision authority record
+        - Editorial decision record
+    children: []
+  - id: BC-5220.50
+    name: Editorial Transfer Management
+    level: 2
+    industry: Academic Publishing
+    description: Enables a submission and its assessment evidence to be considered by another suitable title with appropriate consent and editorial independence.
+    references:
+      - https://doaj.org/apply/transparency/
+      - https://publicationethics.org/guidance/guideline/ethical-guidelines-peer-reviewers
+    in_scope:
+      - Transfer eligibility and consent
+      - Assessment evidence continuity
+    out_of_scope:
+      - Portfolio-level title transfer (BC-5200)
+      - Publication metadata interchange (BC-5250)
+    metadata:
+      parent_id: BC-5220
+      status: Proposed
+      capability_owner: Editorial Assessment Director
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: 2027-10-08
+      drafted_date: 2026-10-08
+      value_stream_ids: [VS-670, VS-720, VS-740]
+      linked_applications: []
+      information_objects:
+        - Submission transfer record
+    children:
+      - id: BC-5220.50.10
+        name: Transfer Suitability Assessment
+        level: 3
+        industry: Academic Publishing
+        description: Identifies an appropriate destination for a manuscript without predetermining its editorial outcome.
+        references:
+          - https://doaj.org/apply/transparency/
+        in_scope:
+          - Destination suitability determination
+        out_of_scope:
+          - Title positioning strategy (BC-5200)
+        metadata:
+          parent_id: BC-5220.50
+          status: Proposed
+          capability_owner: Editorial Assessment Director
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-670, VS-720, VS-740]
+          linked_applications: []
+          information_objects:
+            - Transfer suitability record
+        children: []
+      - id: BC-5220.50.20
+        name: Assessment Continuity Management
+        level: 3
+        industry: Academic Publishing
+        description: Preserves authorised submission and review context across a transfer for fresh editorial consideration.
+        references:
+          - https://publicationethics.org/guidance/guideline/ethical-guidelines-peer-reviewers
+        in_scope:
+          - Transfer consent and reusable assessment evidence
+        out_of_scope:
+          - Published asset version lineage (BC-5300)
+        metadata:
+          parent_id: BC-5220.50
+          status: Proposed
+          capability_owner: Editorial Assessment Director
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-670, VS-720, VS-740]
+          linked_applications: []
+          information_objects:
+            - Transfer dossier
+        children: []
+  - id: BC-5220.60
+    name: Editorial Appeal Management
+    level: 2
+    industry: Academic Publishing
+    description: Provides independent consideration of challenges to manuscript merit or procedural editorial decisions.
+    references:
+      - https://doaj.org/apply/transparency/
+      - https://publicationethics.org/guidance/guideline/ethical-guidelines-peer-reviewers
+    in_scope:
+      - Appeal admissibility and independent merit review
+      - Appeal outcome and rationale
+    out_of_scope:
+      - Misconduct allegations and integrity cases (BC-5230)
+    metadata:
+      parent_id: BC-5220
+      status: Proposed
+      capability_owner: Editorial Assessment Director
+      owner_assignment: Reference role only; adopter confirmation required
+      strategic_importance: null
+      maturity: null
+      health: null
+      assessment_note: Enterprise-specific assessment required on adoption
+      effective_date: null
+      last_reviewed_date: null
+      next_review_date: 2027-10-08
+      drafted_date: 2026-10-08
+      value_stream_ids: [VS-670, VS-720, VS-740]
+      linked_applications: []
+      information_objects:
+        - Editorial appeal case
+    children:
+      - id: BC-5220.60.10
+        name: Appeal Admissibility Assessment
+        level: 3
+        industry: Academic Publishing
+        description: Determines whether a challenge concerns an appealable editorial decision and identifies the original decision record.
+        references:
+          - https://doaj.org/apply/transparency/
+        in_scope:
+          - Appeal eligibility and scope
+        out_of_scope:
+          - Publication integrity complaint intake (BC-5230)
+        metadata:
+          parent_id: BC-5220.60
+          status: Proposed
+          capability_owner: Editorial Assessment Director
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-670, VS-720, VS-740]
+          linked_applications: []
+          information_objects:
+            - Appeal admissibility record
+        children: []
+      - id: BC-5220.60.20
+        name: Independent Appeal Review
+        level: 3
+        industry: Academic Publishing
+        description: Ensures a substantive reconsideration of contested editorial merits or procedure with an accountable outcome.
+        references:
+          - https://doaj.org/apply/transparency/
+          - https://publicationethics.org/guidance/guideline/ethical-guidelines-peer-reviewers
+        in_scope:
+          - Appeal review and outcome
+        out_of_scope:
+          - Institutional research misconduct investigation (BC-5230 boundary)
+        metadata:
+          parent_id: BC-5220.60
+          status: Proposed
+          capability_owner: Editorial Assessment Director
+          owner_assignment: Reference role only; adopter confirmation required
+          strategic_importance: null
+          maturity: null
+          health: null
+          assessment_note: Enterprise-specific assessment required on adoption
+          effective_date: null
+          last_reviewed_date: null
+          next_review_date: 2027-10-08
+          drafted_date: 2026-10-08
+          value_stream_ids: [VS-670, VS-720, VS-740]
+          linked_applications: []
+          information_objects:
+            - Appeal outcome
+        children: []
