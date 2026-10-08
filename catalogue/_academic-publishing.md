@@ -53,6 +53,8 @@ Publicly available evidence broadens the seed. The capability definitions and de
 - **Discovery and library coverage:** KBART concerns electronic-resource title-list and coverage exchange; DOAB describes an open scholarly-book discovery role. These inform holdings accuracy and discovery participation, not a prescribed discovery vendor.[13][14]
 - **Enduring record stewardship:** CLOCKSS describes long-term scholarly archiving; NISO Transfer describes continuity of journal access when publishers change. The model explicitly distinguishes preservation from current hosting and backup.[10][17]
 - **Usage and responsible metrics:** COUNTER concerns normalised content-usage measurement and reporting. DORA rejects using journal-based metrics as a proxy for the quality of individual research. Usage evidence, publication-level indicators and research-quality judgement are therefore not treated as interchangeable.[9][16]
+- **Pre-submission language assistance:** Public academic translation offerings describe translation and language review of researcher manuscripts before submission. The model places this under researcher-directed manuscript assistance, not publisher production or editorial assessment.[31]
+- **Post-publication author copies:** Public publisher offerings include article reprints and article or cover posters. The model places the publication-specific supply commitment under dissemination, while generic order payment, print manufacturing and warehousing remain outside that capability.[32][33]
 
 These are material additions to a typical submission-and-production map. Society publishing, collective funding, book and chapter contexts, preservation continuity, accessibility and responsible measurement remain proposed scopes for business-owner review, not claims of exhaustive coverage.
 
@@ -84,6 +86,8 @@ Published API terms and rights-reservation policies illustrate why technical acc
 Public source pages were accessed on 8 October 2026. COPE pages include guidance summaries; CLOCKSS and DOAB pages describe infrastructure participation rather than complete process specifications. ORCID, EPUB Accessibility and WCAG retrieval used partial text windows. No detailed certification or legal-compliance conclusion is inferred from those extracts. NISO's Transfer landing page mixes recent release information and older body text; this catalogue relies on its stable continuity purpose, not an asserted current version number.
 
 Vendor pages establish offered service categories only, not proven accuracy, safety, completeness or a required implementation. Public API terms are policy examples; applicable law, contract and content licence still require legal interpretation. Several expanded-source extracts are partial text windows; only visible evidence is used.
+
+Academic translation, reprints and posters are optional services in a publisher's operating model. Their appearance in public offerings does not establish that every publisher provides them or that a particular delivery arrangement is effective.
 
 The source set is strongest for integrity, metadata, accessibility, discovery, preservation and usage. Detailed commercial contracting, royalty models, society economics and discipline-specific editorial practice require adopter SME validation. Where descriptions extend the public guidance, they are proposed capability design, not reported external fact.
 
@@ -217,3 +221,6 @@ Adapted from **Turbo EA Capabilities by Vincent Verdet, Turbo EA**, <https://git
 [28] https://www.icmje.org/recommendations/browse/manuscript-preparation/preparing-for-submission.html — ICMJE | Recommendations | Preparing a Manuscript for Submission to a Medical Journal
 [29] https://dev.springernature.com/terms-conditions — Terms and conditions | Springer API
 [30] https://dev.springernature.com/tdm-reservation-policy — TDM Reservation policy | Springer API
+[31] https://authorservices.aps.org/translation/ — Academic Translation Services | APS Author Services
+[32] https://authorservices.taylorandfrancis.com/publishing-your-research/after-publication/ordering-print-copies/ — Ordering print copies of your journal article | Taylor & Francis Author Services
+[33] https://www.nature.com/nature-portfolio/reprints-and-permissions/author-reprints — Author reprints, e-prints and article posters | Nature Portfolio

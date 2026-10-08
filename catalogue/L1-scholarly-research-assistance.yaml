@@ -490,14 +490,16 @@ children:
     level: 2
     industry: Academic Publishing
     description: The ability to support researcher-directed development of pre-submission scholarly manuscripts, including
-      argument organisation, expression and the use of verified sources. Assistance does not become authorship, establish
-      factual accuracy, or guarantee editorial acceptance.
+      argument organisation, language translation, expression and the use of verified sources. Assistance does not become
+      authorship, establish factual accuracy, or guarantee editorial acceptance.
     references:
       - https://writefull.com/
       - https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html
       - https://www.icmje.org/recommendations/browse/manuscript-preparation/preparing-for-submission.html
+      - https://authorservices.aps.org/translation/
     in_scope:
       - Pre-submission manuscript structure and expression
+      - Researcher-reviewed scholarly translation for submission
       - Reference integration support
     out_of_scope:
       - Editorial acceptance decisions (BC-5220)
@@ -556,15 +558,18 @@ children:
         name: Scholarly Expression Assistance
         level: 3
         industry: Academic Publishing
-        description: The ability to propose clearer discipline-appropriate wording and summaries for researcher-authored content
-          before submission.
+        description: The ability to support discipline-appropriate language translation, wording and summaries of
+          researcher-authored content before submission, subject to the researcher's review of meaning and terminology.
         references:
           - https://writefull.com/
           - https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html
+          - https://authorservices.aps.org/translation/
         in_scope:
           - Pre-submission language and clarity suggestions
+          - Researcher-reviewed translation of scholarly manuscripts
         out_of_scope:
           - Postacceptance publisher copyediting (BC-5240)
+          - Editorial acceptance and scientific-content certification (BC-5220)
         metadata:
           parent_id: BC-5320.50
           status: Proposed

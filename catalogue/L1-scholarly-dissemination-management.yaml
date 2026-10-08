@@ -136,15 +136,18 @@ children:
     name: Channel Fulfilment Management
     level: 2
     industry: Academic Publishing
-    description: The ability to meet scholarly publication-delivery commitments to approved readers, partners and computational consumers. It governs supply scope and corpus completeness without operating a printing plant, generic logistics, access policy or API infrastructure.
+    description: The ability to meet scholarly publication-delivery commitments to approved readers, partners, authors and computational consumers. It governs supply scope, author reprint and poster orders, and corpus completeness without operating a printing plant, generic logistics, access policy or API infrastructure.
     references:
       - https://www.editeur.org/83/Overview/
       - https://jats.nlm.nih.gov/
       - https://www.w3.org/TR/epub-a11y-11/
       - https://dev.springernature.com/
+      - https://www.nature.com/nature-portfolio/reprints-and-permissions/author-reprints
+      - https://authorservices.taylorandfrancis.com/publishing-your-research/after-publication/ordering-print-copies/
     in_scope:
       - Reader and partner publication supply obligations
       - Print-edition channel commitments and exceptions
+      - Author reprint and scholarly poster order fulfilment
       - Machine-consumable corpus coverage, provenance and excluded-item evidence
     out_of_scope:
       - Entitlement decisions (BC-5280)
@@ -173,16 +176,20 @@ children:
         name: Publication Supply Obligations
         level: 3
         industry: Academic Publishing
-        description: The ability to honour publication supply commitments to eligible readers and distribution partners, including digital presentation and print-edition channel obligations. This does not own generic print logistics or decide reading eligibility.
+        description: The ability to honour publication supply commitments to eligible readers, authors and distribution partners, including digital presentation, print-edition channels, article reprints and scholarly posters. This does not own generic print logistics or decide reading eligibility.
         references:
           - https://jats.nlm.nih.gov/
           - https://www.w3.org/TR/epub-a11y-11/
           - https://www.w3.org/TR/WCAG22/
           - https://www.editeur.org/83/Overview/
+          - https://www.nature.com/nature-portfolio/reprints-and-permissions/author-reprints
+          - https://authorservices.taylorandfrancis.com/publishing-your-research/after-publication/ordering-print-copies/
         in_scope:
           - Fulfilled publication supply commitments and exceptions
+          - Author reprint and scholarly poster delivery obligations
         out_of_scope:
           - Eligibility and permit decisions (BC-5280)
+          - Generic order payment, print manufacturing and warehousing
         metadata:
           parent_id: BC-5290.20
           status: Proposed
